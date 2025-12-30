@@ -1,0 +1,40 @@
+name: Gold Rate Monitor
+
+on:
+  schedule:
+    # Every 5 minutes between 6 AM - 10 AM IST (0:30 AM - 4:30 AM UTC)
+    # IST = UTC + 5:30, so 6 AM IST = 0:30 AM UTC
+    - cron: '*/5 0-4 * * *'
+  workflow_dispatch:  # Manual trigger button
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 pytz
+      
+      - name: Run monitoring script
+        run: python monitor_gold.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Gold Rate Monitor Bot"
+          git add rates_history.json monitoring_log.txt
+          git diff --staged --quiet || git commit -m "📊 Rate check: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
