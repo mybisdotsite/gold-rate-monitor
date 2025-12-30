@@ -1,5 +1,8 @@
 name: Gold Rate Monitor
 
+permissions:
+  contents: write
+  
 on:
   schedule:
     # Every 5 minutes between 6 AM - 10 AM IST (0:30 AM - 4:30 AM UTC)
