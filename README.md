@@ -1,36 +1,40 @@
-# AKGSMA Gold Rate Monitor
+# Combined Gold Rate Monitor
 
-Automated monitoring system for gold and silver rates from AKGSMA website.
+Monitors gold rates from **2 sources** simultaneously:
+- ✅ **AKGSMA** (akgsma.com) - 22K916, 18K750, Silver
+- ✅ **KeralaGold** (keralagold.com) - 1 Pavan (8g, 22 Carat)
 
 ## Features
-- ✅ Monitors rates every 5 minutes (6-10 AM IST)
-- ✅ Detects and logs all rate changes
-- ✅ Stores complete history in JSON
-- ✅ Runs automatically via GitHub Actions
-- ✅ No database required
+- 🔄 Runs **24/7** every 5 minutes
+- 📊 **2 separate JSON files** for each source
+- 🚀 Anti-block techniques for reliable fetching
+- 📝 Detailed logging with timestamps
+- 🤖 Auto-commits to GitHub
+
+## Output Files
+- `akgsma_rates_history.json` - AKGSMA rates
+- `keralagold_rates_history.json` - KeralaGold rates
+- `monitoring_log.txt` - Combined activity log
+
+## What's Monitored
+
+### AKGSMA (akgsma.com)
+- 22K916 Gold
+- 18K750 Gold  
+- Silver 999
+
+### KeralaGold (keralagold.com)
+- 1 Pavan Morning rate
+- 1 Pavan Afternoon rate
+- 1 Pavan Evening rate
 
 ## How It Works
-1. GitHub Actions runs the script every 5 minutes during market hours
-2. Script fetches current rates from AKGSMA website
-3. Compares with previous rates and detects changes
-4. Logs all activity and stores history
-5. Auto-commits changes back to repository
+1. GitHub Actions runs every 5 minutes (24/7)
+2. Fetches rates from both sites
+3. Detects changes and logs them
+4. Auto-commits updates to repository
 
-## Files
-- `monitor_gold.py` - Main monitoring script
-- `rates_history.json` - Historical rate data
-- `monitoring_log.txt` - Detailed activity logs
-- `.github/workflows/monitor.yml` - GitHub Actions workflow
-
-## View Logs
-- **Real-time**: Go to Actions tab in GitHub
-- **Historical**: Check `monitoring_log.txt` in repository
-- **Rate History**: Check `rates_history.json`
-
-## Manual Run
-```bash
-python monitor_gold.py
-```
-
-## Setup
-See SETUP.md for deployment instructions.
+## View Results
+- Check Actions tab for real-time logs
+- View JSON files for historical data
+- View monitoring_log.txt for detailed logs
