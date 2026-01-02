@@ -7,7 +7,6 @@ import pytz
 import re
 import time
 
-# User agents for rotation (anti-block)
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
@@ -73,13 +72,12 @@ def fetch_akgsma_rates():
         return None
 
 # ============================================================================
-# KERALAGOLD FETCHER (WITH ANTI-BLOCK)
+# KERALAGOLD FETCHER (FIXED FOR CURRENT DAY FORMAT)
 # ============================================================================
 def fetch_keralagold_rates():
     """Fetch KeralaGold rates with anti-block techniques"""
     url = "https://www.keralagold.com/daily-gold-prices.htm"
     
-    # Try multiple user agents
     for attempt, user_agent in enumerate(USER_AGENTS, 1):
         try:
             session = requests.Session()
@@ -109,25 +107,36 @@ def fetch_keralagold_rates():
     return None
 
 def parse_keralagold_html(html):
-    """Parse KeralaGold HTML for today's rates"""
+    """Parse KeralaGold HTML - handles both current day and historical formats"""
     try:
         rates = {
             'date': None,
+            'today_rate': None,
             'morning': None,
             'afternoon': None,
             'evening': None
         }
         
-        # Extract date
+        # Extract date from title or content
         date_match = re.search(r'(\d{1,2}\s+\w+\s+\d{4})', html)
         if date_match:
             rates['date'] = date_match.group(1)
         
-        # Find all "Today" rows
-        today_pattern = r'(?s)<tr>.*?Today.*?</tr>'
-        rows = re.findall(today_pattern, html)
+        # Method 1: Look for "Today »" row (current day format - single rate)
+        today_pattern = r'<span class="red"><b>Today\s*&raquo;</b></span>.*?Rs\.\s*([\d,]+)'
+        today_match = re.search(today_pattern, html, re.DOTALL)
         
-        for row in rows:
+        if today_match:
+            # Current day format - only one rate shown
+            rate = today_match.group(1).replace(',', '')
+            rates['today_rate'] = rate
+            log_message(f"Found today's rate: Rs.{rate}", "KERALA")
+            return rates
+        
+        # Method 2: Look for time-specific rates (historical format or intraday updates)
+        today_rows = re.findall(r'(?s)<tr>.*?Today.*?</tr>', html)
+        
+        for row in today_rows:
             period = None
             if 'Morning' in row:
                 period = 'morning'
@@ -144,8 +153,10 @@ def parse_keralagold_html(html):
                 price = price_match.group(1).replace(',', '')
                 rates[period] = price
         
-        if rates['morning'] or rates['afternoon'] or rates['evening']:
+        # If we found any rate, return
+        if rates['today_rate'] or rates['morning'] or rates['afternoon'] or rates['evening']:
             return rates
+        
         return None
         
     except Exception as e:
@@ -213,17 +224,20 @@ def monitor_keralagold():
     changed = False
     changes = []
     
-    for period in ['morning', 'afternoon', 'evening']:
-        if period in current_rates and current_rates[period]:
-            curr = current_rates[period]
-            prev = previous_rates.get(period)
+    # Check all possible rate fields
+    rate_fields = ['today_rate', 'morning', 'afternoon', 'evening']
+    
+    for field in rate_fields:
+        if field in current_rates and current_rates[field]:
+            curr = current_rates[field]
+            prev = previous_rates.get(field)
             
             if prev and prev != curr:
                 changed = True
-                changes.append(f"{period.capitalize()}: Rs.{prev} → Rs.{curr}")
+                changes.append(f"{field.replace('_', ' ').title()}: Rs.{prev} → Rs.{curr}")
             elif not prev:
                 changed = True
-                changes.append(f"{period.capitalize()}: NEW Rs.{curr}")
+                changes.append(f"{field.replace('_', ' ').title()}: NEW Rs.{curr}")
     
     if changed:
         log_message(f"🚨 CHANGED! {', '.join(changes)}", "KERALA")
@@ -237,15 +251,14 @@ def monitor_keralagold():
         if len(data['history']) > 200:
             data['history'] = data['history'][-200:]
     else:
-        rates_str = ', '.join([f"{k.capitalize()}=Rs.{v}" for k, v in current_rates.items() if k != 'date' and v])
+        rates_str = ', '.join([f"{k.replace('_', ' ').title()}=Rs.{v}" 
+                              for k, v in current_rates.items() 
+                              if k != 'date' and v])
         log_message(f"✓ No change. {rates_str}", "KERALA")
     
     data['last_rates'] = current_rates
     save_history('keralagold_rates_history.json', data)
 
-# ============================================================================
-# MAIN
-# ============================================================================
 def main():
     log_message("=" * 60, "SYSTEM")
     log_message("🚀 Combined Monitor Starting", "SYSTEM")

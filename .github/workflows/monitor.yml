@@ -2,10 +2,9 @@ name: Gold Rates Monitor
 
 permissions:
   contents: write
-  
+
 on:
   schedule:
-    # Every 5 minutes, 24/7
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
@@ -31,12 +30,15 @@ jobs:
       - name: Run monitor
         run: python monitor_gold.py
       
+      - name: Update README with live prices
+        run: python update_readme.py
+      
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Gold Monitor Bot"
-          git add akgsma_rates_history.json keralagold_rates_history.json monitoring_log.txt
-          git diff --staged --quiet || git commit -m "📊 Rate check: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
+          git add akgsma_rates_history.json keralagold_rates_history.json monitoring_log.txt README.md
+          git diff --staged --quiet || git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
