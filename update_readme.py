@@ -94,7 +94,7 @@ def generate_readme():
 </div>
 
 ## 🏆 **AKGSMA** {akgsma_trend}
-#### Andhra Kerala Gold Silver Merchants Association
+#### All Kerala Gold & Silver Merchants Association
 
 <div align="center">
 
