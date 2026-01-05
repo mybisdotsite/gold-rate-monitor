@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 05 January 2026, 02:16 PM IST
+### 05 January 2026, 02:47 PM IST
 
 ---
 
@@ -20,8 +20,8 @@
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT |
 |:------------:|:-------------:|:-------:|
-| **🥇 GOLD 22K** | **₹ 12,595** | per gram |
-| **🥈 GOLD 18K** | **₹ 10,455** | per gram |
+| **🥇 GOLD 22K** | **₹ 12,635** | per gram |
+| **🥈 GOLD 18K** | **₹ 10,490** | per gram |
 | **⚪ SILVER 999** | **₹ 250** | per gram |
 
 **📅 Date:** 05/01/2026
@@ -51,7 +51,7 @@
 
 | Source | Last 5 Updates | Trend |
 |:------:|:--------------:|:-----:|
-| **AKGSMA** | 3 records | 📈 |
+| **AKGSMA** | 4 records | 📈 |
 | **Kerala Gold** | 3 records | 📈 |
 
 ---
