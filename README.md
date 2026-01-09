@@ -7,7 +7,9 @@
 ---
 
 ## ⏰ **Last Updated**
-### 09 January 2026, 11:24 AM IST
+### 09 January 2026, 04:01 PM IST
+
+🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
 ---
 
@@ -18,28 +20,32 @@
 
 <div align="center">
 
-| 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT |
-|:------------:|:-------------:|:-------:|
-| **🥇 GOLD 22K** | **₹ 12,715** | per gram |
-| **🥈 GOLD 18K** | **₹ 10,555** | per gram |
-| **⚪ SILVER 999** | **₹ 252** | per gram |
+| 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
+|:------------:|:-------------:|:-------:|:---------:|
+| **🥇 GOLD 22K** | **₹ 12,770** | per gram | +₹55 |
+| **🥈 GOLD 18K** | **₹ 10,600** | per gram | +₹55 |
+| **⚪ SILVER 999** | **₹ 252** | per gram | +₹55 |
 
-**📅 Date:** 09/01/2026
+**📅 Rate Date:** 09/01/2026  
+**🕐 First Tracked:** 2026-01-02 14:26:17 IST  
+**🔄 Last Changed:** 2026-01-09 09:59:48 IST
 
 </div>
 
 ---
 
-## 🌴 **KERALA GOLD** ▶️
+## 🌴 **KERALA GOLD** 📈
 #### Traditional Pavan Rate
 
 <div align="center">
 
-| 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT |
-|:--------------:|:-------------:|:---------:|
-| **👑 1 PAVAN** | **₹ 101,720** | 8 grams (22K) |
+| 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
+|:--------------:|:-------------:|:---------:|:---------:|
+| **👑 1 PAVAN** | **₹ 102,160** | 8 grams (22K) | +₹440 |
 
-**📅 Date:** 9 January 2026
+**📅 Rate Date:** 9 January 2026  
+**🕐 First Tracked:** 2026-01-02 14:26:17 IST  
+**🔄 Last Changed:** 2026-01-09 09:59:50 IST
 
 </div>
 
@@ -47,27 +53,30 @@
 
 <div align="center">
 
-## 📈 **PRICE HISTORY**
+## 📈 **MONITORING STATS**
 
-| Source | Last 5 Updates | Trend |
-|:------:|:--------------:|:-----:|
-| **AKGSMA** | 10 records | 📈 |
-| **Kerala Gold** | 13 records | ▶️ |
-
----
-
-## 🔔 **Auto-Updates Every 5 Minutes**
-```
-🤖 Powered by GitHub Actions
-♾️ Running 24/7/365
-⚡ Real-time monitoring
-```
+| Source | Total Updates | Trend | Status |
+|:------:|:-------------:|:-----:|:------:|
+| **AKGSMA** | 11 records | 📈 | 🟢 Live |
+| **Kerala Gold** | 14 records | 📈 | 🟢 Live |
 
 ---
 
-### 📊 [View Full History](../../actions) • 🌟 [Star this repo](../../stargazers)
+## 🔔 **Monitoring Info**
+```
+🤖 Powered by GitHub Actions + cron-job.org
+⏱️  Checks every 5 minutes (guaranteed)
+♾️  Running 24/7/365
+⚡ Real-time price tracking
+📊 Full history preserved
+```
 
-<sub>💡 Prices are fetched from official sources and updated automatically</sub>
+---
+
+### 📊 [View Full History](../../actions) • 🌟 [Star this repo](../../stargazers) • 🔧 [Report Issue](../../issues)
+
+<sub>💡 Prices are fetched from official sources and updated automatically</sub>  
+<sub>🔒 Reliable scheduling via cron-job.org (no GitHub Actions delays)</sub>
 
 </div>
 
@@ -78,5 +87,6 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=mybisdotsite.gold-rate-monitor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mybisdotsite/gold-rate-monitor?style=flat-square)
 ![Status](https://img.shields.io/badge/status-live-success?style=flat-square)
+![Updates](https://img.shields.io/badge/updates-every_5_min-blue?style=flat-square)
 
 </div>
