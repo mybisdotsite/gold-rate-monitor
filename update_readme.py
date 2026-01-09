@@ -20,10 +20,10 @@ def format_price(price):
     except:
         return str(price)
 
-def get_trend(history):
-    """Get price trend from history"""
+def get_trend_and_change(history):
+    """Get price trend and change amount from history"""
     if len(history) < 2:
-        return "▶️"
+        return "▶️", "No change", None
     
     try:
         latest = history[-1]
@@ -34,16 +34,24 @@ def get_trend(history):
             if key in latest.get('rates', {}) and key in previous.get('rates', {}):
                 curr = int(latest['rates'][key])
                 prev = int(previous['rates'][key])
-                if curr > prev:
-                    return "📈"
-                elif curr < prev:
-                    return "📉"
+                diff = curr - prev
+                
+                if diff > 0:
+                    return "📈", f"+₹{abs(diff)}", previous.get('timestamp')
+                elif diff < 0:
+                    return "📉", f"-₹{abs(diff)}", previous.get('timestamp')
                 else:
-                    return "▶️"
+                    return "▶️", "No change", None
     except:
         pass
     
-    return "▶️"
+    return "▶️", "---", None
+
+def get_first_recorded(history):
+    """Get first recorded timestamp"""
+    if history and len(history) > 0:
+        return history[0].get('timestamp', 'Unknown')
+    return "Not available"
 
 def generate_readme():
     """Generate README with live prices"""
@@ -54,15 +62,21 @@ def generate_readme():
     
     akgsma_rates = akgsma_data.get('last_rates', {})
     kerala_rates = kerala_data.get('last_rates', {})
+    akgsma_history = akgsma_data.get('history', [])
+    kerala_history = kerala_data.get('history', [])
     
     # Get timestamps
     ist = pytz.timezone('Asia/Kolkata')
     now = datetime.now(ist)
     timestamp = now.strftime("%d %B %Y, %I:%M %p IST")
     
-    # Get trends
-    akgsma_trend = get_trend(akgsma_data.get('history', []))
-    kerala_trend = get_trend(kerala_data.get('history', []))
+    # Get trends and changes
+    akgsma_trend, akgsma_change, akgsma_last_change = get_trend_and_change(akgsma_history)
+    kerala_trend, kerala_change, kerala_last_change = get_trend_and_change(kerala_history)
+    
+    # Get first recorded times
+    akgsma_first = get_first_recorded(akgsma_history)
+    kerala_first = get_first_recorded(kerala_history)
     
     # AKGSMA prices
     gold_22k = format_price(akgsma_rates.get('22K916', '---'))
@@ -89,6 +103,8 @@ def generate_readme():
 ## ⏰ **Last Updated**
 ### {timestamp}
 
+🤖 **Auto-refreshes every 5 minutes via cron-job.org**
+
 ---
 
 </div>
@@ -98,13 +114,15 @@ def generate_readme():
 
 <div align="center">
 
-| 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT |
-|:------------:|:-------------:|:-------:|
-| **🥇 GOLD 22K** | **₹ {gold_22k}** | per gram |
-| **🥈 GOLD 18K** | **₹ {gold_18k}** | per gram |
-| **⚪ SILVER 999** | **₹ {silver}** | per gram |
+| 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
+|:------------:|:-------------:|:-------:|:---------:|
+| **🥇 GOLD 22K** | **₹ {gold_22k}** | per gram | {akgsma_change} |
+| **🥈 GOLD 18K** | **₹ {gold_18k}** | per gram | {akgsma_change} |
+| **⚪ SILVER 999** | **₹ {silver}** | per gram | {akgsma_change} |
 
-**📅 Date:** {akgsma_date}
+**📅 Rate Date:** {akgsma_date}  
+**🕐 First Tracked:** {akgsma_first}  
+{f'**🔄 Last Changed:** {akgsma_last_change}' if akgsma_last_change else ''}
 
 </div>
 
@@ -115,11 +133,13 @@ def generate_readme():
 
 <div align="center">
 
-| 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT |
-|:--------------:|:-------------:|:---------:|
-| **👑 1 PAVAN** | **₹ {kerala_rate}** | 8 grams (22K) |
+| 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
+|:--------------:|:-------------:|:---------:|:---------:|
+| **👑 1 PAVAN** | **₹ {kerala_rate}** | 8 grams (22K) | {kerala_change} |
 
-**📅 Date:** {kerala_date}
+**📅 Rate Date:** {kerala_date}  
+**🕐 First Tracked:** {kerala_first}  
+{f'**🔄 Last Changed:** {kerala_last_change}' if kerala_last_change else ''}
 
 </div>
 
@@ -127,27 +147,30 @@ def generate_readme():
 
 <div align="center">
 
-## 📈 **PRICE HISTORY**
+## 📈 **MONITORING STATS**
 
-| Source | Last 5 Updates | Trend |
-|:------:|:--------------:|:-----:|
-| **AKGSMA** | {len(akgsma_data.get('history', []))} records | {akgsma_trend} |
-| **Kerala Gold** | {len(kerala_data.get('history', []))} records | {kerala_trend} |
-
----
-
-## 🔔 **Auto-Updates Every 5 Minutes**
-```
-🤖 Powered by GitHub Actions
-♾️ Running 24/7/365
-⚡ Real-time monitoring
-```
+| Source | Total Updates | Trend | Status |
+|:------:|:-------------:|:-----:|:------:|
+| **AKGSMA** | {len(akgsma_history)} records | {akgsma_trend} | 🟢 Live |
+| **Kerala Gold** | {len(kerala_history)} records | {kerala_trend} | 🟢 Live |
 
 ---
 
-### 📊 [View Full History](../../actions) • 🌟 [Star this repo](../../stargazers)
+## 🔔 **Monitoring Info**
+```
+🤖 Powered by GitHub Actions + cron-job.org
+⏱️  Checks every 5 minutes (guaranteed)
+♾️  Running 24/7/365
+⚡ Real-time price tracking
+📊 Full history preserved
+```
 
-<sub>💡 Prices are fetched from official sources and updated automatically</sub>
+---
+
+### 📊 [View Full History](../../actions) • 🌟 [Star this repo](../../stargazers) • 🔧 [Report Issue](../../issues)
+
+<sub>💡 Prices are fetched from official sources and updated automatically</sub>  
+<sub>🔒 Reliable scheduling via cron-job.org (no GitHub Actions delays)</sub>
 
 </div>
 
@@ -158,6 +181,7 @@ def generate_readme():
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=mybisdotsite.gold-rate-monitor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mybisdotsite/gold-rate-monitor?style=flat-square)
 ![Status](https://img.shields.io/badge/status-live-success?style=flat-square)
+![Updates](https://img.shields.io/badge/updates-every_5_min-blue?style=flat-square)
 
 </div>
 '''
