@@ -53857,3 +53857,20 @@
 [2026-01-20 03:40:34 IST] [SYSTEM] ✅ Cycle complete
 [2026-01-20 03:40:34 IST] [SYSTEM] ============================================================
 [2026-01-20 03:40:34 IST] [SYSTEM] 
+[2026-01-20 03:45:31 IST] [SYSTEM] ============================================================
+[2026-01-20 03:45:31 IST] [SYSTEM] 🚀 Combined Monitor Starting
+[2026-01-20 03:45:31 IST] [SYSTEM] ============================================================
+[2026-01-20 03:45:31 IST] [AKGSMA] 🔍 Checking rates...
+[2026-01-20 03:45:46 IST] [AKGSMA] Error: HTTPConnectionPool(host='akgsma.com', port=80): Max retries exceeded with url: /index.php (Caused by ConnectTimeoutError(<HTTPConnection(host='akgsma.com', port=80) at 0x7f8f123cc450>, 'Connection to akgsma.com timed out. (connect timeout=15)'))
+[2026-01-20 03:45:46 IST] [AKGSMA] ⚠️ Failed to fetch
+[2026-01-20 03:45:46 IST] [SYSTEM] 
+[2026-01-20 03:45:46 IST] [KERALA] 🔍 Checking rates...
+[2026-01-20 03:45:46 IST] [KERALA] Attempt 1/4
+[2026-01-20 03:45:47 IST] [KERALA] Attempt 2/4
+[2026-01-20 03:45:47 IST] [KERALA] ✓ Connected with UA #2
+[2026-01-20 03:45:47 IST] [KERALA] Found today's rate: Rs.107240
+[2026-01-20 03:45:47 IST] [KERALA] ✓ No change. Today Rate=Rs.107240
+[2026-01-20 03:45:47 IST] [SYSTEM] ============================================================
+[2026-01-20 03:45:47 IST] [SYSTEM] ✅ Cycle complete
+[2026-01-20 03:45:47 IST] [SYSTEM] ============================================================
+[2026-01-20 03:45:47 IST] [SYSTEM] 
