@@ -54131,3 +54131,24 @@
 [2026-01-20 05:05:27 IST] [SYSTEM] ✅ Cycle complete
 [2026-01-20 05:05:27 IST] [SYSTEM] ============================================================
 [2026-01-20 05:05:27 IST] [SYSTEM] 
+[2026-01-20 05:10:29 IST] [SYSTEM] ============================================================
+[2026-01-20 05:10:29 IST] [SYSTEM] 🚀 Combined Monitor Starting
+[2026-01-20 05:10:29 IST] [SYSTEM] ============================================================
+[2026-01-20 05:10:29 IST] [AKGSMA] 🔍 Checking rates...
+[2026-01-20 05:10:30 IST] [AKGSMA] ✓ No change. 22K916=₹13405, 18K750=₹11100, Silver=₹305
+[2026-01-20 05:10:30 IST] [SYSTEM] 
+[2026-01-20 05:10:30 IST] [KERALA] 🔍 Checking rates...
+[2026-01-20 05:10:30 IST] [KERALA] Attempt 1/4
+[2026-01-20 05:10:50 IST] [KERALA] Attempt 1 failed: HTTPSConnectionPool(host='www.keralagold.com', por
+[2026-01-20 05:10:51 IST] [KERALA] Attempt 2/4
+[2026-01-20 05:11:11 IST] [KERALA] Attempt 2 failed: HTTPSConnectionPool(host='www.keralagold.com', por
+[2026-01-20 05:11:12 IST] [KERALA] Attempt 3/4
+[2026-01-20 05:11:32 IST] [KERALA] Attempt 3 failed: HTTPSConnectionPool(host='www.keralagold.com', por
+[2026-01-20 05:11:32 IST] [KERALA] Attempt 4/4
+[2026-01-20 05:11:52 IST] [KERALA] Attempt 4 failed: HTTPSConnectionPool(host='www.keralagold.com', por
+[2026-01-20 05:11:53 IST] [KERALA] All attempts failed
+[2026-01-20 05:11:53 IST] [KERALA] ⚠️ Failed to fetch
+[2026-01-20 05:11:53 IST] [SYSTEM] ============================================================
+[2026-01-20 05:11:53 IST] [SYSTEM] ✅ Cycle complete
+[2026-01-20 05:11:53 IST] [SYSTEM] ============================================================
+[2026-01-20 05:11:53 IST] [SYSTEM] 
