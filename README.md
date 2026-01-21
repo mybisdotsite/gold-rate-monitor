@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 21 January 2026, 04:35 PM IST
+### 21 January 2026, 04:40 PM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -15,20 +15,20 @@
 
 </div>
 
-## 🏆 **AKGSMA** 📈
+## 🏆 **AKGSMA** 📉
 #### All Kerala Gold & Silver Merchants Association
 
 <div align="center">
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
 |:------------:|:-------------:|:-------:|:---------:|
-| **🥇 GOLD 22K** | **₹ 14,415** | per gram | +₹225 |
-| **🥈 GOLD 18K** | **₹ 11,920** | per gram | +₹225 |
-| **⚪ SILVER 999** | **₹ 330** | per gram | +₹225 |
+| **🥇 GOLD 22K** | **₹ 14,355** | per gram | -₹60 |
+| **🥈 GOLD 18K** | **₹ 11,870** | per gram | -₹60 |
+| **⚪ SILVER 999** | **₹ 330** | per gram | -₹60 |
 
 **📅 Rate Date:** 21/01/2026  
 **🕐 First Tracked:** 2026-01-02 14:26:17 IST  
-**🔄 Last Changed:** 2026-01-21 09:30:57 IST
+**🔄 Last Changed:** 2026-01-21 11:20:35 IST
 
 </div>
 
@@ -57,7 +57,7 @@
 
 | Source | Total Updates | Trend | Status |
 |:------:|:-------------:|:-----:|:------:|
-| **AKGSMA** | 30 records | 📈 | 🟢 Live |
+| **AKGSMA** | 31 records | 📉 | 🟢 Live |
 | **Kerala Gold** | 40 records | 📈 | 🟢 Live |
 
 ---
