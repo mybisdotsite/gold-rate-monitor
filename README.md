@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 27 January 2026, 05:55 AM IST
+### 27 January 2026, 06:01 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -43,7 +43,7 @@
 |:--------------:|:-------------:|:---------:|:---------:|
 | **👑 1 PAVAN** | **₹ 119,320** | 8 grams (22K) | --- |
 
-**📅 Rate Date:** 26 January 2026  
+**📅 Rate Date:** 27 January 2026  
 **🕐 First Tracked:** 2026-01-02 14:26:17 IST  
 
 
@@ -58,7 +58,7 @@
 | Source | Total Updates | Trend | Status |
 |:------:|:-------------:|:-----:|:------:|
 | **AKGSMA** | 37 records | 📈 | 🟢 Live |
-| **Kerala Gold** | 49 records | ▶️ | 🟢 Live |
+| **Kerala Gold** | 50 records | ▶️ | 🟢 Live |
 
 ---
 
