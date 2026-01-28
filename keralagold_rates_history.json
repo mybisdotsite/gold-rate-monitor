@@ -1,8 +1,8 @@
 {
   "last_rates": {
-    "date": "27 January 2026",
-    "today_rate": "118760",
-    "morning": null,
+    "date": "28 January 2026",
+    "today_rate": null,
+    "morning": "119320",
     "afternoon": null,
     "evening": null
   },
@@ -719,6 +719,20 @@
       },
       "changes": [
         "Today Rate: NEW Rs.118760"
+      ]
+    },
+    {
+      "timestamp": "2026-01-28 07:25:52 IST",
+      "date": "28 January 2026",
+      "rates": {
+        "date": "28 January 2026",
+        "today_rate": null,
+        "morning": "119320",
+        "afternoon": null,
+        "evening": null
+      },
+      "changes": [
+        "Morning: NEW Rs.119320"
       ]
     }
   ]
