@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 06 February 2026, 05:36 AM IST
+### 06 February 2026, 05:41 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -41,9 +41,9 @@
 
 | 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
 |:--------------:|:-------------:|:---------:|:---------:|
-| **👑 1 PAVAN** | **₹ 113,240** | 8 grams (22K) | --- |
+| **👑 1 PAVAN** | **₹ 107,920** | 8 grams (22K) | --- |
 
-**📅 Rate Date:** 5 February 2026  
+**📅 Rate Date:** 6 February 2026  
 **🕐 First Tracked:** 2026-01-02 14:26:17 IST  
 
 
@@ -58,7 +58,7 @@
 | Source | Total Updates | Trend | Status |
 |:------:|:-------------:|:-----:|:------:|
 | **AKGSMA** | 54 records | 📉 | 🟢 Live |
-| **Kerala Gold** | 70 records | ▶️ | 🟢 Live |
+| **Kerala Gold** | 71 records | ▶️ | 🟢 Live |
 
 ---
 
