@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 08 February 2026, 07:16 AM IST
+### 08 February 2026, 07:21 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -43,7 +43,7 @@
 |:--------------:|:-------------:|:---------:|:---------:|
 | **👑 1 PAVAN** | **₹ 114,840** | 8 grams (22K) | --- |
 
-**📅 Rate Date:** 7 February 2026  
+**📅 Rate Date:** 8 February 2026  
 **🕐 First Tracked:** 2026-01-02 14:26:17 IST  
 
 
