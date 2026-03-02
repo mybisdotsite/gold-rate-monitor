@@ -4,29 +4,32 @@ permissions:
   contents: write
 
 on:
-  # Remove schedule trigger - we'll use external cron instead
-  workflow_dispatch:  # Manual trigger via API or UI
-  repository_dispatch:  # Trigger via webhook
+  workflow_dispatch:
+  repository_dispatch:
     types: [check-rates]
+
+concurrency:
+  group: gold-monitor
+  cancel-in-progress: true
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    timeout-minutes: 10
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-      
+          fetch-depth: 1
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
-      
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
@@ -44,7 +47,7 @@ jobs:
       
       - name: Update README
         run: python update_readme.py
-      
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
