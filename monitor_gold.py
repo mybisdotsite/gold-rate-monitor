@@ -248,6 +248,12 @@ def fetch_keralagold_rates():
 
             if len(response.text) < 3000:
                 log(f"⚠️ Page too small ({len(response.text)} bytes) — likely blocked", "KERALA")
+            
+                # DEBUG DUMP
+                log("----- RAW RESPONSE START -----", "KERALA")
+                print(response.text[:2000])   # print first 2000 chars
+                log("----- RAW RESPONSE END -----", "KERALA")
+            
                 continue
 
             log(f"✓ Connected (UA #{attempt}, {len(response.text)} bytes)", "KERALA")
