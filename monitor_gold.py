@@ -251,7 +251,7 @@ def fetch_keralagold_rates():
             
                 # DEBUG DUMP
                 log("----- RAW RESPONSE START -----", "KERALA")
-                print(response.text[:2000])   # print first 2000 chars
+                print(response.text[:2001])   # print first 2000 chars
                 log("----- RAW RESPONSE END -----", "KERALA")
             
                 continue
