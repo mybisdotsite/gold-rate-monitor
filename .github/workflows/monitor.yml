@@ -49,6 +49,7 @@ jobs:
         run: python update_readme.py
 
       - name: Commit and push if changed
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -57,6 +58,29 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
             git push
+            echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "No changes to commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Sync rates to Firestore via webhook
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          for i in 1 2; do
+            HTTP_STATUS=$(curl -s -o /tmp/webhook_resp.json -w "%{http_code}" \
+              -X POST \
+              -H "Content-Type: application/json" \
+              -H "x-webhook-secret: ${{ secrets.GITACTIONS_WEBHOOK_SECRET }}" \
+              "${{ secrets.WEBAPP_WEBHOOK_URL }}")
+
+            echo "Attempt $i — HTTP $HTTP_STATUS: $(cat /tmp/webhook_resp.json)"
+
+            if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
+              echo "✅ Rates synced to Firestore"
+              exit 0
+            fi
+
+            [ $i -lt 2 ] && sleep 10
+          done
+          echo "⚠️ Webhook failed after 2 attempts — continuing"
