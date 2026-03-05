@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 05 March 2026, 09:20 AM IST
+### 05 March 2026, 09:25 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -22,13 +22,13 @@
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
 |:------------:|:-------------:|:-------:|:---------:|
-| **🥇 GOLD 22K** | **₹ 15,080** | per gram | -₹285 |
-| **🥈 GOLD 18K** | **₹ 12,455** | per gram | -₹285 |
-| **⚪ SILVER 999** | **₹ 285** | per gram | -₹285 |
+| **🥇 GOLD 22K** | **₹ 14,990** | per gram | -₹90 |
+| **🥈 GOLD 18K** | **₹ 12,380** | per gram | -₹90 |
+| **⚪ SILVER 999** | **₹ 285** | per gram | -₹90 |
 
-**📅 Rate Date:** 04/03/2026  
+**📅 Rate Date:** 05/03/2026  
 **🕐 First Tracked:** 2026-01-02 14:26:17 IST  
-**🔄 Last Changed:** 2026-03-03 16:45:30 IST
+**🔄 Last Changed:** 2026-03-04 09:25:28 IST
 
 </div>
 
@@ -57,7 +57,7 @@
 
 | Source | Total Updates | Trend | Status |
 |:------:|:-------------:|:-----:|:------:|
-| **AKGSMA** | 91 records | 📉 | 🟢 Live |
+| **AKGSMA** | 92 records | 📉 | 🟢 Live |
 | **Kerala Gold** | 126 records | ▶️ | 🟢 Live |
 
 ---
