@@ -2,9 +2,9 @@
   "last_rates": {
     "date": "6 March 2026",
     "date_raw": "6 March 2026",
-    "today_rate": "118880",
+    "today_rate": null,
     "morning": null,
-    "afternoon": null,
+    "afternoon": "118160",
     "evening": null
   },
   "history": [
@@ -1819,8 +1819,23 @@
       "changes": [
         "Today Rate: NEW Rs.118880"
       ]
+    },
+    {
+      "timestamp": "2026-03-06 15:15:30 IST",
+      "date": "6 March 2026",
+      "rates": {
+        "date": "6 March 2026",
+        "date_raw": "6 March 2026",
+        "today_rate": null,
+        "morning": null,
+        "afternoon": "118160",
+        "evening": null
+      },
+      "changes": [
+        "Afternoon: NEW Rs.118160"
+      ]
     }
   ],
-  "last_updated": "2026-03-06 15:10:29 IST",
+  "last_updated": "2026-03-06 15:15:30 IST",
   "consecutive_failures": 0
 }
