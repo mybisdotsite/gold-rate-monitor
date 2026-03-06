@@ -1,70 +1,69 @@
 name: Gold Rates Monitor
+
 permissions:
   contents: write
+
 on:
   workflow_dispatch:
   repository_dispatch:
     types: [check-rates]
+
 concurrency:
   group: gold-monitor
   cancel-in-progress: true
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+      
       - name: Run monitor with retry
         run: |
           for i in {1..3}; do
             if python monitor_gold.py; then
-              exit 0
+              break
+            else
+              echo "Attempt $i failed, retrying..."
+              sleep 10
             fi
-            echo "Attempt $i failed, retrying..."
-            sleep 10
           done
-          echo "❌ All 3 attempts failed"
-          exit 1
+      
       - name: Update README
         run: python update_readme.py
-      - name: Cleanup stale files
-        run: |
-          rm -f monitoring_log.txt *.log *.tmp
-          echo "🧹 Cleaned up log and temp files"
+
       - name: Commit and push if changed
         id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
+          
           if ! git diff --staged --quiet; then
-            RATE_DIFF=$(git diff --staged -- akgsma_rates_history.json keralagold_rates_history.json | grep '^\+' | grep -v '"last_updated"' | grep -v '^\+\+\+' | wc -l)
-            echo "DEBUG: RATE_DIFF=$RATE_DIFF"
-            if [ "$RATE_DIFF" -gt 0 ]; then
-              git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
-              git push
-              echo "changed=true" >> $GITHUB_OUTPUT
-            else
-              echo "Only timestamps changed — no real rate update"
-              git checkout -- .
-              echo "changed=false" >> $GITHUB_OUTPUT
-            fi
+            git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "No changes to commit"
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
+
       - name: Sync rates to Firestore via webhook
         if: steps.commit.outputs.changed == 'true'
         run: |
@@ -74,11 +73,14 @@ jobs:
               -H "Content-Type: application/json" \
               -H "x-webhook-secret: ${{ secrets.GITACTIONS_WEBHOOK_SECRET }}" \
               "${{ secrets.WEBAPP_WEBHOOK_URL }}")
+
             echo "Attempt $i — HTTP $HTTP_STATUS: $(cat /tmp/webhook_resp.json)"
+
             if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
               echo "✅ Rates synced to Firestore"
               exit 0
             fi
+
             [ $i -lt 2 ] && sleep 10
           done
           echo "⚠️ Webhook failed after 2 attempts — continuing"
