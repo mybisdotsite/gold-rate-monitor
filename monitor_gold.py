@@ -28,19 +28,13 @@ MONTH_NAMES = [
 ]
 
 # ============================================================================
-# LOGGING
+# LOGGING (console only — Actions captures all print output)
 # ============================================================================
 
 def log(message, source="SYSTEM"):
-    """Timestamped logger — writes to console and monitoring_log.txt"""
+    """Timestamped logger — console only, no file writes."""
     timestamp = datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST")
-    line = f"[{timestamp}] [{source}] {message}"
-    print(line)
-    try:
-        with open('monitoring_log.txt', 'a', encoding='utf-8') as f:
-            f.write(line + "\n")
-    except Exception as e:
-        print(f"[WARN] Could not write to log file: {e}")
+    print(f"[{timestamp}] [{source}] {message}")
 
 # ============================================================================
 # HISTORY HELPERS
@@ -53,7 +47,6 @@ def load_history(filename):
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        # Ensure all keys exist (handles old format files)
         data.setdefault("last_rates", {})
         data.setdefault("history", [])
         data.setdefault("last_updated", None)
@@ -69,10 +62,9 @@ def save_history(filename, data):
     try:
         with open(tmp, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        os.replace(tmp, filename)  # Atomic on all platforms
+        os.replace(tmp, filename)
     except Exception as e:
         log(f"🚨 CRITICAL: Could not save {filename}: {e}", "SYSTEM")
-        # Try direct write as last resort
         try:
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
@@ -90,7 +82,7 @@ def validate_date_freshness(date_raw, source="UNKNOWN"):
     """
     if not date_raw:
         log("⚠️ No date found on page — skipping date check", source)
-        return True  # Don't block if we can't determine date
+        return True
 
     now_ist = datetime.now(IST)
     today = now_ist.date()
@@ -113,7 +105,6 @@ def validate_date_freshness(date_raw, source="UNKNOWN"):
             return False
 
     except ValueError:
-        # Try alternate format: "2nd March 2026", "1st March 2026"
         try:
             cleaned = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_raw.strip())
             page_date = datetime.strptime(cleaned, "%d %B %Y").date()
@@ -248,12 +239,9 @@ def fetch_keralagold_rates():
 
             if len(response.text) < 3000:
                 log(f"⚠️ Page too small ({len(response.text)} bytes) — likely blocked", "KERALA")
-            
-                # DEBUG DUMP
                 log("----- RAW RESPONSE START -----", "KERALA")
-                print(response.text[:2001])   # print first 2000 chars
+                print(response.text[:2001])
                 log("----- RAW RESPONSE END -----", "KERALA")
-            
                 continue
 
             log(f"✓ Connected (UA #{attempt}, {len(response.text)} bytes)", "KERALA")
@@ -265,7 +253,6 @@ def fetch_keralagold_rates():
                 diagnose_page(response.text, "KERALA")
                 continue
 
-            # Validate date freshness — retry with next UA if stale
             if not validate_date_freshness(rates.get('date_raw'), "KERALA"):
                 log(f"⚠️ Stale data on attempt {attempt} — retrying with next UA", "KERALA")
                 time.sleep(1)
@@ -328,7 +315,6 @@ def parse_keralagold_html(html):
                 log(f"📅 Date from text: {rates['date']}", "KERALA")
 
         # ── Strategy 2: Parse table rows by text content ───────────────
-        # Completely structure-agnostic: find any <tr> containing "Today"
         for row in soup.find_all('tr'):
             row_text = row.get_text(separator=' ', strip=True)
 
@@ -352,7 +338,6 @@ def parse_keralagold_html(html):
                 rates['evening'] = price
                 log(f"Found Evening: Rs.{price}", "KERALA")
             else:
-                # Single rate (no time period label)
                 rates['today_rate'] = price
                 log(f"Found Today rate: Rs.{price}", "KERALA")
 
@@ -360,7 +345,6 @@ def parse_keralagold_html(html):
             return rates
 
         # ── Strategy 3: Text line scan fallback ───────────────────────
-        # For when tables are replaced with divs, lists, or plain text
         log("⚠️ Table strategy failed — trying line scan", "KERALA")
         text_lines = [l.strip() for l in soup.get_text(separator='\n').splitlines() if l.strip()]
 
@@ -371,7 +355,6 @@ def parse_keralagold_html(html):
                 break
 
         if found_today_idx is not None:
-            # Search nearby lines for a price
             window = text_lines[found_today_idx:found_today_idx + 8]
             for line in window:
                 price_match = re.search(r'Rs\.?\s*([\d,]+)', line)
@@ -406,7 +389,6 @@ def monitor_akgsma():
         save_history('akgsma_rates_history.json', data)
         return
 
-    # Reset failure counter on success
     data['consecutive_failures'] = 0
     previous_rates = data.get('last_rates', {})
 
@@ -523,7 +505,6 @@ def main():
     log("=" * 60, "SYSTEM")
     log("✅ Cycle complete", "SYSTEM")
     log("=" * 60, "SYSTEM")
-    log("", "SYSTEM")
 
 if __name__ == "__main__":
     main()
