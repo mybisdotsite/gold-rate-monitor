@@ -30,21 +30,19 @@ jobs:
         run: |
           for i in {1..3}; do
             if python monitor_gold.py; then
-              break
-            else
-              echo "Attempt $i failed, retrying..."
-              sleep 10
+              exit 0
             fi
+            echo "Attempt $i failed, retrying..."
+            sleep 10
           done
-          if ! python -c "import sys; sys.exit(0)"; then
-            echo "::warning::Monitor may have failed all attempts"
-          fi
+          echo "❌ All 3 attempts failed"
+          exit 1
       - name: Update README
         run: python update_readme.py
-      - name: Cleanup log files
+      - name: Cleanup stale files
         run: |
-          rm -f monitor_gold.log *.log
-          echo "🧹 Log files cleaned up — Actions logs are the source of truth"
+          rm -f monitoring_log.txt *.log *.tmp
+          echo "🧹 Cleaned up log and temp files"
       - name: Commit and push if changed
         id: commit
         run: |
@@ -53,6 +51,7 @@ jobs:
           git add -A
           if ! git diff --staged --quiet; then
             RATE_DIFF=$(git diff --staged -- akgsma_rates_history.json keralagold_rates_history.json | grep '^\+' | grep -v '"last_updated"' | grep -v '^\+\+\+' | wc -l)
+            echo "DEBUG: RATE_DIFF=$RATE_DIFF"
             if [ "$RATE_DIFF" -gt 0 ]; then
               git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
               git push
