@@ -36,8 +36,15 @@ jobs:
               sleep 10
             fi
           done
+          if ! python -c "import sys; sys.exit(0)"; then
+            echo "::warning::Monitor may have failed all attempts"
+          fi
       - name: Update README
         run: python update_readme.py
+      - name: Cleanup log files
+        run: |
+          rm -f monitor_gold.log *.log
+          echo "🧹 Log files cleaned up — Actions logs are the source of truth"
       - name: Commit and push if changed
         id: commit
         run: |
@@ -45,13 +52,14 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -A
           if ! git diff --staged --quiet; then
-            RATE_DIFF=$(git diff --staged -- akgsma_rates_history.json keralagold_rates_history.json | grep '^\\+' | grep -v '"last_updated"' | grep -v '^\\+\\+\\+' | wc -l)
+            RATE_DIFF=$(git diff --staged -- akgsma_rates_history.json keralagold_rates_history.json | grep '^\+' | grep -v '"last_updated"' | grep -v '^\+\+\+' | wc -l)
             if [ "$RATE_DIFF" -gt 0 ]; then
               git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
               git push
               echo "changed=true" >> $GITHUB_OUTPUT
             else
               echo "Only timestamps changed — no real rate update"
+              git checkout -- .
               echo "changed=false" >> $GITHUB_OUTPUT
             fi
           else
@@ -62,10 +70,10 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         run: |
           for i in 1 2; do
-            HTTP_STATUS=$(curl -s -o /tmp/webhook_resp.json -w "%{http_code}" \\
-              -X POST \\
-              -H "Content-Type: application/json" \\
-              -H "x-webhook-secret: ${{ secrets.GITACTIONS_WEBHOOK_SECRET }}" \\
+            HTTP_STATUS=$(curl -s -o /tmp/webhook_resp.json -w "%{http_code}" \
+              -X POST \
+              -H "Content-Type: application/json" \
+              -H "x-webhook-secret: ${{ secrets.GITACTIONS_WEBHOOK_SECRET }}" \
               "${{ secrets.WEBAPP_WEBHOOK_URL }}")
             echo "Attempt $i — HTTP $HTTP_STATUS: $(cat /tmp/webhook_resp.json)"
             if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
