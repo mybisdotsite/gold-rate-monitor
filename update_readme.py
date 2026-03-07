@@ -53,6 +53,15 @@ def get_first_recorded(history):
         return history[0].get('timestamp', 'Unknown')
     return "Not available"
 
+def parse_ist_timestamp(timestamp):
+    """Parse timestamp like 'YYYY-MM-DD HH:MM:SS IST'"""
+    if not timestamp:
+        return None
+    try:
+        return datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S IST")
+    except Exception:
+        return None
+
 def generate_readme():
     """Generate README with live prices"""
     
@@ -65,10 +74,13 @@ def generate_readme():
     akgsma_history = akgsma_data.get('history', [])
     kerala_history = kerala_data.get('history', [])
     
-    # Get timestamps
+    # Show the newest successful source update time (stable across failed runs)
     ist = pytz.timezone('Asia/Kolkata')
-    now = datetime.now(ist)
-    timestamp = now.strftime("%d %B %Y, %I:%M %p IST")
+    akgsma_updated = parse_ist_timestamp(akgsma_data.get('last_updated'))
+    kerala_updated = parse_ist_timestamp(kerala_data.get('last_updated'))
+    newest_update = max([dt for dt in [akgsma_updated, kerala_updated] if dt is not None], default=None)
+    display_dt = newest_update or datetime.now(ist)
+    timestamp = display_dt.strftime("%d %B %Y, %I:%M %p IST")
     
     # Get trends and changes
     akgsma_trend, akgsma_change, akgsma_last_change = get_trend_and_change(akgsma_history)

@@ -1,4 +1,4 @@
-import requests
+﻿import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import json
@@ -28,11 +28,11 @@ MONTH_NAMES = [
 ]
 
 # ============================================================================
-# LOGGING (console only — Actions captures all print output)
+# LOGGING (console only â€” Actions captures all print output)
 # ============================================================================
 
 def log(message, source="SYSTEM"):
-    """Timestamped logger — console only, no file writes."""
+    """Timestamped logger â€” console only, no file writes."""
     timestamp = datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST")
     print(f"[{timestamp}] [{source}] {message}")
 
@@ -53,23 +53,23 @@ def load_history(filename):
         data.setdefault("consecutive_failures", 0)
         return data
     except Exception as e:
-        log(f"⚠️ Could not read {filename}: {e} — using fresh state", "SYSTEM")
+        log(f"âš ï¸ Could not read {filename}: {e} â€” using fresh state", "SYSTEM")
         return {"last_rates": {}, "history": [], "last_updated": None, "consecutive_failures": 0}
 
 def save_history(filename, data):
-    """Safely save JSON history using atomic write (temp file → rename)."""
+    """Safely save JSON history using atomic write (temp file â†’ rename)."""
     tmp = filename + ".tmp"
     try:
         with open(tmp, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         os.replace(tmp, filename)
     except Exception as e:
-        log(f"🚨 CRITICAL: Could not save {filename}: {e}", "SYSTEM")
+        log(f"ðŸš¨ CRITICAL: Could not save {filename}: {e}", "SYSTEM")
         try:
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
         except Exception as e2:
-            log(f"🚨 CRITICAL: Direct save also failed: {e2}", "SYSTEM")
+            log(f"ðŸš¨ CRITICAL: Direct save also failed: {e2}", "SYSTEM")
 
 # ============================================================================
 # DATE VALIDATION
@@ -81,7 +81,7 @@ def validate_date_freshness(date_raw, source="UNKNOWN"):
     Allows yesterday's rate before 10AM IST (sites update in the morning).
     """
     if not date_raw:
-        log("⚠️ No date found on page — skipping date check", source)
+        log("âš ï¸ No date found on page â€” skipping date check", source)
         return True
 
     now_ist = datetime.now(IST)
@@ -92,16 +92,16 @@ def validate_date_freshness(date_raw, source="UNKNOWN"):
         days_diff = (today - page_date).days
 
         if days_diff == 0:
-            log(f"✅ Page date is today ({page_date})", source)
+            log(f"âœ… Page date is today ({page_date})", source)
             return True
         elif days_diff == 1 and now_ist.hour < 10:
-            log(f"ℹ️ Yesterday's date ({page_date}) but before 10AM IST — acceptable", source)
+            log(f"â„¹ï¸ Yesterday's date ({page_date}) but before 10AM IST â€” acceptable", source)
             return True
         elif days_diff < 0:
-            log(f"ℹ️ Page date is in the future ({page_date}) — treating as fresh", source)
+            log(f"â„¹ï¸ Page date is in the future ({page_date}) â€” treating as fresh", source)
             return True
         else:
-            log(f"⚠️ Stale: page shows {page_date}, today is {today} ({days_diff}d old)", source)
+            log(f"âš ï¸ Stale: page shows {page_date}, today is {today} ({days_diff}d old)", source)
             return False
 
     except ValueError:
@@ -111,10 +111,10 @@ def validate_date_freshness(date_raw, source="UNKNOWN"):
             days_diff = (today - page_date).days
             if days_diff <= 1:
                 return True
-            log(f"⚠️ Stale (alt format): {page_date} is {days_diff}d old", source)
+            log(f"âš ï¸ Stale (alt format): {page_date} is {days_diff}d old", source)
             return False
         except Exception:
-            log(f"⚠️ Could not parse date '{date_raw}' — skipping date check", source)
+            log(f"âš ï¸ Could not parse date '{date_raw}' â€” skipping date check", source)
             return True
 
 # ============================================================================
@@ -128,7 +128,7 @@ def diagnose_page(html, source="UNKNOWN"):
     """
     soup = BeautifulSoup(html, 'html.parser')
     log("=" * 55, source)
-    log("🔍 DIAGNOSTIC DUMP — Parser returned no results", source)
+    log("ðŸ” DIAGNOSTIC DUMP â€” Parser returned no results", source)
     log("=" * 55, source)
 
     title = soup.find('title')
@@ -140,7 +140,7 @@ def diagnose_page(html, source="UNKNOWN"):
     today_lines = [l for l in text_lines if 'Today' in l or 'today' in l]
     log(f"LINES WITH 'Today' ({len(today_lines)}):", source)
     for line in today_lines[:10]:
-        log(f"  → {line[:120]}", source)
+        log(f"  â†’ {line[:120]}", source)
 
     all_prices = re.findall(r'Rs\.?\s*[\d,]+', soup.get_text())
     log(f"ALL PRICES FOUND ({len(all_prices)}): {all_prices[:10]}", source)
@@ -149,7 +149,7 @@ def diagnose_page(html, source="UNKNOWN"):
     today_rows = [r for r in rows if 'Today' in r.get_text()]
     log(f"TABLE ROWS WITH 'Today' ({len(today_rows)}):", source)
     for row in today_rows[:5]:
-        log(f"  → {row.get_text(separator=' ', strip=True)[:120]}", source)
+        log(f"  â†’ {row.get_text(separator=' ', strip=True)[:120]}", source)
 
     log("=" * 55, source)
 
@@ -173,11 +173,11 @@ def fetch_akgsma_rates():
             for item in items:
                 text = item.get_text(strip=True)
                 if '22K916' in text:
-                    rates['22K916'] = text.split('₹')[1].strip() if '₹' in text else None
+                    rates['22K916'] = text.split('â‚¹')[1].strip() if 'â‚¹' in text else None
                 elif '18K750' in text:
-                    rates['18K750'] = text.split('₹')[1].strip() if '₹' in text else None
+                    rates['18K750'] = text.split('â‚¹')[1].strip() if 'â‚¹' in text else None
                 elif 'Silver' in text and '925' not in text:
-                    rates['Silver'] = text.split('₹')[1].strip() if '₹' in text else None
+                    rates['Silver'] = text.split('â‚¹')[1].strip() if 'â‚¹' in text else None
                 elif "Today's Rate" in text:
                     if '(' in text and ')' in text:
                         rates['date'] = text.split('(')[1].split(')')[0]
@@ -185,13 +185,13 @@ def fetch_akgsma_rates():
         return rates if rates else None
 
     except requests.exceptions.ConnectionError:
-        log("⚠️ Site unreachable (connection error)", "AKGSMA")
+        log("âš ï¸ Site unreachable (connection error)", "AKGSMA")
         return None
     except requests.exceptions.Timeout:
-        log("⚠️ Site timed out", "AKGSMA")
+        log("âš ï¸ Site timed out", "AKGSMA")
         return None
     except Exception as e:
-        log(f"⚠️ Unexpected error: {e}", "AKGSMA")
+        log(f"âš ï¸ Unexpected error: {e}", "AKGSMA")
         return None
 
 # ============================================================================
@@ -238,44 +238,44 @@ def fetch_keralagold_rates():
                 continue
 
             if len(response.text) < 3000:
-                log(f"⚠️ Page too small ({len(response.text)} bytes) — likely blocked", "KERALA")
+                log(f"âš ï¸ Page too small ({len(response.text)} bytes) â€” likely blocked", "KERALA")
                 log("----- RAW RESPONSE START -----", "KERALA")
                 print(response.text[:2001])
                 log("----- RAW RESPONSE END -----", "KERALA")
                 continue
 
-            log(f"✓ Connected (UA #{attempt}, {len(response.text)} bytes)", "KERALA")
+            log(f"âœ“ Connected (UA #{attempt}, {len(response.text)} bytes)", "KERALA")
 
             rates = parse_keralagold_html(response.text)
 
             if rates is None:
-                log(f"⚠️ Parser returned nothing on attempt {attempt}", "KERALA")
+                log(f"âš ï¸ Parser returned nothing on attempt {attempt}", "KERALA")
                 diagnose_page(response.text, "KERALA")
                 continue
 
             if not validate_date_freshness(rates.get('date_raw'), "KERALA"):
-                log(f"⚠️ Stale data on attempt {attempt} — retrying with next UA", "KERALA")
+                log(f"âš ï¸ Stale data on attempt {attempt} â€” retrying with next UA", "KERALA")
                 time.sleep(1)
                 continue
 
             return rates
 
         except requests.exceptions.Timeout:
-            log(f"⚠️ Timeout on attempt {attempt}", "KERALA")
+            log(f"âš ï¸ Timeout on attempt {attempt}", "KERALA")
         except requests.exceptions.ConnectionError:
-            log(f"⚠️ Connection error on attempt {attempt}", "KERALA")
+            log(f"âš ï¸ Connection error on attempt {attempt}", "KERALA")
         except Exception as e:
-            log(f"⚠️ Attempt {attempt} error: {str(e)[:80]}", "KERALA")
+            log(f"âš ï¸ Attempt {attempt} error: {str(e)[:80]}", "KERALA")
 
         time.sleep(0.5)
 
-    log("❌ All attempts failed or returned stale data", "KERALA")
+    log("âŒ All attempts failed or returned stale data", "KERALA")
     return None
 
 
 def parse_keralagold_html(html):
     """
-    Structure-agnostic parser — finds rates by TEXT content not HTML tags.
+    Structure-agnostic parser â€” finds rates by TEXT content not HTML tags.
     Works even if site redesigns layout, changes class names, or adds new tags.
     Falls back through multiple strategies before giving up.
     """
@@ -290,7 +290,7 @@ def parse_keralagold_html(html):
             'evening': None
         }
 
-        # ── Strategy 1: Date from page title (most reliable) ──────────
+        # â”€â”€ Strategy 1: Date from page title (most reliable) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         title = soup.find('title')
         if title:
             date_match = re.search(
@@ -300,9 +300,9 @@ def parse_keralagold_html(html):
             if date_match:
                 rates['date_raw'] = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_match.group(1))
                 rates['date'] = date_match.group(1)
-                log(f"📅 Date from title: {rates['date']}", "KERALA")
+                log(f"ðŸ“… Date from title: {rates['date']}", "KERALA")
 
-        # ── Fallback date: scan all text ───────────────────────────────
+        # â”€â”€ Fallback date: scan all text â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         if not rates['date_raw']:
             full_text = soup.get_text()
             date_match = re.search(
@@ -312,9 +312,9 @@ def parse_keralagold_html(html):
             if date_match:
                 rates['date_raw'] = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_match.group(1))
                 rates['date'] = date_match.group(1)
-                log(f"📅 Date from text: {rates['date']}", "KERALA")
+                log(f"ðŸ“… Date from text: {rates['date']}", "KERALA")
 
-        # ── Strategy 2: Parse table rows by text content ───────────────
+        # â”€â”€ Strategy 2: Parse table rows by text content â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
         for row in soup.find_all('tr'):
             row_text = row.get_text(separator=' ', strip=True)
 
@@ -344,8 +344,8 @@ def parse_keralagold_html(html):
         if any(rates[k] for k in ['today_rate', 'morning', 'afternoon', 'evening']):
             return rates
 
-        # ── Strategy 3: Text line scan fallback ───────────────────────
-        log("⚠️ Table strategy failed — trying line scan", "KERALA")
+        # â”€â”€ Strategy 3: Text line scan fallback â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+        log("âš ï¸ Table strategy failed â€” trying line scan", "KERALA")
         text_lines = [l.strip() for l in soup.get_text(separator='\n').splitlines() if l.strip()]
 
         found_today_idx = None
@@ -364,11 +364,11 @@ def parse_keralagold_html(html):
                     log(f"Fallback found rate: Rs.{price}", "KERALA")
                     return rates
 
-        log("❌ All parse strategies exhausted", "KERALA")
+        log("âŒ All parse strategies exhausted", "KERALA")
         return None
 
     except Exception as e:
-        log(f"❌ Parse exception: {e}", "KERALA")
+        log(f"âŒ Parse exception: {e}", "KERALA")
         return None
 
 # ============================================================================
@@ -376,18 +376,18 @@ def parse_keralagold_html(html):
 # ============================================================================
 
 def monitor_akgsma():
-    log("🔍 Checking rates...", "AKGSMA")
+    log("ðŸ” Checking rates...", "AKGSMA")
 
     current_rates = fetch_akgsma_rates()
     data = load_history('akgsma_rates_history.json')
 
     if not current_rates:
         data['consecutive_failures'] = data.get('consecutive_failures', 0) + 1
-        log(f"⚠️ Fetch failed (failure #{data['consecutive_failures']})", "AKGSMA")
+        log(f"âš ï¸ Fetch failed (failure #{data['consecutive_failures']})", "AKGSMA")
         if data['consecutive_failures'] >= 5:
-            log("🚨 ALERT: 5+ consecutive failures — site may be down!", "AKGSMA")
+            log("ðŸš¨ ALERT: 5+ consecutive failures â€” site may be down!", "AKGSMA")
         save_history('akgsma_rates_history.json', data)
-        return
+        return {"success": False, "changed": False}
 
     data['consecutive_failures'] = 0
     previous_rates = data.get('last_rates', {})
@@ -404,13 +404,13 @@ def monitor_akgsma():
 
         if prev and curr != prev:
             changed = True
-            changes.append(f"{key}: ₹{prev} → ₹{curr}")
+            changes.append(f"{key}: â‚¹{prev} â†’ â‚¹{curr}")
         elif not prev:
             changed = True
-            changes.append(f"{key}: NEW ₹{curr}")
+            changes.append(f"{key}: NEW â‚¹{curr}")
 
     if changed:
-        log(f"🚨 CHANGED! {', '.join(changes)}", "AKGSMA")
+        log(f"ðŸš¨ CHANGED! {', '.join(changes)}", "AKGSMA")
         data['history'].append({
             "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST"),
             "date": current_rates.get('date', 'Unknown'),
@@ -420,30 +420,31 @@ def monitor_akgsma():
         if len(data['history']) > 200:
             data['history'] = data['history'][-200:]
     else:
-        rates_str = ', '.join([f"{k}=₹{v}" for k, v in current_rates.items() if k != 'date' and v])
-        log(f"✓ No change. {rates_str}", "AKGSMA")
+        rates_str = ', '.join([f"{k}=â‚¹{v}" for k, v in current_rates.items() if k != 'date' and v])
+        log(f"âœ“ No change. {rates_str}", "AKGSMA")
 
     data['last_rates'] = current_rates
     data['last_updated'] = datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST")
     save_history('akgsma_rates_history.json', data)
+    return {"success": True, "changed": changed}
 
 # ============================================================================
 # KERALAGOLD MONITOR
 # ============================================================================
 
 def monitor_keralagold():
-    log("🔍 Checking rates...", "KERALA")
+    log("ðŸ” Checking rates...", "KERALA")
 
     current_rates = fetch_keralagold_rates()
     data = load_history('keralagold_rates_history.json')
 
     if not current_rates:
         data['consecutive_failures'] = data.get('consecutive_failures', 0) + 1
-        log(f"⚠️ Fetch failed (failure #{data['consecutive_failures']})", "KERALA")
+        log(f"âš ï¸ Fetch failed (failure #{data['consecutive_failures']})", "KERALA")
         if data['consecutive_failures'] >= 5:
-            log("🚨 ALERT: 5+ consecutive failures — site may be down or parser broken!", "KERALA")
+            log("ðŸš¨ ALERT: 5+ consecutive failures â€” site may be down or parser broken!", "KERALA")
         save_history('keralagold_rates_history.json', data)
-        return
+        return {"success": False, "changed": False}
 
     data['consecutive_failures'] = 0
     previous_rates = data.get('last_rates', {})
@@ -461,13 +462,13 @@ def monitor_keralagold():
 
         if prev and curr != prev:
             changed = True
-            changes.append(f"{field.replace('_', ' ').title()}: Rs.{prev} → Rs.{curr}")
+            changes.append(f"{field.replace('_', ' ').title()}: Rs.{prev} â†’ Rs.{curr}")
         elif not prev:
             changed = True
             changes.append(f"{field.replace('_', ' ').title()}: NEW Rs.{curr}")
 
     if changed:
-        log(f"🚨 CHANGED! {', '.join(changes)}", "KERALA")
+        log(f"ðŸš¨ CHANGED! {', '.join(changes)}", "KERALA")
         data['history'].append({
             "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST"),
             "date": current_rates.get('date', 'Unknown'),
@@ -482,11 +483,12 @@ def monitor_keralagold():
             for k, v in current_rates.items()
             if k not in ('date', 'date_raw') and v
         ])
-        log(f"✓ No change. {rates_str}", "KERALA")
+        log(f"âœ“ No change. {rates_str}", "KERALA")
 
     data['last_rates'] = current_rates
     data['last_updated'] = datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST")
     save_history('keralagold_rates_history.json', data)
+    return {"success": True, "changed": changed}
 
 # ============================================================================
 # MAIN
@@ -498,13 +500,34 @@ def main():
     log(f"   Python {sys.version.split()[0]} | PID {os.getpid()}", "SYSTEM")
     log("=" * 60, "SYSTEM")
 
-    monitor_akgsma()
+    akgsma_result = monitor_akgsma()
     log("", "SYSTEM")
-    monitor_keralagold()
+    kerala_result = monitor_keralagold()
+
+    akgsma_ok = akgsma_result["success"]
+    kerala_ok = kerala_result["success"]
+    rates_changed = akgsma_result["changed"] or kerala_result["changed"]
+
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, "a", encoding="utf-8") as output_file:
+            output_file.write(f"rates_changed={'true' if rates_changed else 'false'}\n")
 
     log("=" * 60, "SYSTEM")
-    log("✅ Cycle complete", "SYSTEM")
+    if akgsma_ok and kerala_ok:
+        log("✅ Cycle complete", "SYSTEM")
+        exit_code = 0
+    else:
+        failed_sources = []
+        if not akgsma_ok:
+            failed_sources.append("AKGSMA")
+        if not kerala_ok:
+            failed_sources.append("KERALA")
+        log(f"❌ Cycle completed with failures in: {', '.join(failed_sources)}", "SYSTEM")
+        exit_code = 1
     log("=" * 60, "SYSTEM")
+    return exit_code
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
+
