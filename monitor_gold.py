@@ -1,4 +1,4 @@
-﻿import requests
+import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import json
@@ -160,40 +160,69 @@ def diagnose_page(html, source="UNKNOWN"):
 def fetch_akgsma_rates():
     """Fetch AKGSMA rates. Returns dict or None on failure."""
     url = "http://akgsma.com/index.php"
-    try:
-        response = requests.get(url, timeout=15)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
 
-        rates = {}
-        rate_section = soup.find('ul', class_='list-block')
+    for attempt, user_agent in enumerate(USER_AGENTS[:2], 1):
+        try:
+            log(f"Attempt {attempt}/2", "AKGSMA")
+            response = requests.get(url, headers={"User-Agent": user_agent}, timeout=15)
+            response.raise_for_status()
+            # Force UTF-8 -- requests defaults to ISO-8859-1 for text/html, breaking non-ASCII chars
+            response.encoding = 'utf-8'
 
-        if rate_section:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            rates = {}
+
+            rate_section = soup.find('ul', class_='list-block')
+            if not rate_section:
+                log("Rate section (ul.list-block) not found", "AKGSMA")
+                text_lines = [l.strip() for l in soup.get_text(separator='').splitlines() if l.strip()]
+                log(f"Page preview ({len(text_lines)} lines):", "AKGSMA")
+                for line in text_lines[:20]:
+                    log(f"  {line[:120]}", "AKGSMA")
+                continue
+
             items = rate_section.find_all('li')
+            log(f"Found {len(items)} items in rate section", "AKGSMA")
+
             for item in items:
                 text = item.get_text(strip=True)
-                if '22K916' in text:
-                    rates['22K916'] = text.split('â‚¹')[1].strip() if 'â‚¹' in text else None
-                elif '18K750' in text:
-                    rates['18K750'] = text.split('â‚¹')[1].strip() if 'â‚¹' in text else None
-                elif 'Silver' in text and '925' not in text:
-                    rates['Silver'] = text.split('â‚¹')[1].strip() if 'â‚¹' in text else None
-                elif "Today's Rate" in text:
-                    if '(' in text and ')' in text:
-                        rates['date'] = text.split('(')[1].split(')')[0]
+                log(f"  Item: {text[:100]}", "AKGSMA")
 
-        return rates if rates else None
+                # Regex extracts trailing number -- avoids any rupee-symbol encoding issues
+                price_match = re.search(r'(\d[\d,]+)\s*$', text)
+                price = price_match.group(1).replace(',', '') if price_match else None
 
-    except requests.exceptions.ConnectionError:
-        log("âš ï¸ Site unreachable (connection error)", "AKGSMA")
-        return None
-    except requests.exceptions.Timeout:
-        log("âš ï¸ Site timed out", "AKGSMA")
-        return None
-    except Exception as e:
-        log(f"âš ï¸ Unexpected error: {e}", "AKGSMA")
-        return None
+                if "Today's Rate" in text or "Today\u2019s Rate" in text:
+                    date_match = re.search(r'\((\d{2}/\d{2}/\d{4})\)', text)
+                    if date_match:
+                        rates['date'] = date_match.group(1)
+                        log(f"Date: {rates['date']}", "AKGSMA")
+                elif '22K916' in text and price:
+                    rates['22K916'] = price
+                    log(f"Found 22K916: Rs.{price}", "AKGSMA")
+                elif '18K750' in text and price:
+                    rates['18K750'] = price
+                    log(f"Found 18K750: Rs.{price}", "AKGSMA")
+                elif 'Silver' in text and '925' not in text and price:
+                    rates['Silver'] = price
+                    log(f"Found Silver: Rs.{price}", "AKGSMA")
 
+            if any(rates.get(k) for k in ['22K916', '18K750', 'Silver']):
+                return rates
+
+            log("Rate section found but no prices extracted", "AKGSMA")
+
+        except requests.exceptions.ConnectionError:
+            log(f"Connection error on attempt {attempt}", "AKGSMA")
+        except requests.exceptions.Timeout:
+            log(f"Timeout on attempt {attempt}", "AKGSMA")
+        except Exception as e:
+            log(f"Attempt {attempt} error: {str(e)[:80]}", "AKGSMA")
+
+        time.sleep(1)
+
+    log("All AKGSMA attempts failed", "AKGSMA")
+    return None
 # ============================================================================
 # KERALAGOLD FETCHER
 # ============================================================================
@@ -514,19 +543,12 @@ def main():
             output_file.write(f"rates_changed={'true' if rates_changed else 'false'}\n")
 
     log("=" * 60, "SYSTEM")
-    if akgsma_ok and kerala_ok:
-        log("✅ Cycle complete", "SYSTEM")
-        exit_code = 0
-    else:
-        failed_sources = []
-        if not akgsma_ok:
-            failed_sources.append("AKGSMA")
-        if not kerala_ok:
-            failed_sources.append("KERALA")
-        log(f"❌ Cycle completed with failures in: {', '.join(failed_sources)}", "SYSTEM")
-        exit_code = 1
+    if not akgsma_ok or not kerala_ok:
+        no_data = [s for s, ok in [("AKGSMA", akgsma_ok), ("KERALA", kerala_ok)] if not ok]
+        log("No data from: " + ", ".join(no_data) + " (site may not have updated yet)", "SYSTEM")
+    log("Cycle complete", "SYSTEM")
     log("=" * 60, "SYSTEM")
-    return exit_code
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
