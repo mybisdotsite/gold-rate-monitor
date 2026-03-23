@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 23 March 2026, 09:25 AM IST
+### 23 March 2026, 09:30 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -34,18 +34,18 @@
 
 ---
 
-## 🌴 **KERALA GOLD** ▶️
+## 🌴 **KERALA GOLD** 📉
 #### Traditional Pavan Rate
 
 <div align="center">
 
 | 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
 |:--------------:|:-------------:|:---------:|:---------:|
-| **👑 1 PAVAN** | **₹ 107,040** | 8 grams (22K) | --- |
+| **👑 1 PAVAN** | **₹ 102,680** | 8 grams (22K) | -₹4360 |
 
-**📅 Rate Date:** 21 March 2026  
+**📅 Rate Date:** 23 March 2026  
 **🕐 First Tracked:** 2026-01-02 14:26:17 IST  
-
+**🔄 Last Changed:** 2026-03-21 09:25:28 IST
 
 </div>
 
@@ -58,7 +58,7 @@
 | Source | Total Updates | Trend | Status |
 |:------:|:-------------:|:-----:|:------:|
 | **AKGSMA** | 117 records | 📉 | 🟢 Live |
-| **Kerala Gold** | 151 records | ▶️ | 🟢 Live |
+| **Kerala Gold** | 152 records | 📉 | 🟢 Live |
 
 ---
 
