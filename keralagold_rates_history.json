@@ -5,7 +5,7 @@
     "today_rate": null,
     "morning": null,
     "afternoon": "99480",
-    "evening": null
+    "evening": "105080"
   },
   "history": [
     {
@@ -2179,8 +2179,23 @@
       "changes": [
         "Afternoon: NEW Rs.99480"
       ]
+    },
+    {
+      "timestamp": "2026-03-23 19:05:30 IST",
+      "date": "23 March 2026",
+      "rates": {
+        "date": "23 March 2026",
+        "date_raw": "23 March 2026",
+        "today_rate": null,
+        "morning": null,
+        "afternoon": "99480",
+        "evening": "105080"
+      },
+      "changes": [
+        "Evening: NEW Rs.105080"
+      ]
     }
   ],
-  "last_updated": "2026-03-23 18:55:26 IST",
+  "last_updated": "2026-03-23 19:05:30 IST",
   "consecutive_failures": 0
 }
