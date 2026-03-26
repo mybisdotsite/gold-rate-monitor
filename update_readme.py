@@ -1,5 +1,4 @@
 import json
-import os
 from datetime import datetime
 import pytz
 
@@ -19,6 +18,20 @@ def format_price(price):
         return f"{int(price):,}"
     except:
         return str(price)
+
+def safe_int(value):
+    """Convert numeric-like string to int, otherwise None."""
+    try:
+        return int(str(value).replace(',', '').strip())
+    except:
+        return None
+
+def derive_kerala_rate_from_akgsma(akgsma_rates):
+    """Fallback Kerala pavan rate derived from AKGSMA 22K gram rate."""
+    gram_rate = safe_int(akgsma_rates.get('22K916'))
+    if gram_rate is None:
+        return None
+    return str(gram_rate * 8)
 
 def get_trend_and_change(history):
     """Get price trend and change amount from history"""
@@ -97,11 +110,14 @@ def generate_readme():
     akgsma_date = akgsma_rates.get('date', '---')
     
     # Kerala prices
-    kerala_rate = format_price(kerala_rates.get('today_rate') or 
-                               kerala_rates.get('morning') or 
-                               kerala_rates.get('afternoon') or 
-                               kerala_rates.get('evening', '---'))
-    kerala_date = kerala_rates.get('date', '---')
+    kerala_raw_rate = (kerala_rates.get('today_rate') or
+                       kerala_rates.get('morning') or
+                       kerala_rates.get('afternoon') or
+                       kerala_rates.get('evening') or
+                       derive_kerala_rate_from_akgsma(akgsma_rates) or
+                       '---')
+    kerala_rate = format_price(kerala_raw_rate)
+    kerala_date = kerala_rates.get('date') or akgsma_rates.get('date', '---')
     
     # Generate README
     readme = f'''<div align="center">
@@ -202,7 +218,7 @@ def generate_readme():
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
     
-    print(f"✅ README updated with live prices at {timestamp}")
+    print(f"README updated with live prices at {timestamp}")
 
 if __name__ == "__main__":
     generate_readme()
