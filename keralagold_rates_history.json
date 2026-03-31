@@ -1,7 +1,7 @@
 {
   "last_rates": {
-    "date": "30 March 2026",
-    "date_raw": "30 March 2026",
+    "date": "31 March 2026",
+    "date_raw": "31 March 2026",
     "today_rate": "109480",
     "morning": null,
     "afternoon": null,
@@ -2415,6 +2415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-30 19:15:37 IST",
+  "last_updated": "2026-03-31 09:25:25 IST",
   "consecutive_failures": 0
 }
