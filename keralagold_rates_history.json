@@ -2,29 +2,15 @@
   "last_rates": {
     "date": "28 May 2026",
     "date_raw": "28 May 2026",
-    "today_rate": "115000",
+    "today_rate": "114440",
     "morning": null,
     "afternoon": null,
     "evening": null,
     "source": "AKGSMA_DERIVED",
     "derived_from": "22K916 x 8",
-    "gram_rate": "14375"
+    "gram_rate": "14305"
   },
   "history": [
-    {
-      "timestamp": "2026-01-21 09:30:57 IST",
-      "date": "21 January 2026",
-      "rates": {
-        "date": "21 January 2026",
-        "today_rate": "113520",
-        "morning": null,
-        "afternoon": null,
-        "evening": null
-      },
-      "changes": [
-        "Today Rate: NEW Rs.113520"
-      ]
-    },
     {
       "timestamp": "2026-01-21 11:25:49 IST",
       "date": "21 January 2026",
@@ -3159,8 +3145,26 @@
       "changes": [
         "Today Rate: Rs.116080 -> Rs.115000"
       ]
+    },
+    {
+      "timestamp": "2026-05-28 09:25:27 IST",
+      "date": "28 May 2026",
+      "rates": {
+        "date": "28 May 2026",
+        "date_raw": "28 May 2026",
+        "today_rate": "114440",
+        "morning": null,
+        "afternoon": null,
+        "evening": null,
+        "source": "AKGSMA_DERIVED",
+        "derived_from": "22K916 x 8",
+        "gram_rate": "14305"
+      },
+      "changes": [
+        "Today Rate: Rs.115000 -> Rs.114440"
+      ]
     }
   ],
-  "last_updated": "2026-05-28 08:10:31 IST",
+  "last_updated": "2026-05-28 09:25:27 IST",
   "consecutive_failures": 0
 }
