@@ -1,7 +1,7 @@
 {
   "last_rates": {
-    "date": "17 June 2026",
-    "date_raw": "17 June 2026",
+    "date": "18 June 2026",
+    "date_raw": "18 June 2026",
     "today_rate": "110800",
     "morning": null,
     "afternoon": null,
@@ -3229,6 +3229,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-17 09:25:41 IST",
+  "last_updated": "2026-06-18 09:25:40 IST",
   "consecutive_failures": 0
 }
