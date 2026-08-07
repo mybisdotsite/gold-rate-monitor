@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 07 August 2026, 09:20 AM IST
+### 07 August 2026, 04:20 PM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -22,13 +22,13 @@
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
 |:------------:|:-------------:|:-------:|:---------:|
-| **🥇 GOLD 22K** | **₹ 13,740** | per gram | +₹15 |
-| **🥈 GOLD 18K** | **₹ 11,290** | per gram | +₹15 |
-| **⚪ SILVER 999** | **₹ 240** | per gram | +₹15 |
+| **🥇 GOLD 22K** | **₹ 13,865** | per gram | +₹125 |
+| **🥈 GOLD 18K** | **₹ 11,395** | per gram | +₹125 |
+| **⚪ SILVER 999** | **₹ 245** | per gram | +₹125 |
 
 **📅 Rate Date:** 07/08/2026  
-**🕐 First Tracked:** 2026-02-24 09:29:00 IST  
-**🔄 Last Changed:** 2026-08-06 09:25:34 IST
+**🕐 First Tracked:** 2026-02-25 09:27:35 IST  
+**🔄 Last Changed:** 2026-08-07 09:20:47 IST
 
 </div>
 
@@ -41,11 +41,11 @@
 
 | 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
 |:--------------:|:-------------:|:---------:|:---------:|
-| **👑 1 PAVAN** | **₹ 109,920** | 8 grams (22K) | +₹120 |
+| **👑 1 PAVAN** | **₹ 110,920** | 8 grams (22K) | +₹1000 |
 
 **📅 Rate Date:** 7 August 2026  
-**🕐 First Tracked:** 2026-02-25 06:47:37 IST  
-**🔄 Last Changed:** 2026-08-06 09:25:34 IST
+**🕐 First Tracked:** 2026-02-25 09:38:08 IST  
+**🔄 Last Changed:** 2026-08-07 09:20:47 IST
 
 </div>
 
