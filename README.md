@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 02 October 2026, 09:25 AM IST
+### 03 October 2026, 09:15 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -15,37 +15,37 @@
 
 </div>
 
-## 🏆 **AKGSMA** 📈
+## 🏆 **AKGSMA** 📉
 #### All Kerala Gold & Silver Merchants Association
 
 <div align="center">
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
 |:------------:|:-------------:|:-------:|:---------:|
-| **🥇 GOLD 22K** | **₹ 13,775** | per gram | +₹95 |
-| **🥈 GOLD 18K** | **₹ 11,315** | per gram | +₹95 |
-| **⚪ SILVER 999** | **₹ 235** | per gram | +₹95 |
+| **🥇 GOLD 22K** | **₹ 13,675** | per gram | -₹100 |
+| **🥈 GOLD 18K** | **₹ 11,235** | per gram | -₹100 |
+| **⚪ SILVER 999** | **₹ 235** | per gram | -₹100 |
 
-**📅 Rate Date:** 02/10/2026  
-**🕐 First Tracked:** 2026-04-01 17:10:37 IST  
-**🔄 Last Changed:** 2026-10-01 09:25:31 IST
+**📅 Rate Date:** 03/10/2026  
+**🕐 First Tracked:** 2026-04-02 09:25:27 IST  
+**🔄 Last Changed:** 2026-10-02 09:25:27 IST
 
 </div>
 
 ---
 
-## 🌴 **KERALA GOLD** 📈
+## 🌴 **KERALA GOLD** 📉
 #### Traditional Pavan Rate
 
 <div align="center">
 
 | 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
 |:--------------:|:-------------:|:---------:|:---------:|
-| **👑 1 PAVAN** | **₹ 110,200** | 8 grams (22K) | +₹760 |
+| **👑 1 PAVAN** | **₹ 109,400** | 8 grams (22K) | -₹800 |
 
-**📅 Rate Date:** 2 October 2026  
-**🕐 First Tracked:** 2026-03-31 13:45:36 IST  
-**🔄 Last Changed:** 2026-10-01 09:25:31 IST
+**📅 Rate Date:** 3 October 2026  
+**🕐 First Tracked:** 2026-03-31 17:45:33 IST  
+**🔄 Last Changed:** 2026-10-02 09:25:27 IST
 
 </div>
 
@@ -57,8 +57,8 @@
 
 | Source | Total Updates | Trend | Status |
 |:------:|:-------------:|:-----:|:------:|
-| **AKGSMA** | 200 records | 📈 | 🟢 Live |
-| **Kerala Gold** | 200 records | 📈 | 🟢 Live |
+| **AKGSMA** | 200 records | 📉 | 🟢 Live |
+| **Kerala Gold** | 200 records | 📉 | 🟢 Live |
 
 ---
 
