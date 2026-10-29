@@ -1,7 +1,7 @@
 {
   "last_rates": {
-    "date": "28 October 2026",
-    "date_raw": "28 October 2026",
+    "date": "29 October 2026",
+    "date_raw": "29 October 2026",
     "today_rate": "105560",
     "morning": null,
     "afternoon": null,
@@ -3612,6 +3612,6 @@
       ]
     }
   ],
-  "last_updated": "2026-10-28 09:25:35 IST",
+  "last_updated": "2026-10-29 09:25:33 IST",
   "consecutive_failures": 0
 }
