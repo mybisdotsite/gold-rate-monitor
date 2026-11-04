@@ -67,6 +67,7 @@ jobs:
           
           if ! git diff --staged --quiet; then
             git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
+            git pull --rebase -q || true
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           else
@@ -74,8 +75,10 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
+      # Only Kerala feeds the webapp today; a state-only change must not
+      # re-write rates/kerala_rates_1.
       - name: Sync rates to Firestore via webhook
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' && steps.monitor.outputs.kerala_changed == 'true'
         run: |
           for i in 1 2; do
             HTTP_STATUS=$(curl -s -o /tmp/webhook_resp.json -w "%{http_code}" \

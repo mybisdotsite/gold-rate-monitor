@@ -75,6 +75,50 @@ def parse_ist_timestamp(timestamp):
     except Exception:
         return None
 
+def build_states_section():
+    """All-India table from state_rates.json.
+
+    Keep the words "GOLD 22K", "1 PAVAN" and "Rate Date" out of this section:
+    the webapp's README parser keys on them for the Kerala rate.
+    """
+    data = load_json('state_rates.json')
+    states = data.get('states') or {}
+    if not states:
+        return ''
+
+    def rupees(value):
+        return f"₹ {format_price(value)}" if value else "—"
+
+    rows = []
+    for entry in states.values():
+        badge = '🏛️' if entry.get('official') else '🌐'
+        status = '⏳ stale' if entry.get('stale') else '🟢'
+        rows.append(
+            f"| {entry.get('name', '---')} "
+            f"| {rupees(entry.get('rate22k'))} "
+            f"| {rupees(entry.get('rate18k'))} "
+            f"| {rupees(entry.get('rate24k'))} "
+            f"| {entry.get('date') or '---'} "
+            f"| {badge} [{entry.get('source_label', '---')}]({entry.get('source_url', '')}) "
+            f"| {status} |"
+        )
+
+    return f'''## 🇮🇳 **ALL-INDIA STATE RATES**
+#### Per gram · 🏛️ association board · 🌐 market rate (goodreturns → Groww → Kalyan fallback)
+
+<div align="center">
+
+| State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
+|:-----------|------:|------:|------:|:----:|:-------|:------:|
+{chr(10).join(rows)}
+
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change {data.get('last_changed', '---')}</sub>
+
+</div>
+
+---
+'''
+
 def generate_readme():
     """Generate README with live prices"""
     
@@ -165,13 +209,15 @@ def generate_readme():
 |:--------------:|:-------------:|:---------:|:---------:|
 | **👑 1 PAVAN** | **₹ {kerala_rate}** | 8 grams (22K) | {kerala_change} |
 
-**📅 Rate Date:** {kerala_date}  
-**🕐 First Tracked:** {kerala_first}  
+**📅 Rate Date:** {kerala_date}
+**🕐 First Tracked:** {kerala_first}
 {f'**🔄 Last Changed:** {kerala_last_change}' if kerala_last_change else ''}
 
 </div>
 
 ---
+
+{build_states_section()}
 
 <div align="center">
 

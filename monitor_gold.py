@@ -9,6 +9,8 @@ import pytz
 import requests
 from bs4 import BeautifulSoup
 
+import state_rates
+
 # ============================================================================
 # CONSTANTS
 # ============================================================================
@@ -318,14 +320,24 @@ def main():
     akgsma_data = load_history("akgsma_rates_history.json")
     kerala_result = monitor_keralagold_from_akgsma(akgsma_data.get("last_rates", {}))
 
+    log("", "SYSTEM")
+    try:
+        states_changed = state_rates.run(akgsma_data.get("last_rates", {}))
+    except Exception as e:
+        # All-India rates must never break the Kerala pipeline.
+        log(f"State rates failed: {str(e)[:120]}", "STATES")
+        states_changed = False
+
     akgsma_ok = akgsma_result["success"]
     kerala_ok = kerala_result["success"]
-    rates_changed = akgsma_result["changed"] or kerala_result["changed"]
+    kerala_changed = akgsma_result["changed"] or kerala_result["changed"]
+    rates_changed = kerala_changed or states_changed
 
     github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:
         with open(github_output, "a", encoding="utf-8") as output_file:
             output_file.write(f"rates_changed={'true' if rates_changed else 'false'}\n")
+            output_file.write(f"kerala_changed={'true' if kerala_changed else 'false'}\n")
 
     log("=" * 60, "SYSTEM")
     if not akgsma_ok or not kerala_ok:
