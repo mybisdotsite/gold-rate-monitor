@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-05 05:00:57 IST",
+  "last_changed": "2026-11-05 05:05:32 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -408,10 +408,10 @@
     },
     "odisha": {
       "name": "Odisha",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -419,7 +419,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/bhubaneswar.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:05:32 IST"
     },
     "assam": {
       "name": "Assam",
