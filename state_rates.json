@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-05 00:15:42 IST",
+  "last_changed": "2026-11-05 05:00:57 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -33,10 +33,10 @@
     },
     "tamil-nadu": {
       "name": "Tamil Nadu",
-      "rate22k": 13100,
-      "rate18k": 10735,
-      "rate24k": 14291,
-      "rate22k_8g": 104800,
+      "rate22k": 13101,
+      "rate18k": 10736,
+      "rate24k": 14292,
+      "rate22k_8g": 104808,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -44,14 +44,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "puducherry": {
       "name": "Puducherry",
-      "rate22k": 13100,
-      "rate18k": 10735,
-      "rate24k": 14291,
-      "rate22k_8g": 104800,
+      "rate22k": 13101,
+      "rate18k": 10736,
+      "rate24k": 14292,
+      "rate22k_8g": 104808,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -59,14 +59,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
-      "rate22k": 13100,
-      "rate18k": 10735,
-      "rate24k": 14291,
-      "rate22k_8g": 104800,
+      "rate22k": 13101,
+      "rate18k": 10736,
+      "rate24k": 14292,
+      "rate22k_8g": 104808,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -74,14 +74,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "karnataka": {
       "name": "Karnataka",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -89,14 +89,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/bangalore.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:01:02 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "telangana": {
       "name": "Telangana",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -104,14 +104,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/hyderabad.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "andhra-pradesh": {
       "name": "Andhra Pradesh",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -119,14 +119,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/vijayawada.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "maharashtra": {
       "name": "Maharashtra",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -134,14 +134,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/mumbai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "goa": {
       "name": "Goa",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -149,14 +149,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/mumbai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "gujarat": {
       "name": "Gujarat",
-      "rate22k": 13095,
-      "rate18k": 10715,
-      "rate24k": 14285,
-      "rate22k_8g": 104760,
+      "rate22k": 13096,
+      "rate18k": 10716,
+      "rate24k": 14286,
+      "rate22k_8g": 104768,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -164,7 +164,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/ahmedabad.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "dnh-dd": {
       "name": "Dadra Nagar Haveli & Daman Diu",
@@ -183,10 +183,10 @@
     },
     "rajasthan": {
       "name": "Rajasthan",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -194,7 +194,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/jaipur.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "madhya-pradesh": {
       "name": "Madhya Pradesh",
@@ -228,10 +228,10 @@
     },
     "delhi": {
       "name": "Delhi",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -239,14 +239,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "uttar-pradesh": {
       "name": "Uttar Pradesh",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -254,14 +254,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/lucknow.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "uttarakhand": {
       "name": "Uttarakhand",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -269,14 +269,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/lucknow.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "punjab": {
       "name": "Punjab",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -284,14 +284,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "haryana": {
       "name": "Haryana",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -299,14 +299,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "chandigarh": {
       "name": "Chandigarh",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -314,14 +314,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "himachal-pradesh": {
       "name": "Himachal Pradesh",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -329,14 +329,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "jammu-kashmir": {
       "name": "Jammu & Kashmir",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -344,14 +344,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "ladakh": {
       "name": "Ladakh",
-      "rate22k": 13105,
-      "rate18k": 10725,
-      "rate24k": 14295,
-      "rate22k_8g": 104840,
+      "rate22k": 13106,
+      "rate18k": 10726,
+      "rate24k": 14296,
+      "rate22k_8g": 104848,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -359,14 +359,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "bihar": {
       "name": "Bihar",
-      "rate22k": 13095,
-      "rate18k": 10715,
-      "rate24k": 14285,
-      "rate22k_8g": 104760,
+      "rate22k": 13096,
+      "rate18k": 10716,
+      "rate24k": 14286,
+      "rate22k_8g": 104768,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -374,14 +374,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/patna.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "jharkhand": {
       "name": "Jharkhand",
-      "rate22k": 13095,
-      "rate18k": 10715,
-      "rate24k": 14285,
-      "rate22k_8g": 104760,
+      "rate22k": 13096,
+      "rate18k": 10716,
+      "rate24k": 14286,
+      "rate22k_8g": 104768,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -389,14 +389,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/patna.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:10:43 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "west-bengal": {
       "name": "West Bengal",
-      "rate22k": 13090,
-      "rate18k": 10710,
-      "rate24k": 14280,
-      "rate22k_8g": 104720,
+      "rate22k": 13091,
+      "rate18k": 10711,
+      "rate24k": 14281,
+      "rate22k_8g": 104728,
       "silver": null,
       "date": "2026-11-05",
       "source": "goodreturns",
@@ -404,7 +404,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/kolkata.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-05 00:05:48 IST"
+      "last_changed": "2026-11-05 05:00:57 IST"
     },
     "odisha": {
       "name": "Odisha",
