@@ -338,6 +338,7 @@ def main():
         with open(github_output, "a", encoding="utf-8") as output_file:
             output_file.write(f"rates_changed={'true' if rates_changed else 'false'}\n")
             output_file.write(f"kerala_changed={'true' if kerala_changed else 'false'}\n")
+            output_file.write(f"rate_states={','.join(state_rates.RATE_CHANGES)}\n")
 
     log("=" * 60, "SYSTEM")
     if not akgsma_ok or not kerala_ok:

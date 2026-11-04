@@ -404,12 +404,17 @@ def load_previous():
 
 RATE_FIELDS = ["rate22k", "rate18k", "rate24k", "silver", "date", "source", "stale"]
 
+# States whose 22K moved to a fresh, today-dated value in the last run(). The workflow sends
+# these to the webapp, which makes Starter shops' posters for them right away.
+RATE_CHANGES = []
+
 
 def run(akgsma_rates=None):
     """Fetch every state's rate, write state_rates.json, return True if anything changed."""
     today = today_ist()
     now = datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S IST")
     reader = SourceReader(akgsma_rates)
+    RATE_CHANGES.clear()
     previous = load_previous()
 
     # Pass 1: read every primary so the median reflects the whole market.
@@ -463,6 +468,8 @@ def run(akgsma_rates=None):
             entry["last_changed"] = now
             if prev.get("rate22k") != entry["rate22k"]:
                 log(f"{name}: 22K {prev.get('rate22k')} -> {entry['rate22k']} via {entry['source']}")
+                if not entry.get("stale") and entry.get("date") == iso(today):
+                    RATE_CHANGES.append(state_id)
         else:
             entry["last_changed"] = prev.get("last_changed", now)
 

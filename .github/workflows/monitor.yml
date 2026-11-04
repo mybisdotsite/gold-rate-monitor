@@ -105,3 +105,20 @@ jobs:
             [ $i -lt 2 ] && sleep 10
           done
           echo "⚠️ Webhook failed after 2 attempts — continuing"
+
+      # Starter shops get today's poster made the moment their state's rate changes.
+      # Kerala's are made by the webhook above, after it writes the Kerala rate.
+      - name: Make Starter posters for states with a new rate
+        if: steps.commit.outputs.changed == 'true' && steps.monitor.outputs.rate_states != ''
+        run: |
+          URL="${{ secrets.WEBAPP_WEBHOOK_URL }}"
+          URL="${URL%/api/github-webhook}/api/state-rates-webhook"
+          # Send the fresh file: GitHub's raw CDN can serve the old one for a few minutes.
+          python -c "import json,sys; d=json.load(open('state_rates.json', encoding='utf-8')); print(json.dumps({'changed': sys.argv[1].split(','), 'states': d['states']}))" "${{ steps.monitor.outputs.rate_states }}" > /tmp/state_body.json
+          HTTP_STATUS=$(curl -s --max-time 280 -o /tmp/state_resp.json -w "%{http_code}" \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -H "x-webhook-secret: ${{ secrets.GITACTIONS_WEBHOOK_SECRET }}" \
+            --data @/tmp/state_body.json \
+            "$URL") || true
+          echo "HTTP $HTTP_STATUS: $(cat /tmp/state_resp.json 2>/dev/null)"
