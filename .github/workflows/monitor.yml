@@ -67,7 +67,15 @@ jobs:
           
           if ! git diff --staged --quiet; then
             git commit -m "📊 Rates updated: $(TZ='Asia/Kolkata' date +'%Y-%m-%d %H:%M IST')"
-            git pull --rebase -q || true
+            # Another run may have pushed in the meantime. Every data file is
+            # regenerated each run, so on a conflict drop this commit; the
+            # next run (5 min) picks up from the newer state.
+            if ! git pull --rebase -q; then
+              git rebase --abort || true
+              echo "Newer run already pushed; skipping this commit"
+              echo "changed=false" >> $GITHUB_OUTPUT
+              exit 0
+            fi
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           else
