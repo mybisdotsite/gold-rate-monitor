@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 05 November 2026, 05:05 AM IST
+### 05 November 2026, 05:10 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 13,090 | ₹ 10,710 | ₹ 14,280 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
-| Lakshadweep | ₹ 13,090 | ₹ 10,710 | ₹ 14,280 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Kerala | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Lakshadweep | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
 | Tamil Nadu | ₹ 13,101 | ₹ 10,736 | ₹ 14,292 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Puducherry | ₹ 13,101 | ₹ 10,736 | ₹ 14,292 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Andaman & Nicobar | ₹ 13,101 | ₹ 10,736 | ₹ 14,292 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
@@ -69,10 +69,10 @@
 | Maharashtra | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Goa | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Gujarat | ₹ 13,096 | ₹ 10,716 | ₹ 14,286 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/ahmedabad.html) | 🟢 |
-| Dadra Nagar Haveli & Daman Diu | ₹ 13,095 | ₹ 10,715 | ₹ 14,285 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/surat.html) | 🟢 |
+| Dadra Nagar Haveli & Daman Diu | ₹ 13,096 | ₹ 10,716 | ₹ 14,286 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/surat.html) | 🟢 |
 | Rajasthan | ₹ 13,106 | ₹ 10,726 | ₹ 14,296 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | 🟢 |
-| Madhya Pradesh | ₹ 13,095 | ₹ 10,715 | ₹ 14,285 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | 🟢 |
-| Chhattisgarh | ₹ 13,090 | ₹ 10,710 | ₹ 14,280 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | 🟢 |
+| Madhya Pradesh | ₹ 13,096 | ₹ 10,716 | ₹ 14,286 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | 🟢 |
+| Chhattisgarh | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | 🟢 |
 | Delhi | ₹ 13,106 | ₹ 10,726 | ₹ 14,296 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
 | Uttar Pradesh | ₹ 13,106 | ₹ 10,726 | ₹ 14,296 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | 🟢 |
 | Uttarakhand | ₹ 13,106 | ₹ 10,726 | ₹ 14,296 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | 🟢 |
@@ -86,10 +86,10 @@
 | Jharkhand | ₹ 13,096 | ₹ 10,716 | ₹ 14,286 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | 🟢 |
 | West Bengal | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kolkata.html) | 🟢 |
 | Odisha | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bhubaneswar.html) | 🟢 |
-| Assam | ₹ 13,090 | ₹ 10,710 | ₹ 14,280 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
-| Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,090 | ₹ 10,710 | ₹ 14,280 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
+| Assam | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
+| Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,091 | ₹ 10,711 | ₹ 14,281 | 2026-11-05 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-05 05:05:32 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-05 05:10:39 IST</sub>
 
 </div>
 
