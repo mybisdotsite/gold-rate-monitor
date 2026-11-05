@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-06 00:01:01 IST",
+  "last_changed": "2026-11-06 00:05:32 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -35,46 +35,46 @@
       "name": "Tamil Nadu",
       "rate22k": 13385,
       "rate18k": 10955,
-      "rate24k": null,
+      "rate24k": 14602,
       "rate22k_8g": 107080,
-      "silver": 210,
-      "date": "2026-11-05",
-      "source": "cwja",
-      "source_label": "CWJA (Chennai board)",
-      "source_url": "https://cwja.org.in/",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "silver": null,
+      "date": "2026-11-06",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "puducherry": {
       "name": "Puducherry",
       "rate22k": 13385,
       "rate18k": 10955,
-      "rate24k": null,
+      "rate24k": 14602,
       "rate22k_8g": 107080,
-      "silver": 210,
-      "date": "2026-11-05",
-      "source": "cwja",
-      "source_label": "CWJA (Chennai board)",
-      "source_url": "https://cwja.org.in/",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "silver": null,
+      "date": "2026-11-06",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
       "rate22k": 13385,
       "rate18k": 10955,
-      "rate24k": null,
+      "rate24k": 14602,
       "rate22k_8g": 107080,
-      "silver": 210,
-      "date": "2026-11-05",
-      "source": "cwja",
-      "source_label": "CWJA (Chennai board)",
-      "source_url": "https://cwja.org.in/",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "silver": null,
+      "date": "2026-11-06",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "karnataka": {
       "name": "Karnataka",
@@ -98,13 +98,13 @@
       "rate24k": 14602,
       "rate22k_8g": 107080,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/hyderabad.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "andhra-pradesh": {
       "name": "Andhra Pradesh",
@@ -128,13 +128,13 @@
       "rate24k": 14602,
       "rate22k_8g": 107080,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/mumbai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "goa": {
       "name": "Goa",
@@ -143,13 +143,13 @@
       "rate24k": 14602,
       "rate22k_8g": 107080,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/mumbai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "gujarat": {
       "name": "Gujarat",
@@ -158,13 +158,13 @@
       "rate24k": 14607,
       "rate22k_8g": 107120,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/ahmedabad.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "dnh-dd": {
       "name": "Dadra Nagar Haveli & Daman Diu",
@@ -233,13 +233,13 @@
       "rate24k": 14617,
       "rate22k_8g": 107200,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "uttar-pradesh": {
       "name": "Uttar Pradesh",
@@ -338,13 +338,13 @@
       "rate24k": 14617,
       "rate22k_8g": 107200,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "ladakh": {
       "name": "Ladakh",
@@ -353,13 +353,13 @@
       "rate24k": 14617,
       "rate22k_8g": 107200,
       "silver": null,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-06 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-06 00:05:32 IST"
     },
     "bihar": {
       "name": "Bihar",
