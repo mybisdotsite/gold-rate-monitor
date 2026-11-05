@@ -1242,10 +1242,10 @@
   },
   "2026-11-06": {
    "andaman-nicobar": {
-    "at": "00:05",
-    "rate18k": 10955,
-    "rate22k": 13385,
-    "rate24k": 14602,
+    "at": "05:05",
+    "rate18k": 10956,
+    "rate22k": 13386,
+    "rate24k": 14603,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1274,10 +1274,10 @@
     "source": "goodreturns"
    },
    "chandigarh": {
-    "at": "00:10",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1290,10 +1290,10 @@
     "source": "goodreturns"
    },
    "delhi": {
-    "at": "00:05",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1314,34 +1314,34 @@
     "source": "goodreturns"
    },
    "gujarat": {
-    "at": "00:05",
-    "rate18k": 10957,
-    "rate22k": 13390,
-    "rate24k": 14607,
+    "at": "05:05",
+    "rate18k": 10958,
+    "rate22k": 13391,
+    "rate24k": 14608,
     "silver": null,
     "source": "goodreturns"
    },
    "haryana": {
-    "at": "00:10",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
    "himachal-pradesh": {
-    "at": "00:10",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
    "jammu-kashmir": {
-    "at": "00:05",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1354,10 +1354,10 @@
     "source": "goodreturns"
    },
    "karnataka": {
-    "at": "00:01",
-    "rate18k": 10952,
-    "rate22k": 13385,
-    "rate24k": 14602,
+    "at": "05:05",
+    "rate18k": 10953,
+    "rate22k": 13386,
+    "rate24k": 14603,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1370,10 +1370,10 @@
     "source": "goodreturns"
    },
    "ladakh": {
-    "at": "00:05",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1410,26 +1410,26 @@
     "source": "goodreturns"
    },
    "odisha": {
-    "at": "00:10",
-    "rate18k": 10952,
-    "rate22k": 13385,
-    "rate24k": 14602,
+    "at": "05:05",
+    "rate18k": 10953,
+    "rate22k": 13386,
+    "rate24k": 14603,
     "silver": null,
     "source": "goodreturns"
    },
    "puducherry": {
-    "at": "00:05",
-    "rate18k": 10955,
-    "rate22k": 13385,
-    "rate24k": 14602,
+    "at": "05:05",
+    "rate18k": 10956,
+    "rate22k": 13386,
+    "rate24k": 14603,
     "silver": null,
     "source": "goodreturns"
    },
    "punjab": {
-    "at": "00:10",
-    "rate18k": 10967,
-    "rate22k": 13400,
-    "rate24k": 14617,
+    "at": "05:05",
+    "rate18k": 10968,
+    "rate22k": 13401,
+    "rate24k": 14618,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1442,18 +1442,18 @@
     "source": "goodreturns"
    },
    "tamil-nadu": {
-    "at": "00:05",
-    "rate18k": 10955,
-    "rate22k": 13385,
-    "rate24k": 14602,
+    "at": "05:05",
+    "rate18k": 10956,
+    "rate22k": 13386,
+    "rate24k": 14603,
     "silver": null,
     "source": "goodreturns"
    },
    "telangana": {
-    "at": "00:05",
-    "rate18k": 10952,
-    "rate22k": 13385,
-    "rate24k": 14602,
+    "at": "05:05",
+    "rate18k": 10953,
+    "rate22k": 13386,
+    "rate24k": 14603,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1483,5 +1483,5 @@
    }
   }
  },
- "updated": "2026-11-06 00:31:17 IST"
+ "updated": "2026-11-06 05:05:37 IST"
 }
