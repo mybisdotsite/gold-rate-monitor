@@ -29,6 +29,8 @@ import requests
 
 IST = pytz.timezone("Asia/Kolkata")
 OUTPUT_FILE = "state_rates.json"
+HISTORY_FILE = "state_rates_history.json"
+HISTORY_DAYS = 45
 MAX_DEVIATION = 0.03
 MAX_DAILY_MOVE = 0.08  # vs the last saved value; gold has not moved 8% in a day
 REQUEST_GAP_SECONDS = 0.5
@@ -409,6 +411,50 @@ RATE_FIELDS = ["rate22k", "rate18k", "rate24k", "silver", "date", "source", "sta
 RATE_CHANGES = []
 
 
+def update_history(states, today_iso, now):
+    """Keep the last fresh, today-dated reading per state per day (HISTORY_DAYS days).
+
+    Shape: {"updated": "...", "days": {"2026-11-05": {"kerala": {"rate22k": ..,
+    "rate18k": .., "rate24k": .., "silver": .., "source": .., "at": "09:25"}}}}
+    Only readings dated today and not stale are recorded, so a day without a
+    new rate simply has no entry for that state.
+    """
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        days = data.get("days", {}) if isinstance(data, dict) else {}
+    except Exception:
+        days = {}
+    day = days.setdefault(today_iso, {})
+    changed = False
+    for state_id, e in states.items():
+        if e.get("stale") or e.get("date") != today_iso or not e.get("rate22k"):
+            continue
+        row = {
+            "rate22k": e["rate22k"],
+            "rate18k": e.get("rate18k"),
+            "rate24k": e.get("rate24k"),
+            "silver": e.get("silver"),
+            "source": e.get("source"),
+            "at": str(e.get("last_changed") or now)[11:16],
+        }
+        old = day.get(state_id)
+        if not old or any(old.get(k) != row[k] for k in ("rate22k", "rate18k", "rate24k", "silver", "source")):
+            day[state_id] = row
+            changed = True
+    keep = sorted(days)[-HISTORY_DAYS:]
+    if len(keep) != len(days):
+        changed = True
+    days = {d: days[d] for d in keep if days[d]}
+    if changed or not os.path.exists(HISTORY_FILE):
+        tmp = HISTORY_FILE + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump({"updated": now, "days": days}, f, indent=1, ensure_ascii=False, sort_keys=True)
+        os.replace(tmp, HISTORY_FILE)
+        log(f"Wrote {HISTORY_FILE} ({len(days)} days)")
+    return changed
+
+
 def run(akgsma_rates=None):
     """Fetch every state's rate, write state_rates.json, return True if anything changed."""
     today = today_ist()
@@ -485,6 +531,12 @@ def run(akgsma_rates=None):
         log(f"Wrote {OUTPUT_FILE} ({len(states)} states)")
     else:
         log("No state rate changes")
+
+    try:
+        if update_history(states, iso(today), now):
+            changed = True
+    except Exception as e:
+        log(f"Could not update {HISTORY_FILE}: {e}")
 
     return changed
 

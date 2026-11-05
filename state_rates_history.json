@@ -1,0 +1,1263 @@
+{
+ "days": {
+  "2026-09-09": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11620,
+    "rate22k": 14145,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11620,
+    "rate22k": 14145,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-10": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11710,
+    "rate22k": 14255,
+    "rate24k": null,
+    "silver": 255,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11710,
+    "rate22k": 14255,
+    "rate24k": null,
+    "silver": 255,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-11": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11515,
+    "rate22k": 14015,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11515,
+    "rate22k": 14015,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-14": {
+   "kerala": {
+    "at": "17:35",
+    "rate18k": 11510,
+    "rate22k": 14010,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "17:35",
+    "rate18k": 11510,
+    "rate22k": 14010,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-15": {
+   "kerala": {
+    "at": "09:31",
+    "rate18k": 11535,
+    "rate22k": 14040,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:31",
+    "rate18k": 11535,
+    "rate22k": 14040,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-16": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11555,
+    "rate22k": 14065,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11555,
+    "rate22k": 14065,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-17": {
+   "kerala": {
+    "at": "09:31",
+    "rate18k": 11510,
+    "rate22k": 14010,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:31",
+    "rate18k": 11510,
+    "rate22k": 14010,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-18": {
+   "kerala": {
+    "at": "09:31",
+    "rate18k": 11630,
+    "rate22k": 14155,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:31",
+    "rate18k": 11630,
+    "rate22k": 14155,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-19": {
+   "kerala": {
+    "at": "09:10",
+    "rate18k": 11735,
+    "rate22k": 14285,
+    "rate24k": null,
+    "silver": 255,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:10",
+    "rate18k": 11735,
+    "rate22k": 14285,
+    "rate24k": null,
+    "silver": 255,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-21": {
+   "kerala": {
+    "at": "14:15",
+    "rate18k": 11645,
+    "rate22k": 14170,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "14:15",
+    "rate18k": 11645,
+    "rate22k": 14170,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-22": {
+   "kerala": {
+    "at": "14:05",
+    "rate18k": 11545,
+    "rate22k": 14055,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "14:05",
+    "rate18k": 11545,
+    "rate22k": 14055,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-23": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11615,
+    "rate22k": 14135,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11615,
+    "rate22k": 14135,
+    "rate24k": null,
+    "silver": 250,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-24": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11500,
+    "rate22k": 13995,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11500,
+    "rate22k": 13995,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-25": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11510,
+    "rate22k": 14010,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11510,
+    "rate22k": 14010,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-26": {
+   "kerala": {
+    "at": "09:10",
+    "rate18k": 11500,
+    "rate22k": 13995,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:10",
+    "rate18k": 11500,
+    "rate22k": 13995,
+    "rate24k": null,
+    "silver": 245,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-28": {
+   "kerala": {
+    "at": "09:31",
+    "rate18k": 11310,
+    "rate22k": 13765,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:31",
+    "rate18k": 11310,
+    "rate22k": 13765,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-29": {
+   "kerala": {
+    "at": "09:20",
+    "rate18k": 11205,
+    "rate22k": 13640,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:20",
+    "rate18k": 11205,
+    "rate22k": 13640,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   }
+  },
+  "2026-09-30": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11265,
+    "rate22k": 13710,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11265,
+    "rate22k": 13710,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-01": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11240,
+    "rate22k": 13680,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11240,
+    "rate22k": 13680,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-02": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11315,
+    "rate22k": 13775,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11315,
+    "rate22k": 13775,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-03": {
+   "kerala": {
+    "at": "09:15",
+    "rate18k": 11235,
+    "rate22k": 13675,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:15",
+    "rate18k": 11235,
+    "rate22k": 13675,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-06": {
+   "kerala": {
+    "at": "17:55",
+    "rate18k": 11315,
+    "rate22k": 13770,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "17:55",
+    "rate18k": 11315,
+    "rate22k": 13770,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-08": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11265,
+    "rate22k": 13710,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11265,
+    "rate22k": 13710,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-09": {
+   "kerala": {
+    "at": "09:31",
+    "rate18k": 11350,
+    "rate22k": 13815,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:31",
+    "rate18k": 11350,
+    "rate22k": 13815,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-10": {
+   "kerala": {
+    "at": "09:15",
+    "rate18k": 11400,
+    "rate22k": 13880,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:15",
+    "rate18k": 11400,
+    "rate22k": 13880,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-12": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11370,
+    "rate22k": 13840,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11370,
+    "rate22k": 13840,
+    "rate24k": null,
+    "silver": 240,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-13": {
+   "kerala": {
+    "at": "09:20",
+    "rate18k": 11240,
+    "rate22k": 13685,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:20",
+    "rate18k": 11240,
+    "rate22k": 13685,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-14": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11165,
+    "rate22k": 13590,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11165,
+    "rate22k": 13590,
+    "rate24k": null,
+    "silver": 235,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-15": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11060,
+    "rate22k": 13515,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11060,
+    "rate22k": 13515,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-17": {
+   "kerala": {
+    "at": "09:10",
+    "rate18k": 11075,
+    "rate22k": 13535,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:10",
+    "rate18k": 11075,
+    "rate22k": 13535,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-19": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 11105,
+    "rate22k": 13570,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 11105,
+    "rate22k": 13570,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-20": {
+   "kerala": {
+    "at": "14:10",
+    "rate18k": 10970,
+    "rate22k": 13390,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "14:10",
+    "rate18k": 10970,
+    "rate22k": 13390,
+    "rate24k": null,
+    "silver": 230,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-22": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10835,
+    "rate22k": 13235,
+    "rate24k": null,
+    "silver": 225,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10835,
+    "rate22k": 13235,
+    "rate24k": null,
+    "silver": 225,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-23": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10690,
+    "rate22k": 13060,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10690,
+    "rate22k": 13060,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-24": {
+   "kerala": {
+    "at": "09:10",
+    "rate18k": 10695,
+    "rate22k": 13070,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:10",
+    "rate18k": 10695,
+    "rate22k": 13070,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-26": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10705,
+    "rate22k": 13085,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10705,
+    "rate22k": 13085,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-27": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10750,
+    "rate22k": 13135,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10750,
+    "rate22k": 13135,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-28": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10800,
+    "rate22k": 13195,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10800,
+    "rate22k": 13195,
+    "rate24k": null,
+    "silver": 220,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-29": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10800,
+    "rate22k": 13195,
+    "rate24k": null,
+    "silver": 215,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10800,
+    "rate22k": 13195,
+    "rate24k": null,
+    "silver": 215,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-30": {
+   "kerala": {
+    "at": "09:31",
+    "rate18k": 10670,
+    "rate22k": 13040,
+    "rate24k": null,
+    "silver": 210,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:31",
+    "rate18k": 10670,
+    "rate22k": 13040,
+    "rate24k": null,
+    "silver": 210,
+    "source": "akgsma"
+   }
+  },
+  "2026-10-31": {
+   "kerala": {
+    "at": "09:15",
+    "rate18k": 10420,
+    "rate22k": 12730,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:15",
+    "rate18k": 10420,
+    "rate22k": 12730,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   }
+  },
+  "2026-11-02": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10455,
+    "rate22k": 12775,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10455,
+    "rate22k": 12775,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   }
+  },
+  "2026-11-03": {
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10475,
+    "rate22k": 12800,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10475,
+    "rate22k": 12800,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   }
+  },
+  "2026-11-04": {
+   "andaman-nicobar": {
+    "at": "13:40",
+    "rate18k": 10735,
+    "rate22k": 13100,
+    "rate24k": null,
+    "silver": 210,
+    "source": "cwja"
+   },
+   "andhra-pradesh": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "assam": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "bihar": {
+    "at": "13:40",
+    "rate18k": 10715,
+    "rate22k": 13095,
+    "rate24k": 14285,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chandigarh": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chhattisgarh": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "delhi": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "dnh-dd": {
+    "at": "13:40",
+    "rate18k": 10715,
+    "rate22k": 13095,
+    "rate24k": 14285,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "goa": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "gujarat": {
+    "at": "13:40",
+    "rate18k": 10715,
+    "rate22k": 13095,
+    "rate24k": 14285,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "haryana": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "himachal-pradesh": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jammu-kashmir": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jharkhand": {
+    "at": "13:40",
+    "rate18k": 10715,
+    "rate22k": 13095,
+    "rate24k": 14285,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "13:40",
+    "rate18k": null,
+    "rate22k": 13090,
+    "rate24k": 14160,
+    "silver": 190,
+    "source": "ksjf"
+   },
+   "kerala": {
+    "at": "12:15",
+    "rate18k": 10720,
+    "rate22k": 13090,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   },
+   "ladakh": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "12:15",
+    "rate18k": 10720,
+    "rate22k": 13090,
+    "rate24k": null,
+    "silver": 200,
+    "source": "akgsma"
+   },
+   "madhya-pradesh": {
+    "at": "13:40",
+    "rate18k": 10715,
+    "rate22k": 13095,
+    "rate24k": 14285,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "maharashtra": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "north-east": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "odisha": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "puducherry": {
+    "at": "13:40",
+    "rate18k": 10735,
+    "rate22k": 13100,
+    "rate24k": null,
+    "silver": 210,
+    "source": "cwja"
+   },
+   "punjab": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "tamil-nadu": {
+    "at": "13:40",
+    "rate18k": 10735,
+    "rate22k": 13100,
+    "rate24k": null,
+    "silver": 210,
+    "source": "cwja"
+   },
+   "telangana": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttar-pradesh": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "13:40",
+    "rate18k": 10725,
+    "rate22k": 13105,
+    "rate24k": 14295,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "west-bengal": {
+    "at": "13:40",
+    "rate18k": 10710,
+    "rate22k": 13090,
+    "rate24k": 14280,
+    "silver": null,
+    "source": "goodreturns"
+   }
+  },
+  "2026-11-05": {
+   "andaman-nicobar": {
+    "at": "09:50",
+    "rate18k": 10955,
+    "rate22k": 13385,
+    "rate24k": null,
+    "silver": 210,
+    "source": "cwja"
+   },
+   "andhra-pradesh": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "assam": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "bihar": {
+    "at": "09:31",
+    "rate18k": 10957,
+    "rate22k": 13390,
+    "rate24k": 14607,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chandigarh": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chhattisgarh": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "delhi": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "dnh-dd": {
+    "at": "09:31",
+    "rate18k": 10957,
+    "rate22k": 13390,
+    "rate24k": 14607,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "goa": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "gujarat": {
+    "at": "09:31",
+    "rate18k": 10957,
+    "rate22k": 13390,
+    "rate24k": 14607,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "haryana": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "himachal-pradesh": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jammu-kashmir": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jharkhand": {
+    "at": "09:31",
+    "rate18k": 10957,
+    "rate22k": 13390,
+    "rate24k": 14607,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "10:31",
+    "rate18k": null,
+    "rate22k": 13385,
+    "rate24k": 14480,
+    "silver": 195,
+    "source": "ksjf"
+   },
+   "kerala": {
+    "at": "09:25",
+    "rate18k": 10955,
+    "rate22k": 13385,
+    "rate24k": null,
+    "silver": 210,
+    "source": "akgsma"
+   },
+   "ladakh": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "09:25",
+    "rate18k": 10955,
+    "rate22k": 13385,
+    "rate24k": null,
+    "silver": 210,
+    "source": "akgsma"
+   },
+   "madhya-pradesh": {
+    "at": "09:31",
+    "rate18k": 10957,
+    "rate22k": 13390,
+    "rate24k": 14607,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "maharashtra": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "north-east": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "odisha": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "puducherry": {
+    "at": "09:50",
+    "rate18k": 10955,
+    "rate22k": 13385,
+    "rate24k": null,
+    "silver": 210,
+    "source": "cwja"
+   },
+   "punjab": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "tamil-nadu": {
+    "at": "09:50",
+    "rate18k": 10955,
+    "rate22k": 13385,
+    "rate24k": null,
+    "silver": 210,
+    "source": "cwja"
+   },
+   "telangana": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttar-pradesh": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "09:31",
+    "rate18k": 10967,
+    "rate22k": 13400,
+    "rate24k": 14617,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "west-bengal": {
+    "at": "09:25",
+    "rate18k": 10952,
+    "rate22k": 13385,
+    "rate24k": 14602,
+    "silver": null,
+    "source": "goodreturns"
+   }
+  }
+ },
+ "updated": "2026-11-05 10:31:12 IST"
+}
