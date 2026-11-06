@@ -1465,11 +1465,107 @@
    }
   },
   "2026-11-07": {
+   "andhra-pradesh": {
+    "at": "00:05",
+    "rate18k": 10759,
+    "rate22k": 13150,
+    "rate24k": 14346,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "bihar": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13155,
+    "rate24k": 14351,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chandigarh": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "dnh-dd": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13155,
+    "rate24k": 14351,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "haryana": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "himachal-pradesh": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jharkhand": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13155,
+    "rate24k": 14351,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "madhya-pradesh": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13155,
+    "rate24k": 14351,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "odisha": {
     "at": "00:01",
     "rate18k": 10759,
     "rate22k": 13150,
     "rate24k": 14346,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "punjab": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttar-pradesh": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "00:05",
+    "rate18k": 10764,
+    "rate22k": 13165,
+    "rate24k": 14361,
     "silver": null,
     "source": "goodreturns"
    },
@@ -1483,5 +1579,5 @@
    }
   }
  },
- "updated": "2026-11-07 00:01:06 IST"
+ "updated": "2026-11-07 00:05:33 IST"
 }
