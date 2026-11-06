@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 06 November 2026, 05:10 AM IST
+### 06 November 2026, 07:31 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -26,7 +26,7 @@
 | **🥈 GOLD 18K** | **₹ 10,955** | per gram | +₹295 |
 | **⚪ SILVER 999** | **₹ 210** | per gram | +₹295 |
 
-**📅 Rate Date:** 05/11/2026  
+**📅 Rate Date:** 06/11/2026  
 **🕐 First Tracked:** 2026-04-28 09:30:49 IST  
 **🔄 Last Changed:** 2026-11-04 12:15:41 IST
 
@@ -43,7 +43,7 @@
 |:--------------:|:-------------:|:---------:|:---------:|
 | **👑 1 PAVAN** | **₹ 107,080** | 8 grams (22K) | +₹2360 |
 
-**📅 Rate Date:** 5 November 2026
+**📅 Rate Date:** 6 November 2026
 **🕐 First Tracked:** 2026-04-24 18:30:51 IST
 **🔄 Last Changed:** 2026-11-04 12:15:41 IST
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 13,386 | ₹ 10,953 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
-| Lakshadweep | ₹ 13,386 | ₹ 10,953 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Kerala | ₹ 13,385 | ₹ 10,955 | — | 2026-11-06 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
+| Lakshadweep | ₹ 13,385 | ₹ 10,955 | — | 2026-11-06 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Tamil Nadu | ₹ 13,386 | ₹ 10,956 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Puducherry | ₹ 13,386 | ₹ 10,956 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Andaman & Nicobar | ₹ 13,386 | ₹ 10,956 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 13,386 | ₹ 10,953 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,386 | ₹ 10,953 | ₹ 14,603 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-06 05:10:43 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-06 07:31:11 IST</sub>
 
 </div>
 
