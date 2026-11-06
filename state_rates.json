@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-06 10:20:46 IST",
+  "last_changed": "2026-11-06 10:35:33 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -33,48 +33,48 @@
     },
     "tamil-nadu": {
       "name": "Tamil Nadu",
-      "rate22k": 13385,
-      "rate18k": 10955,
+      "rate22k": 13140,
+      "rate18k": 10760,
       "rate24k": null,
-      "rate22k_8g": 107080,
-      "silver": 210,
+      "rate22k_8g": 105120,
+      "silver": 205,
       "date": "2026-11-06",
       "source": "cwja",
       "source_label": "CWJA (Chennai board)",
       "source_url": "https://cwja.org.in/",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-06 09:40:43 IST"
+      "last_changed": "2026-11-06 10:35:33 IST"
     },
     "puducherry": {
       "name": "Puducherry",
-      "rate22k": 13385,
-      "rate18k": 10955,
+      "rate22k": 13140,
+      "rate18k": 10760,
       "rate24k": null,
-      "rate22k_8g": 107080,
-      "silver": 210,
+      "rate22k_8g": 105120,
+      "silver": 205,
       "date": "2026-11-06",
       "source": "cwja",
       "source_label": "CWJA (Chennai board)",
       "source_url": "https://cwja.org.in/",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-06 09:40:43 IST"
+      "last_changed": "2026-11-06 10:35:33 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
-      "rate22k": 13385,
-      "rate18k": 10955,
+      "rate22k": 13140,
+      "rate18k": 10760,
       "rate24k": null,
-      "rate22k_8g": 107080,
-      "silver": 210,
+      "rate22k_8g": 105120,
+      "silver": 205,
       "date": "2026-11-06",
       "source": "cwja",
       "source_label": "CWJA (Chennai board)",
       "source_url": "https://cwja.org.in/",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-06 09:40:43 IST"
+      "last_changed": "2026-11-06 10:35:33 IST"
     },
     "karnataka": {
       "name": "Karnataka",

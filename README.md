@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 06 November 2026, 10:20 AM IST
+### 06 November 2026, 10:35 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -60,9 +60,9 @@
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
 | Kerala | ₹ 13,150 | ₹ 10,760 | — | 2026-11-06 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Lakshadweep | ₹ 13,150 | ₹ 10,760 | — | 2026-11-06 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
-| Tamil Nadu | ₹ 13,385 | ₹ 10,955 | — | 2026-11-06 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
-| Puducherry | ₹ 13,385 | ₹ 10,955 | — | 2026-11-06 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
-| Andaman & Nicobar | ₹ 13,385 | ₹ 10,955 | — | 2026-11-06 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
+| Tamil Nadu | ₹ 13,140 | ₹ 10,760 | — | 2026-11-06 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
+| Puducherry | ₹ 13,140 | ₹ 10,760 | — | 2026-11-06 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
+| Andaman & Nicobar | ₹ 13,140 | ₹ 10,760 | — | 2026-11-06 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
 | Karnataka | ₹ 13,150 | — | ₹ 14,100 | 2026-11-06 | 🏛️ [KSJF (Karnataka board)](https://ksjf.in/) | 🟢 |
 | Telangana | ₹ 13,385 | ₹ 10,952 | ₹ 14,602 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/hyderabad.html) | 🟢 |
 | Andhra Pradesh | ₹ 13,385 | ₹ 10,952 | ₹ 14,602 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 13,385 | ₹ 10,952 | ₹ 14,602 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,385 | ₹ 10,952 | ₹ 14,602 | 2026-11-06 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-06 10:20:46 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-06 10:35:33 IST</sub>
 
 </div>
 
