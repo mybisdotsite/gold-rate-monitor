@@ -1,23 +1,5 @@
 {
  "days": {
-  "2026-09-11": {
-   "kerala": {
-    "at": "09:25",
-    "rate18k": 11515,
-    "rate22k": 14015,
-    "rate24k": null,
-    "silver": 245,
-    "source": "akgsma"
-   },
-   "lakshadweep": {
-    "at": "09:25",
-    "rate18k": 11515,
-    "rate22k": 14015,
-    "rate24k": null,
-    "silver": 245,
-    "source": "akgsma"
-   }
-  },
   "2026-09-14": {
    "kerala": {
     "at": "17:35",
@@ -1707,5 +1689,5 @@
    }
   }
  },
- "updated": "2026-11-07 11:31:16 IST"
+ "updated": "2026-11-08 00:01:05 IST"
 }
