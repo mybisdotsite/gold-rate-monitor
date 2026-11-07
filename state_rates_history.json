@@ -1687,7 +1687,89 @@
     "silver": null,
     "source": "goodreturns"
    }
+  },
+  "2026-11-08": {
+   "andaman-nicobar": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "delhi": {
+    "at": "00:05",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14360,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "goa": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jammu-kashmir": {
+    "at": "00:05",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14360,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "ladakh": {
+    "at": "00:05",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14360,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "maharashtra": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "puducherry": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "tamil-nadu": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "telangana": {
+    "at": "00:05",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   }
   }
  },
- "updated": "2026-11-08 00:01:05 IST"
+ "updated": "2026-11-08 00:05:38 IST"
 }
