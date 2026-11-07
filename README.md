@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 07 November 2026, 09:50 AM IST
+### 07 November 2026, 09:55 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -60,9 +60,9 @@
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
 | Kerala | ₹ 13,160 | ₹ 10,765 | — | 2026-11-07 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Lakshadweep | ₹ 13,160 | ₹ 10,765 | — | 2026-11-07 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
-| Tamil Nadu | ₹ 13,139 | ₹ 10,759 | ₹ 14,334 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
-| Puducherry | ₹ 13,139 | ₹ 10,759 | ₹ 14,334 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
-| Andaman & Nicobar | ₹ 13,139 | ₹ 10,759 | ₹ 14,334 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
+| Tamil Nadu | ₹ 13,160 | ₹ 10,770 | — | 2026-11-07 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
+| Puducherry | ₹ 13,160 | ₹ 10,770 | — | 2026-11-07 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
+| Andaman & Nicobar | ₹ 13,160 | ₹ 10,770 | — | 2026-11-07 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
 | Karnataka | ₹ 13,149 | ₹ 10,758 | ₹ 14,345 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bangalore.html) | 🟢 |
 | Telangana | ₹ 13,149 | ₹ 10,758 | ₹ 14,345 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/hyderabad.html) | 🟢 |
 | Andhra Pradesh | ₹ 13,149 | ₹ 10,758 | ₹ 14,345 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 13,149 | ₹ 10,758 | ₹ 14,345 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,149 | ₹ 10,758 | ₹ 14,345 | 2026-11-07 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-07 09:50:47 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-07 09:55:31 IST</sub>
 
 </div>
 
