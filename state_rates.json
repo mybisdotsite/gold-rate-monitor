@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-09 00:01:01 IST",
+  "last_changed": "2026-11-09 00:05:32 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -38,13 +38,13 @@
       "rate24k": 14357,
       "rate22k_8g": 105280,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "puducherry": {
       "name": "Puducherry",
@@ -53,13 +53,13 @@
       "rate24k": 14357,
       "rate22k_8g": 105280,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
@@ -68,13 +68,13 @@
       "rate24k": 14357,
       "rate22k_8g": 105280,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "karnataka": {
       "name": "Karnataka",
@@ -83,13 +83,13 @@
       "rate24k": 14357,
       "rate22k_8g": 105280,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/bangalore.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "telangana": {
       "name": "Telangana",
@@ -98,13 +98,13 @@
       "rate24k": 14357,
       "rate22k_8g": 105280,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/hyderabad.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "andhra-pradesh": {
       "name": "Andhra Pradesh",
@@ -233,13 +233,13 @@
       "rate24k": 14360,
       "rate22k_8g": 105400,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "uttar-pradesh": {
       "name": "Uttar Pradesh",
@@ -338,13 +338,13 @@
       "rate24k": 14360,
       "rate22k_8g": 105400,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "ladakh": {
       "name": "Ladakh",
@@ -353,13 +353,13 @@
       "rate24k": 14360,
       "rate22k_8g": 105400,
       "silver": null,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/delhi.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-09 00:01:01 IST"
+      "stale": false,
+      "last_changed": "2026-11-09 00:05:32 IST"
     },
     "bihar": {
       "name": "Bihar",
