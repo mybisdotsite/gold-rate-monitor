@@ -1937,6 +1937,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "bihar": {
+    "at": "00:25",
+    "rate18k": 10773,
+    "rate22k": 13165,
+    "rate24k": 14362,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "chandigarh": {
     "at": "00:15",
     "rate18k": 10783,
@@ -2009,6 +2017,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "jharkhand": {
+    "at": "00:25",
+    "rate18k": 10773,
+    "rate22k": 13165,
+    "rate24k": 14362,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "karnataka": {
     "at": "00:05",
     "rate18k": 10768,
@@ -2038,6 +2054,14 @@
     "rate18k": 10768,
     "rate22k": 13160,
     "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "madhya-pradesh": {
+    "at": "00:25",
+    "rate18k": 10773,
+    "rate22k": 13165,
+    "rate24k": 14362,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2131,5 +2155,5 @@
    }
   }
  },
- "updated": "2026-11-09 00:20:48 IST"
+ "updated": "2026-11-09 00:25:33 IST"
 }
