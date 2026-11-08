@@ -1929,6 +1929,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "chandigarh": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "chhattisgarh": {
     "at": "00:01",
     "rate18k": 10768,
@@ -1945,6 +1953,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "dnh-dd": {
+    "at": "00:15",
+    "rate18k": 10773,
+    "rate22k": 13165,
+    "rate24k": 14362,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "goa": {
     "at": "00:10",
     "rate18k": 10768,
@@ -1958,6 +1974,22 @@
     "rate18k": 10773,
     "rate22k": 13165,
     "rate24k": 14362,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "haryana": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "himachal-pradesh": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2033,6 +2065,22 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "punjab": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "tamil-nadu": {
     "at": "00:05",
     "rate18k": 10768,
@@ -2049,6 +2097,22 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "uttar-pradesh": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "00:15",
+    "rate18k": 10783,
+    "rate22k": 13175,
+    "rate24k": 14372,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "west-bengal": {
     "at": "00:10",
     "rate18k": 10768,
@@ -2059,5 +2123,5 @@
    }
   }
  },
- "updated": "2026-11-09 00:10:43 IST"
+ "updated": "2026-11-09 00:15:43 IST"
 }
