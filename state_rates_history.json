@@ -1945,6 +1945,22 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "goa": {
+    "at": "00:10",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "gujarat": {
+    "at": "00:10",
+    "rate18k": 10773,
+    "rate22k": 13165,
+    "rate24k": 14362,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "jammu-kashmir": {
     "at": "00:05",
     "rate18k": 10783,
@@ -1985,8 +2001,24 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "maharashtra": {
+    "at": "00:10",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "north-east": {
     "at": "00:01",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "odisha": {
+    "at": "00:10",
     "rate18k": 10768,
     "rate22k": 13160,
     "rate24k": 14357,
@@ -2016,8 +2048,16 @@
     "rate24k": 14357,
     "silver": null,
     "source": "goodreturns"
+   },
+   "west-bengal": {
+    "at": "00:10",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-09 00:05:32 IST"
+ "updated": "2026-11-09 00:10:43 IST"
 }
