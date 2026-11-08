@@ -1921,6 +1921,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "andhra-pradesh": {
+    "at": "00:20",
+    "rate18k": 10768,
+    "rate22k": 13160,
+    "rate24k": 14357,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "assam": {
     "at": "00:01",
     "rate18k": 10768,
@@ -2123,5 +2131,5 @@
    }
   }
  },
- "updated": "2026-11-09 00:15:43 IST"
+ "updated": "2026-11-09 00:20:48 IST"
 }
