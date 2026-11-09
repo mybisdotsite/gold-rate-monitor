@@ -1914,12 +1914,12 @@
   },
   "2026-11-09": {
    "andaman-nicobar": {
-    "at": "05:05",
-    "rate18k": 10767,
-    "rate22k": 13159,
-    "rate24k": 14356,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:50",
+    "rate18k": 10850,
+    "rate22k": 13255,
+    "rate24k": null,
+    "silver": 205,
+    "source": "cwja"
    },
    "andhra-pradesh": {
     "at": "09:45",
@@ -2090,12 +2090,12 @@
     "source": "goodreturns"
    },
    "puducherry": {
-    "at": "05:05",
-    "rate18k": 10767,
-    "rate22k": 13159,
-    "rate24k": 14356,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:50",
+    "rate18k": 10850,
+    "rate22k": 13255,
+    "rate24k": null,
+    "silver": 205,
+    "source": "cwja"
    },
    "punjab": {
     "at": "09:45",
@@ -2114,12 +2114,12 @@
     "source": "goodreturns"
    },
    "tamil-nadu": {
-    "at": "05:05",
-    "rate18k": 10767,
-    "rate22k": 13159,
-    "rate24k": 14356,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:50",
+    "rate18k": 10850,
+    "rate22k": 13255,
+    "rate24k": null,
+    "silver": 205,
+    "source": "cwja"
    },
    "telangana": {
     "at": "09:45",
@@ -2155,5 +2155,5 @@
    }
   }
  },
- "updated": "2026-11-09 09:45:43 IST"
+ "updated": "2026-11-09 09:50:44 IST"
 }
