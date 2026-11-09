@@ -1,23 +1,5 @@
 {
  "days": {
-  "2026-09-15": {
-   "kerala": {
-    "at": "09:31",
-    "rate18k": 11535,
-    "rate22k": 14040,
-    "rate24k": null,
-    "silver": 245,
-    "source": "akgsma"
-   },
-   "lakshadweep": {
-    "at": "09:31",
-    "rate18k": 11535,
-    "rate22k": 14040,
-    "rate24k": null,
-    "silver": 245,
-    "source": "akgsma"
-   }
-  },
   "2026-09-16": {
    "kerala": {
     "at": "09:25",
@@ -2153,7 +2135,33 @@
     "silver": null,
     "source": "goodreturns"
    }
+  },
+  "2026-11-10": {
+   "assam": {
+    "at": "00:01",
+    "rate18k": 10845,
+    "rate22k": 13255,
+    "rate24k": 14460,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chhattisgarh": {
+    "at": "00:01",
+    "rate18k": 10845,
+    "rate22k": 13255,
+    "rate24k": 14460,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "north-east": {
+    "at": "00:01",
+    "rate18k": 10845,
+    "rate22k": 13255,
+    "rate24k": 14460,
+    "silver": null,
+    "source": "goodreturns"
+   }
   }
  },
- "updated": "2026-11-09 11:31:13 IST"
+ "updated": "2026-11-10 00:01:12 IST"
 }
