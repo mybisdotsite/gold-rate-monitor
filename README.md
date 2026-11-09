@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 09 November 2026, 09:50 AM IST
+### 09 November 2026, 11:31 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -63,7 +63,7 @@
 | Tamil Nadu | ₹ 13,255 | ₹ 10,850 | — | 2026-11-09 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
 | Puducherry | ₹ 13,255 | ₹ 10,850 | — | 2026-11-09 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
 | Andaman & Nicobar | ₹ 13,255 | ₹ 10,850 | — | 2026-11-09 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
-| Karnataka | ₹ 13,255 | ₹ 10,845 | ₹ 14,460 | 2026-11-09 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bangalore.html) | 🟢 |
+| Karnataka | ₹ 13,255 | — | ₹ 14,365 | 2026-11-09 | 🏛️ [KSJF (Karnataka board)](https://ksjf.in/) | 🟢 |
 | Telangana | ₹ 13,255 | ₹ 10,845 | ₹ 14,460 | 2026-11-09 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/hyderabad.html) | 🟢 |
 | Andhra Pradesh | ₹ 13,255 | ₹ 10,845 | ₹ 14,460 | 2026-11-09 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
 | Maharashtra | ₹ 13,255 | ₹ 10,845 | ₹ 14,460 | 2026-11-09 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 13,255 | ₹ 10,845 | ₹ 14,460 | 2026-11-09 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,255 | ₹ 10,845 | ₹ 14,460 | 2026-11-09 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-09 09:50:44 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-09 11:31:13 IST</sub>
 
 </div>
 
