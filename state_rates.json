@@ -1,35 +1,35 @@
 {
-  "last_changed": "2026-11-10 00:25:39 IST",
+  "last_changed": "2026-11-10 00:31:20 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
       "rate22k": 13255,
-      "rate18k": 10850,
-      "rate24k": null,
+      "rate18k": 10845,
+      "rate24k": 14460,
       "rate22k_8g": 106040,
-      "silver": 205,
-      "date": "2026-11-09",
-      "source": "akgsma",
-      "source_label": "AKGSMA (Kerala board)",
-      "source_url": "http://akgsma.com/index.php",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-10 00:01:12 IST"
+      "silver": null,
+      "date": "2026-11-10",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/kochi.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-10 00:31:20 IST"
     },
     "lakshadweep": {
       "name": "Lakshadweep",
       "rate22k": 13255,
-      "rate18k": 10850,
-      "rate24k": null,
+      "rate18k": 10845,
+      "rate24k": 14460,
       "rate22k_8g": 106040,
-      "silver": 205,
-      "date": "2026-11-09",
-      "source": "akgsma",
-      "source_label": "AKGSMA (Kerala board)",
-      "source_url": "http://akgsma.com/index.php",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-10 00:01:12 IST"
+      "silver": null,
+      "date": "2026-11-10",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/kochi.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-10 00:31:20 IST"
     },
     "tamil-nadu": {
       "name": "Tamil Nadu",
@@ -203,13 +203,13 @@
       "rate24k": 14465,
       "rate22k_8g": 106080,
       "silver": null,
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/indore.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-10 00:01:12 IST"
+      "stale": false,
+      "last_changed": "2026-11-10 00:31:20 IST"
     },
     "chhattisgarh": {
       "name": "Chhattisgarh",

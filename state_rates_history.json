@@ -2257,11 +2257,35 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "kerala": {
+    "at": "00:31",
+    "rate18k": 10845,
+    "rate22k": 13255,
+    "rate24k": 14460,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "ladakh": {
     "at": "00:15",
     "rate18k": 10860,
     "rate22k": 13270,
     "rate24k": 14475,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "00:31",
+    "rate18k": 10845,
+    "rate22k": 13255,
+    "rate24k": 14460,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "madhya-pradesh": {
+    "at": "00:31",
+    "rate18k": 10850,
+    "rate22k": 13260,
+    "rate24k": 14465,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2355,5 +2379,5 @@
    }
   }
  },
- "updated": "2026-11-10 00:25:39 IST"
+ "updated": "2026-11-10 00:31:20 IST"
 }
