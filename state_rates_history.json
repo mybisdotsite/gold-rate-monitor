@@ -2170,10 +2170,10 @@
     "source": "goodreturns"
    },
    "chandigarh": {
-    "at": "00:25",
-    "rate18k": 10860,
-    "rate22k": 13270,
-    "rate24k": 14475,
+    "at": "05:01",
+    "rate18k": 10861,
+    "rate22k": 13271,
+    "rate24k": 14476,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2218,18 +2218,18 @@
     "source": "goodreturns"
    },
    "haryana": {
-    "at": "00:25",
-    "rate18k": 10860,
-    "rate22k": 13270,
-    "rate24k": 14475,
+    "at": "05:01",
+    "rate18k": 10861,
+    "rate22k": 13271,
+    "rate24k": 14476,
     "silver": null,
     "source": "goodreturns"
    },
    "himachal-pradesh": {
-    "at": "00:25",
-    "rate18k": 10860,
-    "rate22k": 13270,
-    "rate24k": 14475,
+    "at": "05:01",
+    "rate18k": 10861,
+    "rate22k": 13271,
+    "rate24k": 14476,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2322,10 +2322,10 @@
     "source": "goodreturns"
    },
    "punjab": {
-    "at": "00:25",
-    "rate18k": 10860,
-    "rate22k": 13270,
-    "rate24k": 14475,
+    "at": "05:01",
+    "rate18k": 10861,
+    "rate22k": 13271,
+    "rate24k": 14476,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2379,5 +2379,5 @@
    }
   }
  },
- "updated": "2026-11-10 00:31:20 IST"
+ "updated": "2026-11-10 05:01:00 IST"
 }

@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-10 00:31:20 IST",
+  "last_changed": "2026-11-10 05:01:00 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -273,10 +273,10 @@
     },
     "punjab": {
       "name": "Punjab",
-      "rate22k": 13270,
-      "rate18k": 10860,
-      "rate24k": 14475,
-      "rate22k_8g": 106160,
+      "rate22k": 13271,
+      "rate18k": 10861,
+      "rate24k": 14476,
+      "rate22k_8g": 106168,
       "silver": null,
       "date": "2026-11-10",
       "source": "goodreturns",
@@ -284,14 +284,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-10 00:25:39 IST"
+      "last_changed": "2026-11-10 05:01:00 IST"
     },
     "haryana": {
       "name": "Haryana",
-      "rate22k": 13270,
-      "rate18k": 10860,
-      "rate24k": 14475,
-      "rate22k_8g": 106160,
+      "rate22k": 13271,
+      "rate18k": 10861,
+      "rate24k": 14476,
+      "rate22k_8g": 106168,
       "silver": null,
       "date": "2026-11-10",
       "source": "goodreturns",
@@ -299,14 +299,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-10 00:25:39 IST"
+      "last_changed": "2026-11-10 05:01:00 IST"
     },
     "chandigarh": {
       "name": "Chandigarh",
-      "rate22k": 13270,
-      "rate18k": 10860,
-      "rate24k": 14475,
-      "rate22k_8g": 106160,
+      "rate22k": 13271,
+      "rate18k": 10861,
+      "rate24k": 14476,
+      "rate22k_8g": 106168,
       "silver": null,
       "date": "2026-11-10",
       "source": "goodreturns",
@@ -314,14 +314,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-10 00:25:39 IST"
+      "last_changed": "2026-11-10 05:01:00 IST"
     },
     "himachal-pradesh": {
       "name": "Himachal Pradesh",
-      "rate22k": 13270,
-      "rate18k": 10860,
-      "rate24k": 14475,
-      "rate22k_8g": 106160,
+      "rate22k": 13271,
+      "rate18k": 10861,
+      "rate24k": 14476,
+      "rate22k_8g": 106168,
       "silver": null,
       "date": "2026-11-10",
       "source": "goodreturns",
@@ -329,7 +329,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/chandigarh.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-10 00:25:39 IST"
+      "last_changed": "2026-11-10 05:01:00 IST"
     },
     "jammu-kashmir": {
       "name": "Jammu & Kashmir",
