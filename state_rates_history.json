@@ -2377,6 +2377,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "assam": {
+    "at": "00:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "bihar": {
     "at": "00:15",
     "rate18k": 10707,
@@ -2390,6 +2398,14 @@
     "rate18k": 10717,
     "rate22k": 13095,
     "rate24k": 14284,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chhattisgarh": {
+    "at": "00:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2465,11 +2481,27 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "kerala": {
+    "at": "00:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "ladakh": {
     "at": "00:10",
     "rate18k": 10717,
     "rate22k": 13095,
     "rate24k": 14284,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "00:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2483,6 +2515,14 @@
    },
    "maharashtra": {
     "at": "00:10",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "north-east": {
+    "at": "00:20",
     "rate18k": 10702,
     "rate22k": 13080,
     "rate24k": 14269,
@@ -2563,5 +2603,5 @@
    }
   }
  },
- "updated": "2026-11-11 00:15:49 IST"
+ "updated": "2026-11-11 00:20:51 IST"
 }
