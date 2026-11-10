@@ -2146,18 +2146,18 @@
     "source": "cwja"
    },
    "andhra-pradesh": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
    "assam": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2178,10 +2178,10 @@
     "source": "goodreturns"
    },
    "chhattisgarh": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2202,10 +2202,10 @@
     "source": "goodreturns"
    },
    "goa": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2290,26 +2290,26 @@
     "source": "goodreturns"
    },
    "maharashtra": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
    "north-east": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
    "odisha": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2346,10 +2346,10 @@
     "source": "cwja"
    },
    "telangana": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2370,14 +2370,14 @@
     "source": "goodreturns"
    },
    "west-bengal": {
-    "at": "09:31",
-    "rate18k": 10808,
-    "rate22k": 13210,
-    "rate24k": 14411,
+    "at": "17:20",
+    "rate18k": 10702,
+    "rate22k": 13080,
+    "rate24k": 14269,
     "silver": null,
     "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-10 17:05:37 IST"
+ "updated": "2026-11-10 17:20:49 IST"
 }
