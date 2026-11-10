@@ -1,12 +1,12 @@
 {
-  "last_changed": "2026-11-10 11:45:50 IST",
+  "last_changed": "2026-11-10 17:05:37 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
-      "rate22k": 13210,
-      "rate18k": 10810,
+      "rate22k": 13080,
+      "rate18k": 10705,
       "rate24k": null,
-      "rate22k_8g": 105680,
+      "rate22k_8g": 104640,
       "silver": 205,
       "date": "2026-11-10",
       "source": "akgsma",
@@ -14,14 +14,14 @@
       "source_url": "http://akgsma.com/index.php",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-10 09:25:34 IST"
+      "last_changed": "2026-11-10 17:05:37 IST"
     },
     "lakshadweep": {
       "name": "Lakshadweep",
-      "rate22k": 13210,
-      "rate18k": 10810,
+      "rate22k": 13080,
+      "rate18k": 10705,
       "rate24k": null,
-      "rate22k_8g": 105680,
+      "rate22k_8g": 104640,
       "silver": 205,
       "date": "2026-11-10",
       "source": "akgsma",
@@ -29,7 +29,7 @@
       "source_url": "http://akgsma.com/index.php",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-10 09:25:34 IST"
+      "last_changed": "2026-11-10 17:05:37 IST"
     },
     "tamil-nadu": {
       "name": "Tamil Nadu",
