@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 11 November 2026, 05:05 AM IST
+### 11 November 2026, 09:25 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -22,13 +22,13 @@
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
 |:------------:|:-------------:|:-------:|:---------:|
-| **🥇 GOLD 22K** | **₹ 13,080** | per gram | -₹130 |
-| **🥈 GOLD 18K** | **₹ 10,705** | per gram | -₹130 |
-| **⚪ SILVER 999** | **₹ 205** | per gram | -₹130 |
+| **🥇 GOLD 22K** | **₹ 13,015** | per gram | -₹65 |
+| **🥈 GOLD 18K** | **₹ 10,650** | per gram | -₹65 |
+| **⚪ SILVER 999** | **₹ 200** | per gram | -₹65 |
 
-**📅 Rate Date:** 10/11/2026  
-**🕐 First Tracked:** 2026-04-30 09:25:22 IST  
-**🔄 Last Changed:** 2026-11-10 09:25:34 IST
+**📅 Rate Date:** 11/11/2026  
+**🕐 First Tracked:** 2026-04-30 16:45:27 IST  
+**🔄 Last Changed:** 2026-11-10 17:05:37 IST
 
 </div>
 
@@ -41,11 +41,11 @@
 
 | 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
 |:--------------:|:-------------:|:---------:|:---------:|
-| **👑 1 PAVAN** | **₹ 104,640** | 8 grams (22K) | -₹1040 |
+| **👑 1 PAVAN** | **₹ 104,120** | 8 grams (22K) | -₹520 |
 
-**📅 Rate Date:** 10 November 2026
-**🕐 First Tracked:** 2026-04-28 17:20:31 IST
-**🔄 Last Changed:** 2026-11-10 09:25:34 IST
+**📅 Rate Date:** 11 November 2026
+**🕐 First Tracked:** 2026-04-29 09:30:47 IST
+**🔄 Last Changed:** 2026-11-10 17:05:37 IST
 
 </div>
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 13,079 | ₹ 10,701 | ₹ 14,268 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
-| Lakshadweep | ₹ 13,079 | ₹ 10,701 | ₹ 14,268 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Kerala | ₹ 13,015 | ₹ 10,650 | — | 2026-11-11 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
+| Lakshadweep | ₹ 13,015 | ₹ 10,650 | — | 2026-11-11 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Tamil Nadu | ₹ 13,211 | ₹ 10,811 | ₹ 14,412 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Puducherry | ₹ 13,211 | ₹ 10,811 | ₹ 14,412 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Andaman & Nicobar | ₹ 13,211 | ₹ 10,811 | ₹ 14,412 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 13,079 | ₹ 10,701 | ₹ 14,268 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,079 | ₹ 10,701 | ₹ 14,268 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-11 05:05:37 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-11 09:25:33 IST</sub>
 
 </div>
 
