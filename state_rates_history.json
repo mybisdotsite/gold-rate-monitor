@@ -2626,10 +2626,10 @@
     "source": "goodreturns"
    },
    "chhattisgarh": {
-    "at": "00:01",
-    "rate18k": 10649,
-    "rate22k": 13015,
-    "rate24k": 14198,
+    "at": "05:10",
+    "rate18k": 10648,
+    "rate22k": 13014,
+    "rate24k": 14197,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2827,5 +2827,5 @@
    }
   }
  },
- "updated": "2026-11-12 05:05:35 IST"
+ "updated": "2026-11-12 05:10:48 IST"
 }
