@@ -2592,8 +2592,16 @@
     "rate24k": 14198,
     "silver": null,
     "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "00:11",
+    "rate18k": 10649,
+    "rate22k": 13015,
+    "rate24k": 14198,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-12 00:01:05 IST"
+ "updated": "2026-11-12 00:11:14 IST"
 }

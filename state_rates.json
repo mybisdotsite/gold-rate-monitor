@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-12 00:01:05 IST",
+  "last_changed": "2026-11-12 00:11:14 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -79,17 +79,17 @@
     "karnataka": {
       "name": "Karnataka",
       "rate22k": 13015,
-      "rate18k": null,
-      "rate24k": 14080,
+      "rate18k": 10649,
+      "rate24k": 14198,
       "rate22k_8g": 104120,
-      "silver": 191,
-      "date": "2026-11-11",
-      "source": "ksjf",
-      "source_label": "KSJF (Karnataka board)",
-      "source_url": "https://ksjf.in/",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-12 00:01:05 IST"
+      "silver": null,
+      "date": "2026-11-12",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/bangalore.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-12 00:11:14 IST"
     },
     "telangana": {
       "name": "Telangana",
