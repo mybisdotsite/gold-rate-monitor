@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-12 05:01:03 IST",
+  "last_changed": "2026-11-12 05:05:35 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -108,10 +108,10 @@
     },
     "andhra-pradesh": {
       "name": "Andhra Pradesh",
-      "rate22k": 13015,
-      "rate18k": 10649,
-      "rate24k": 14198,
-      "rate22k_8g": 104120,
+      "rate22k": 13014,
+      "rate18k": 10648,
+      "rate24k": 14197,
+      "rate22k_8g": 104112,
       "silver": null,
       "date": "2026-11-12",
       "source": "goodreturns",
@@ -119,7 +119,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/vijayawada.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-12 00:25:37 IST"
+      "last_changed": "2026-11-12 05:05:35 IST"
     },
     "maharashtra": {
       "name": "Maharashtra",
@@ -168,10 +168,10 @@
     },
     "dnh-dd": {
       "name": "Dadra Nagar Haveli & Daman Diu",
-      "rate22k": 13020,
-      "rate18k": 10654,
-      "rate24k": 14203,
-      "rate22k_8g": 104160,
+      "rate22k": 13019,
+      "rate18k": 10653,
+      "rate24k": 14202,
+      "rate22k_8g": 104152,
       "silver": null,
       "date": "2026-11-12",
       "source": "goodreturns",
@@ -179,7 +179,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/surat.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-12 00:20:47 IST"
+      "last_changed": "2026-11-12 05:05:35 IST"
     },
     "rajasthan": {
       "name": "Rajasthan",

@@ -2594,10 +2594,10 @@
     "source": "goodreturns"
    },
    "andhra-pradesh": {
-    "at": "00:25",
-    "rate18k": 10649,
-    "rate22k": 13015,
-    "rate24k": 14198,
+    "at": "05:05",
+    "rate18k": 10648,
+    "rate22k": 13014,
+    "rate24k": 14197,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2642,10 +2642,10 @@
     "source": "goodreturns"
    },
    "dnh-dd": {
-    "at": "00:20",
-    "rate18k": 10654,
-    "rate22k": 13020,
-    "rate24k": 14203,
+    "at": "05:05",
+    "rate18k": 10653,
+    "rate22k": 13019,
+    "rate24k": 14202,
     "silver": null,
     "source": "goodreturns"
    },
@@ -2827,5 +2827,5 @@
    }
   }
  },
- "updated": "2026-11-12 05:01:03 IST"
+ "updated": "2026-11-12 05:05:35 IST"
 }
