@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 12 November 2026, 12:20 AM IST
+### 12 November 2026, 12:25 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -65,12 +65,12 @@
 | Andaman & Nicobar | ₹ 13,015 | ₹ 10,650 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Karnataka | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bangalore.html) | 🟢 |
 | Telangana | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/hyderabad.html) | 🟢 |
-| Andhra Pradesh | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | ⏳ stale |
+| Andhra Pradesh | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
 | Maharashtra | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Goa | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Gujarat | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/ahmedabad.html) | 🟢 |
 | Dadra Nagar Haveli & Daman Diu | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/surat.html) | 🟢 |
-| Rajasthan | ₹ 13,030 | ₹ 10,664 | ₹ 14,213 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | ⏳ stale |
+| Rajasthan | ₹ 13,030 | ₹ 10,664 | ₹ 14,213 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | 🟢 |
 | Madhya Pradesh | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | 🟢 |
 | Chhattisgarh | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | 🟢 |
 | Delhi | ₹ 13,030 | ₹ 10,664 | ₹ 14,213 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
@@ -82,14 +82,14 @@
 | Himachal Pradesh | ₹ 13,030 | ₹ 10,664 | ₹ 14,213 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chandigarh.html) | 🟢 |
 | Jammu & Kashmir | ₹ 13,030 | ₹ 10,664 | ₹ 14,213 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
 | Ladakh | ₹ 13,030 | ₹ 10,664 | ₹ 14,213 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
-| Bihar | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | ⏳ stale |
-| Jharkhand | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | ⏳ stale |
+| Bihar | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | 🟢 |
+| Jharkhand | ₹ 13,020 | ₹ 10,654 | ₹ 14,203 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | 🟢 |
 | West Bengal | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kolkata.html) | 🟢 |
 | Odisha | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bhubaneswar.html) | 🟢 |
-| Assam | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | ⏳ stale |
-| Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-11 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | ⏳ stale |
+| Assam | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
+| Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 13,015 | ₹ 10,649 | ₹ 14,198 | 2026-11-12 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-12 00:20:47 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-12 00:25:37 IST</sub>
 
 </div>
 

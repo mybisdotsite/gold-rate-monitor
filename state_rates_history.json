@@ -2593,6 +2593,30 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "andhra-pradesh": {
+    "at": "00:25",
+    "rate18k": 10649,
+    "rate22k": 13015,
+    "rate24k": 14198,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "assam": {
+    "at": "00:25",
+    "rate18k": 10649,
+    "rate22k": 13015,
+    "rate24k": 14198,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "bihar": {
+    "at": "00:25",
+    "rate18k": 10654,
+    "rate22k": 13020,
+    "rate24k": 14203,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "chandigarh": {
     "at": "00:20",
     "rate18k": 10664,
@@ -2665,6 +2689,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "jharkhand": {
+    "at": "00:25",
+    "rate18k": 10654,
+    "rate22k": 13020,
+    "rate24k": 14203,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "karnataka": {
     "at": "00:11",
     "rate18k": 10649,
@@ -2697,6 +2729,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "north-east": {
+    "at": "00:25",
+    "rate18k": 10649,
+    "rate22k": 13015,
+    "rate24k": 14198,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "odisha": {
     "at": "00:15",
     "rate18k": 10649,
@@ -2715,6 +2755,14 @@
    },
    "punjab": {
     "at": "00:20",
+    "rate18k": 10664,
+    "rate22k": 13030,
+    "rate24k": 14213,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "00:25",
     "rate18k": 10664,
     "rate22k": 13030,
     "rate24k": 14213,
@@ -2763,5 +2811,5 @@
    }
   }
  },
- "updated": "2026-11-12 00:20:47 IST"
+ "updated": "2026-11-12 00:25:37 IST"
 }
