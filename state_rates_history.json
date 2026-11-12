@@ -2833,6 +2833,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "dnh-dd": {
+    "at": "00:05",
+    "rate18k": 10490,
+    "rate22k": 12820,
+    "rate24k": 13985,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "haryana": {
     "at": "00:01",
     "rate18k": 10500,
@@ -2853,6 +2861,14 @@
     "at": "00:01",
     "rate18k": 10490,
     "rate22k": 12820,
+    "rate24k": 13985,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "madhya-pradesh": {
+    "at": "00:05",
+    "rate18k": 10490,
+    "rate22k": 12825,
     "rate24k": 13985,
     "silver": null,
     "source": "goodreturns"
@@ -2891,5 +2907,5 @@
    }
   }
  },
- "updated": "2026-11-13 00:01:09 IST"
+ "updated": "2026-11-13 00:05:37 IST"
 }

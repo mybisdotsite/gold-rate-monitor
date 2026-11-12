@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-13 00:01:09 IST",
+  "last_changed": "2026-11-13 00:05:37 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -173,13 +173,13 @@
       "rate24k": 13985,
       "rate22k_8g": 102560,
       "silver": null,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/surat.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-13 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-13 00:05:37 IST"
     },
     "rajasthan": {
       "name": "Rajasthan",
@@ -203,13 +203,13 @@
       "rate24k": 13985,
       "rate22k_8g": 102600,
       "silver": null,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/indore.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-13 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-13 00:05:37 IST"
     },
     "chhattisgarh": {
       "name": "Chhattisgarh",
