@@ -2977,6 +2977,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "odisha": {
+    "at": "00:31",
+    "rate18k": 10485,
+    "rate22k": 12815,
+    "rate24k": 13980,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "puducherry": {
     "at": "00:25",
     "rate18k": 10490,
@@ -3032,8 +3040,16 @@
     "rate24k": 13995,
     "silver": null,
     "source": "goodreturns"
+   },
+   "west-bengal": {
+    "at": "00:31",
+    "rate18k": 10485,
+    "rate22k": 12815,
+    "rate24k": 13980,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-13 00:25:37 IST"
+ "updated": "2026-11-13 00:31:18 IST"
 }

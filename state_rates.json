@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-13 00:25:37 IST",
+  "last_changed": "2026-11-13 00:31:18 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -398,13 +398,13 @@
       "rate24k": 13980,
       "rate22k_8g": 102520,
       "silver": null,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/kolkata.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-13 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-13 00:31:18 IST"
     },
     "odisha": {
       "name": "Odisha",
@@ -413,13 +413,13 @@
       "rate24k": 13980,
       "rate22k_8g": 102520,
       "silver": null,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/bhubaneswar.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-13 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-13 00:31:18 IST"
     },
     "assam": {
       "name": "Assam",
