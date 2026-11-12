@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-12 09:35:38 IST",
+  "last_changed": "2026-11-12 09:40:50 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -34,47 +34,47 @@
     "tamil-nadu": {
       "name": "Tamil Nadu",
       "rate22k": 12815,
-      "rate18k": 10485,
-      "rate24k": 13980,
+      "rate18k": 10490,
+      "rate24k": null,
       "rate22k_8g": 102520,
-      "silver": null,
+      "silver": 200,
       "date": "2026-11-12",
-      "source": "goodreturns",
-      "source_label": "Goodreturns",
-      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
-      "official": false,
+      "source": "cwja",
+      "source_label": "CWJA (Chennai board)",
+      "source_url": "https://cwja.org.in/",
+      "official": true,
       "stale": false,
-      "last_changed": "2026-11-12 09:31:15 IST"
+      "last_changed": "2026-11-12 09:40:50 IST"
     },
     "puducherry": {
       "name": "Puducherry",
       "rate22k": 12815,
-      "rate18k": 10485,
-      "rate24k": 13980,
+      "rate18k": 10490,
+      "rate24k": null,
       "rate22k_8g": 102520,
-      "silver": null,
+      "silver": 200,
       "date": "2026-11-12",
-      "source": "goodreturns",
-      "source_label": "Goodreturns",
-      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
-      "official": false,
+      "source": "cwja",
+      "source_label": "CWJA (Chennai board)",
+      "source_url": "https://cwja.org.in/",
+      "official": true,
       "stale": false,
-      "last_changed": "2026-11-12 09:31:15 IST"
+      "last_changed": "2026-11-12 09:40:50 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
       "rate22k": 12815,
-      "rate18k": 10485,
-      "rate24k": 13980,
+      "rate18k": 10490,
+      "rate24k": null,
       "rate22k_8g": 102520,
-      "silver": null,
+      "silver": 200,
       "date": "2026-11-12",
-      "source": "goodreturns",
-      "source_label": "Goodreturns",
-      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
-      "official": false,
+      "source": "cwja",
+      "source_label": "CWJA (Chennai board)",
+      "source_url": "https://cwja.org.in/",
+      "official": true,
       "stale": false,
-      "last_changed": "2026-11-12 09:31:15 IST"
+      "last_changed": "2026-11-12 09:40:50 IST"
     },
     "karnataka": {
       "name": "Karnataka",
