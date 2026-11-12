@@ -2817,6 +2817,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "assam": {
+    "at": "00:15",
+    "rate18k": 10485,
+    "rate22k": 12815,
+    "rate24k": 13980,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "bihar": {
     "at": "00:01",
     "rate18k": 10490,
@@ -2897,6 +2905,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "north-east": {
+    "at": "00:15",
+    "rate18k": 10485,
+    "rate22k": 12815,
+    "rate24k": 13980,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "punjab": {
     "at": "00:01",
     "rate18k": 10500,
@@ -2931,5 +2947,5 @@
    }
   }
  },
- "updated": "2026-11-13 00:10:46 IST"
+ "updated": "2026-11-13 00:15:51 IST"
 }
