@@ -1,23 +1,5 @@
 {
  "days": {
-  "2026-09-18": {
-   "kerala": {
-    "at": "09:31",
-    "rate18k": 11630,
-    "rate22k": 14155,
-    "rate24k": null,
-    "silver": 250,
-    "source": "akgsma"
-   },
-   "lakshadweep": {
-    "at": "09:31",
-    "rate18k": 11630,
-    "rate22k": 14155,
-    "rate24k": null,
-    "silver": 250,
-    "source": "akgsma"
-   }
-  },
   "2026-09-19": {
    "kerala": {
     "at": "09:10",
@@ -2825,7 +2807,89 @@
     "silver": null,
     "source": "goodreturns"
    }
+  },
+  "2026-11-13": {
+   "andhra-pradesh": {
+    "at": "00:01",
+    "rate18k": 10485,
+    "rate22k": 12815,
+    "rate24k": 13980,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "bihar": {
+    "at": "00:01",
+    "rate18k": 10490,
+    "rate22k": 12820,
+    "rate24k": 13985,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "chandigarh": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "haryana": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "himachal-pradesh": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jharkhand": {
+    "at": "00:01",
+    "rate18k": 10490,
+    "rate22k": 12820,
+    "rate24k": 13985,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "punjab": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttar-pradesh": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "00:01",
+    "rate18k": 10500,
+    "rate22k": 12835,
+    "rate24k": 13995,
+    "silver": null,
+    "source": "goodreturns"
+   }
   }
  },
- "updated": "2026-11-12 10:31:17 IST"
+ "updated": "2026-11-13 00:01:09 IST"
 }
