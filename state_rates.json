@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-13 09:25:37 IST",
+  "last_changed": "2026-11-13 09:31:15 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -78,10 +78,10 @@
     },
     "karnataka": {
       "name": "Karnataka",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -89,14 +89,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/bangalore.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:05:34 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "telangana": {
       "name": "Telangana",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -104,14 +104,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/hyderabad.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:10:44 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "andhra-pradesh": {
       "name": "Andhra Pradesh",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -119,14 +119,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/vijayawada.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:05:34 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "maharashtra": {
       "name": "Maharashtra",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -134,14 +134,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/mumbai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:10:44 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "goa": {
       "name": "Goa",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -149,7 +149,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/mumbai.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:10:44 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "gujarat": {
       "name": "Gujarat",
@@ -213,10 +213,10 @@
     },
     "chhattisgarh": {
       "name": "Chhattisgarh",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -224,7 +224,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/raipur.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:10:44 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "delhi": {
       "name": "Delhi",
@@ -393,10 +393,10 @@
     },
     "west-bengal": {
       "name": "West Bengal",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -404,14 +404,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/kolkata.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:10:44 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "odisha": {
       "name": "Odisha",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -419,14 +419,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/bhubaneswar.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:05:34 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "assam": {
       "name": "Assam",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -434,14 +434,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/guwahati.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:01:04 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     },
     "north-east": {
       "name": "Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura",
-      "rate22k": 12814,
-      "rate18k": 10484,
-      "rate24k": 13979,
-      "rate22k_8g": 102512,
+      "rate22k": 12695,
+      "rate18k": 10387,
+      "rate24k": 13849,
+      "rate22k_8g": 101560,
       "silver": null,
       "date": "2026-11-13",
       "source": "goodreturns",
@@ -449,7 +449,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/guwahati.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-13 05:01:04 IST"
+      "last_changed": "2026-11-13 09:31:15 IST"
     }
   }
 }
