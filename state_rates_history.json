@@ -3050,10 +3050,10 @@
     "source": "goodreturns"
    },
    "assam": {
-    "at": "00:05",
-    "rate18k": 10301,
-    "rate22k": 12590,
-    "rate24k": 13735,
+    "at": "05:10",
+    "rate18k": 10300,
+    "rate22k": 12589,
+    "rate24k": 13734,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3194,10 +3194,10 @@
     "source": "goodreturns"
    },
    "north-east": {
-    "at": "00:05",
-    "rate18k": 10301,
-    "rate22k": 12590,
-    "rate24k": 13735,
+    "at": "05:10",
+    "rate18k": 10300,
+    "rate22k": 12589,
+    "rate24k": 13734,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3275,5 +3275,5 @@
    }
   }
  },
- "updated": "2026-11-14 05:05:36 IST"
+ "updated": "2026-11-14 05:10:46 IST"
 }
