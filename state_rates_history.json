@@ -3042,10 +3042,10 @@
     "source": "goodreturns"
    },
    "andhra-pradesh": {
-    "at": "00:01",
-    "rate18k": 10301,
-    "rate22k": 12590,
-    "rate24k": 13735,
+    "at": "05:05",
+    "rate18k": 10300,
+    "rate22k": 12589,
+    "rate24k": 13734,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3058,10 +3058,10 @@
     "source": "goodreturns"
    },
    "bihar": {
-    "at": "00:01",
-    "rate18k": 10306,
-    "rate22k": 12595,
-    "rate24k": 13740,
+    "at": "05:05",
+    "rate18k": 10305,
+    "rate22k": 12594,
+    "rate24k": 13739,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3090,10 +3090,10 @@
     "source": "goodreturns"
    },
    "dnh-dd": {
-    "at": "00:05",
-    "rate18k": 10306,
-    "rate22k": 12595,
-    "rate24k": 13740,
+    "at": "05:05",
+    "rate18k": 10305,
+    "rate22k": 12594,
+    "rate24k": 13739,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3138,10 +3138,10 @@
     "source": "goodreturns"
    },
    "jharkhand": {
-    "at": "00:01",
-    "rate18k": 10306,
-    "rate22k": 12595,
-    "rate24k": 13740,
+    "at": "05:05",
+    "rate18k": 10305,
+    "rate22k": 12594,
+    "rate24k": 13739,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3250,18 +3250,18 @@
     "source": "goodreturns"
    },
    "uttar-pradesh": {
-    "at": "00:01",
-    "rate18k": 10316,
-    "rate22k": 12605,
-    "rate24k": 13750,
+    "at": "05:05",
+    "rate18k": 10315,
+    "rate22k": 12604,
+    "rate24k": 13749,
     "silver": null,
     "source": "goodreturns"
    },
    "uttarakhand": {
-    "at": "00:01",
-    "rate18k": 10316,
-    "rate22k": 12605,
-    "rate24k": 13750,
+    "at": "05:05",
+    "rate18k": 10315,
+    "rate22k": 12604,
+    "rate24k": 13749,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3275,5 +3275,5 @@
    }
   }
  },
- "updated": "2026-11-14 05:00:58 IST"
+ "updated": "2026-11-14 05:05:36 IST"
 }
