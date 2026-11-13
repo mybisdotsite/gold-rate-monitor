@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 13 November 2026, 10:50 AM IST
+### 13 November 2026, 02:05 PM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -22,13 +22,13 @@
 
 | 💰 COMMODITY | 💵 RATE (INR) | 📊 UNIT | 📈 CHANGE |
 |:------------:|:-------------:|:-------:|:---------:|
-| **🥇 GOLD 22K** | **₹ 12,695** | per gram | -₹120 |
-| **🥈 GOLD 18K** | **₹ 10,390** | per gram | -₹120 |
-| **⚪ SILVER 999** | **₹ 195** | per gram | -₹120 |
+| **🥇 GOLD 22K** | **₹ 12,590** | per gram | -₹105 |
+| **🥈 GOLD 18K** | **₹ 10,300** | per gram | -₹105 |
+| **⚪ SILVER 999** | **₹ 195** | per gram | -₹105 |
 
 **📅 Rate Date:** 13/11/2026  
-**🕐 First Tracked:** 2026-05-01 13:25:30 IST  
-**🔄 Last Changed:** 2026-11-12 09:25:32 IST
+**🕐 First Tracked:** 2026-05-01 16:40:25 IST  
+**🔄 Last Changed:** 2026-11-13 09:25:37 IST
 
 </div>
 
@@ -41,11 +41,11 @@
 
 | 💰 MEASUREMENT | 💵 RATE (INR) | 📊 WEIGHT | 📈 CHANGE |
 |:--------------:|:-------------:|:---------:|:---------:|
-| **👑 1 PAVAN** | **₹ 101,560** | 8 grams (22K) | -₹960 |
+| **👑 1 PAVAN** | **₹ 100,720** | 8 grams (22K) | -₹840 |
 
 **📅 Rate Date:** 13 November 2026
-**🕐 First Tracked:** 2026-04-30 09:25:22 IST
-**🔄 Last Changed:** 2026-11-12 09:25:32 IST
+**🕐 First Tracked:** 2026-04-30 16:45:27 IST
+**🔄 Last Changed:** 2026-11-13 09:25:37 IST
 
 </div>
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 12,695 | ₹ 10,390 | — | 2026-11-13 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
-| Lakshadweep | ₹ 12,695 | ₹ 10,390 | — | 2026-11-13 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
+| Kerala | ₹ 12,590 | ₹ 10,300 | — | 2026-11-13 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
+| Lakshadweep | ₹ 12,590 | ₹ 10,300 | — | 2026-11-13 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Tamil Nadu | ₹ 12,695 | ₹ 10,390 | — | 2026-11-13 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
 | Puducherry | ₹ 12,695 | ₹ 10,390 | — | 2026-11-13 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
 | Andaman & Nicobar | ₹ 12,695 | ₹ 10,390 | — | 2026-11-13 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 12,695 | ₹ 10,387 | ₹ 13,849 | 2026-11-13 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 12,695 | ₹ 10,387 | ₹ 13,849 | 2026-11-13 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-13 10:50:48 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-13 14:05:37 IST</sub>
 
 </div>
 
