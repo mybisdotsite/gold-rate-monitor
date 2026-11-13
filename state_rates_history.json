@@ -2922,12 +2922,12 @@
     "source": "goodreturns"
    },
    "karnataka": {
-    "at": "09:31",
-    "rate18k": 10387,
+    "at": "10:50",
+    "rate18k": null,
     "rate22k": 12695,
-    "rate24k": 13849,
-    "silver": null,
-    "source": "goodreturns"
+    "rate24k": 13690,
+    "silver": 184,
+    "source": "ksjf"
    },
    "kerala": {
     "at": "09:25",
@@ -3051,5 +3051,5 @@
    }
   }
  },
- "updated": "2026-11-13 09:40:46 IST"
+ "updated": "2026-11-13 10:50:48 IST"
 }
