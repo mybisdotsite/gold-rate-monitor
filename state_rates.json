@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-14 00:05:38 IST",
+  "last_changed": "2026-11-14 00:11:00 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -218,13 +218,13 @@
       "rate24k": 13735,
       "rate22k_8g": 100720,
       "silver": null,
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/raipur.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-14 00:01:18 IST"
+      "stale": false,
+      "last_changed": "2026-11-14 00:11:00 IST"
     },
     "delhi": {
       "name": "Delhi",
