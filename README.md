@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 15 November 2026, 12:05 AM IST
+### 15 November 2026, 12:10 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 12,615 | ₹ 10,325 | — | 2026-11-14 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | ⏳ stale |
-| Lakshadweep | ₹ 12,615 | ₹ 10,325 | — | 2026-11-14 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | ⏳ stale |
+| Kerala | ₹ 12,615 | ₹ 10,322 | ₹ 13,762 | 2026-11-15 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Lakshadweep | ₹ 12,615 | ₹ 10,322 | ₹ 13,762 | 2026-11-15 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
 | Tamil Nadu | ₹ 12,615 | ₹ 10,325 | — | 2026-11-14 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | ⏳ stale |
 | Puducherry | ₹ 12,615 | ₹ 10,325 | — | 2026-11-14 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | ⏳ stale |
 | Andaman & Nicobar | ₹ 12,615 | ₹ 10,325 | — | 2026-11-14 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | ⏳ stale |
@@ -89,7 +89,7 @@
 | Assam | ₹ 12,615 | ₹ 10,322 | ₹ 13,762 | 2026-11-15 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 12,615 | ₹ 10,322 | ₹ 13,762 | 2026-11-15 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-15 00:05:37 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-15 00:10:56 IST</sub>
 
 </div>
 
