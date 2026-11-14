@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-14 12:05:33 IST",
+  "last_changed": "2026-11-14 18:31:14 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -39,42 +39,42 @@
       "rate22k_8g": 100920,
       "silver": 195,
       "date": "2026-11-14",
-      "source": "cwja",
-      "source_label": "CWJA (Chennai board)",
-      "source_url": "https://cwja.org.in/",
+      "source": "cja",
+      "source_label": "Coimbatore Jewellers Assn",
+      "source_url": "https://coimbatorejewellery.org/",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-14 09:35:37 IST"
+      "last_changed": "2026-11-14 18:31:14 IST"
     },
     "puducherry": {
       "name": "Puducherry",
       "rate22k": 12615,
-      "rate18k": 10325,
-      "rate24k": null,
+      "rate18k": 10330,
+      "rate24k": 13762,
       "rate22k_8g": 100920,
-      "silver": 195,
+      "silver": null,
       "date": "2026-11-14",
-      "source": "cwja",
-      "source_label": "CWJA (Chennai board)",
-      "source_url": "https://cwja.org.in/",
-      "official": true,
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "official": false,
       "stale": false,
-      "last_changed": "2026-11-14 09:35:37 IST"
+      "last_changed": "2026-11-14 18:31:14 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
       "rate22k": 12615,
-      "rate18k": 10325,
-      "rate24k": null,
+      "rate18k": 10330,
+      "rate24k": 13762,
       "rate22k_8g": 100920,
-      "silver": 195,
+      "silver": null,
       "date": "2026-11-14",
-      "source": "cwja",
-      "source_label": "CWJA (Chennai board)",
-      "source_url": "https://cwja.org.in/",
-      "official": true,
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "official": false,
       "stale": false,
-      "last_changed": "2026-11-14 09:35:37 IST"
+      "last_changed": "2026-11-14 18:31:14 IST"
     },
     "karnataka": {
       "name": "Karnataka",
