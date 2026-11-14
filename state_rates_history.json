@@ -3265,6 +3265,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "andhra-pradesh": {
+    "at": "00:20",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "assam": {
     "at": "00:05",
     "rate18k": 10322,
@@ -3369,11 +3377,27 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "odisha": {
+    "at": "00:20",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "puducherry": {
     "at": "00:15",
     "rate18k": 10330,
     "rate22k": 12615,
     "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "rajasthan": {
+    "at": "00:20",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3392,8 +3416,32 @@
     "rate24k": 13762,
     "silver": null,
     "source": "goodreturns"
+   },
+   "uttar-pradesh": {
+    "at": "00:20",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "00:20",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "west-bengal": {
+    "at": "00:20",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-15 00:15:53 IST"
+ "updated": "2026-11-15 00:20:56 IST"
 }
