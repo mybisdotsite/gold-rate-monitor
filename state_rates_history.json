@@ -3257,6 +3257,14 @@
    }
   },
   "2026-11-15": {
+   "andaman-nicobar": {
+    "at": "00:15",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "assam": {
     "at": "00:05",
     "rate18k": 10322,
@@ -3273,6 +3281,46 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "delhi": {
+    "at": "00:15",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "goa": {
+    "at": "00:15",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "gujarat": {
+    "at": "00:15",
+    "rate18k": 10327,
+    "rate22k": 12620,
+    "rate24k": 13767,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jammu-kashmir": {
+    "at": "00:15",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "00:15",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "kerala": {
     "at": "00:10",
     "rate18k": 10322,
@@ -3281,8 +3329,32 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "ladakh": {
+    "at": "00:15",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "lakshadweep": {
     "at": "00:10",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "madhya-pradesh": {
+    "at": "00:15",
+    "rate18k": 10327,
+    "rate22k": 12620,
+    "rate24k": 13767,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "maharashtra": {
+    "at": "00:15",
     "rate18k": 10322,
     "rate22k": 12615,
     "rate24k": 13762,
@@ -3296,8 +3368,32 @@
     "rate24k": 13762,
     "silver": null,
     "source": "goodreturns"
+   },
+   "puducherry": {
+    "at": "00:15",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "tamil-nadu": {
+    "at": "00:15",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "telangana": {
+    "at": "00:15",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-15 00:10:56 IST"
+ "updated": "2026-11-15 00:15:53 IST"
 }
