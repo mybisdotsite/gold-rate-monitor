@@ -3257,8 +3257,24 @@
    }
   },
   "2026-11-15": {
+   "assam": {
+    "at": "00:05",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "chhattisgarh": {
     "at": "00:01",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "north-east": {
+    "at": "00:05",
     "rate18k": 10322,
     "rate22k": 12615,
     "rate24k": 13762,
@@ -3267,5 +3283,5 @@
    }
   }
  },
- "updated": "2026-11-15 00:01:03 IST"
+ "updated": "2026-11-15 00:05:37 IST"
 }
