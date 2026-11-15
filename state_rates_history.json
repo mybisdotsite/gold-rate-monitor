@@ -3481,11 +3481,59 @@
    }
   },
   "2026-11-16": {
+   "andaman-nicobar": {
+    "at": "00:05",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "delhi": {
+    "at": "00:05",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "goa": {
+    "at": "00:05",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jammu-kashmir": {
+    "at": "00:05",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "00:05",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "kerala": {
     "at": "00:01",
     "rate18k": 10322,
     "rate22k": 12615,
     "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "ladakh": {
+    "at": "00:05",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3496,8 +3544,56 @@
     "rate24k": 13762,
     "silver": null,
     "source": "goodreturns"
+   },
+   "madhya-pradesh": {
+    "at": "00:05",
+    "rate18k": 10327,
+    "rate22k": 12620,
+    "rate24k": 13767,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "maharashtra": {
+    "at": "00:05",
+    "rate18k": 10322,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "puducherry": {
+    "at": "00:05",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "tamil-nadu": {
+    "at": "00:05",
+    "rate18k": 10330,
+    "rate22k": 12615,
+    "rate24k": 13762,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttar-pradesh": {
+    "at": "00:05",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "uttarakhand": {
+    "at": "00:05",
+    "rate18k": 10337,
+    "rate22k": 12630,
+    "rate24k": 13777,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-16 00:01:14 IST"
+ "updated": "2026-11-16 00:05:38 IST"
 }
