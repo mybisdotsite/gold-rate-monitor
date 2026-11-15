@@ -3537,6 +3537,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "dnh-dd": {
+    "at": "00:20",
+    "rate18k": 10327,
+    "rate22k": 12620,
+    "rate24k": 13767,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "goa": {
     "at": "00:05",
     "rate18k": 10322,
@@ -3715,5 +3723,5 @@
    }
   }
  },
- "updated": "2026-11-16 00:15:46 IST"
+ "updated": "2026-11-16 00:20:47 IST"
 }
