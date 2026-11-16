@@ -3850,10 +3850,10 @@
     "source": "goodreturns"
    },
    "madhya-pradesh": {
-    "at": "00:05",
-    "rate18k": 10265,
-    "rate22k": 12545,
-    "rate24k": 13685,
+    "at": "05:10",
+    "rate18k": 10264,
+    "rate22k": 12544,
+    "rate24k": 13684,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3947,5 +3947,5 @@
    }
   }
  },
- "updated": "2026-11-17 05:05:37 IST"
+ "updated": "2026-11-17 05:10:49 IST"
 }
