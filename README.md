@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 17 November 2026, 05:01 AM IST
+### 17 November 2026, 05:05 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -65,7 +65,7 @@
 | Andaman & Nicobar | ₹ 12,539 | ₹ 10,259 | ₹ 13,679 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Karnataka | ₹ 12,539 | ₹ 10,259 | ₹ 13,679 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bangalore.html) | 🟢 |
 | Telangana | ₹ 12,539 | ₹ 10,259 | ₹ 13,679 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/hyderabad.html) | 🟢 |
-| Andhra Pradesh | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
+| Andhra Pradesh | ₹ 12,539 | ₹ 10,259 | ₹ 13,679 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
 | Maharashtra | ₹ 12,539 | ₹ 10,259 | ₹ 13,679 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Goa | ₹ 12,539 | ₹ 10,259 | ₹ 13,679 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Gujarat | ₹ 12,544 | ₹ 10,264 | ₹ 13,684 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/ahmedabad.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-17 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-17 05:01:09 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-17 05:05:37 IST</sub>
 
 </div>
 
