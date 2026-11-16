@@ -1,35 +1,35 @@
 {
-  "last_changed": "2026-11-17 00:05:40 IST",
+  "last_changed": "2026-11-17 00:11:05 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
       "rate22k": 12540,
-      "rate18k": 10265,
-      "rate24k": null,
+      "rate18k": 10260,
+      "rate24k": 13680,
       "rate22k_8g": 100320,
-      "silver": 190,
-      "date": "2026-11-16",
-      "source": "akgsma",
-      "source_label": "AKGSMA (Kerala board)",
-      "source_url": "http://akgsma.com/index.php",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "silver": null,
+      "date": "2026-11-17",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/kochi.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "lakshadweep": {
       "name": "Lakshadweep",
       "rate22k": 12540,
-      "rate18k": 10265,
-      "rate24k": null,
+      "rate18k": 10260,
+      "rate24k": 13680,
       "rate22k_8g": 100320,
-      "silver": 190,
-      "date": "2026-11-16",
-      "source": "akgsma",
-      "source_label": "AKGSMA (Kerala board)",
-      "source_url": "http://akgsma.com/index.php",
-      "official": true,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "silver": null,
+      "date": "2026-11-17",
+      "source": "goodreturns",
+      "source_label": "Goodreturns",
+      "source_url": "https://www.goodreturns.in/gold-rates/kochi.html",
+      "official": false,
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "tamil-nadu": {
       "name": "Tamil Nadu",
@@ -113,13 +113,13 @@
       "rate24k": 13680,
       "rate22k_8g": 100320,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/vijayawada.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "maharashtra": {
       "name": "Maharashtra",
@@ -173,13 +173,13 @@
       "rate24k": 13685,
       "rate22k_8g": 100360,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/surat.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "rajasthan": {
       "name": "Rajasthan",
@@ -188,13 +188,13 @@
       "rate24k": 13695,
       "rate22k_8g": 100440,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/jaipur.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "madhya-pradesh": {
       "name": "Madhya Pradesh",
@@ -248,13 +248,13 @@
       "rate24k": 13695,
       "rate22k_8g": 100440,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/lucknow.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "uttarakhand": {
       "name": "Uttarakhand",
@@ -263,13 +263,13 @@
       "rate24k": 13695,
       "rate22k_8g": 100440,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/lucknow.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "punjab": {
       "name": "Punjab",
@@ -398,13 +398,13 @@
       "rate24k": 13680,
       "rate22k_8g": 100320,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/kolkata.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "odisha": {
       "name": "Odisha",
@@ -413,13 +413,13 @@
       "rate24k": 13680,
       "rate22k_8g": 100320,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/bhubaneswar.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "assam": {
       "name": "Assam",
@@ -428,13 +428,13 @@
       "rate24k": 13680,
       "rate22k_8g": 100320,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/guwahati.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     },
     "north-east": {
       "name": "Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura",
@@ -443,13 +443,13 @@
       "rate24k": 13680,
       "rate22k_8g": 100320,
       "silver": null,
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/guwahati.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-17 00:01:13 IST"
+      "stale": false,
+      "last_changed": "2026-11-17 00:11:05 IST"
     }
   }
 }
