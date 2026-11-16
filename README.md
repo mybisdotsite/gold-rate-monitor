@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 16 November 2026, 09:35 PM IST
+### 16 November 2026, 10:31 PM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -60,9 +60,9 @@
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
 | Kerala | ₹ 12,540 | ₹ 10,265 | — | 2026-11-16 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Lakshadweep | ₹ 12,540 | ₹ 10,265 | — | 2026-11-16 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
-| Tamil Nadu | ₹ 12,540 | ₹ 10,265 | — | 2026-11-16 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
-| Puducherry | ₹ 12,540 | ₹ 10,265 | — | 2026-11-16 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
-| Andaman & Nicobar | ₹ 12,540 | ₹ 10,265 | — | 2026-11-16 | 🏛️ [CWJA (Chennai board)](https://cwja.org.in/) | 🟢 |
+| Tamil Nadu | ₹ 12,540 | ₹ 10,265 | — | 2026-11-16 | 🏛️ [Coimbatore Jewellers Assn](https://coimbatorejewellery.org/) | 🟢 |
+| Puducherry | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-16 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
+| Andaman & Nicobar | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-16 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Karnataka | ₹ 12,540 | — | ₹ 13,545 | 2026-11-16 | 🏛️ [KSJF (Karnataka board)](https://ksjf.in/) | 🟢 |
 | Telangana | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-16 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/hyderabad.html) | 🟢 |
 | Andhra Pradesh | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-16 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/vijayawada.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-16 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 12,540 | ₹ 10,260 | ₹ 13,680 | 2026-11-16 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-16 21:35:58 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-16 22:31:29 IST</sub>
 
 </div>
 
