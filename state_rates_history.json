@@ -3482,26 +3482,26 @@
   },
   "2026-11-16": {
    "andaman-nicobar": {
-    "at": "05:01",
-    "rate18k": 10329,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "andhra-pradesh": {
-    "at": "05:05",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "assam": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3522,10 +3522,10 @@
     "source": "goodreturns"
    },
    "chhattisgarh": {
-    "at": "05:05",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3546,10 +3546,10 @@
     "source": "goodreturns"
    },
    "goa": {
-    "at": "05:05",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3594,20 +3594,20 @@
     "source": "goodreturns"
    },
    "karnataka": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "kerala": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:25",
+    "rate18k": 10265,
+    "rate22k": 12540,
+    "rate24k": null,
+    "silver": 190,
+    "source": "akgsma"
    },
    "ladakh": {
     "at": "05:01",
@@ -3618,12 +3618,12 @@
     "source": "goodreturns"
    },
    "lakshadweep": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:25",
+    "rate18k": 10265,
+    "rate22k": 12540,
+    "rate24k": null,
+    "silver": 190,
+    "source": "akgsma"
    },
    "madhya-pradesh": {
     "at": "05:01",
@@ -3634,34 +3634,34 @@
     "source": "goodreturns"
    },
    "maharashtra": {
-    "at": "05:05",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "north-east": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "odisha": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "puducherry": {
-    "at": "05:01",
-    "rate18k": 10329,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3682,18 +3682,18 @@
     "source": "goodreturns"
    },
    "tamil-nadu": {
-    "at": "05:01",
-    "rate18k": 10329,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
    "telangana": {
-    "at": "05:01",
-    "rate18k": 10329,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    },
@@ -3714,14 +3714,14 @@
     "source": "goodreturns"
    },
    "west-bengal": {
-    "at": "05:01",
-    "rate18k": 10321,
-    "rate22k": 12614,
-    "rate24k": 13761,
+    "at": "09:25",
+    "rate18k": 10260,
+    "rate22k": 12540,
+    "rate24k": 13680,
     "silver": null,
     "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-16 05:05:34 IST"
+ "updated": "2026-11-16 09:25:35 IST"
 }
