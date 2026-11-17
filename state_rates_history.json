@@ -4089,6 +4089,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "rajasthan": {
+    "at": "00:25",
+    "rate18k": 10218,
+    "rate22k": 12485,
+    "rate24k": 13620,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "tamil-nadu": {
     "at": "00:20",
     "rate18k": 10205,
@@ -4115,5 +4123,5 @@
    }
   }
  },
- "updated": "2026-11-18 00:20:53 IST"
+ "updated": "2026-11-18 00:25:37 IST"
 }
