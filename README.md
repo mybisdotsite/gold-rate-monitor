@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 18 November 2026, 12:31 AM IST
+### 18 November 2026, 05:01 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -70,7 +70,7 @@
 | Goa | ₹ 12,470 | ₹ 10,203 | ₹ 13,604 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Gujarat | ₹ 12,475 | ₹ 10,208 | ₹ 13,610 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/ahmedabad.html) | 🟢 |
 | Dadra Nagar Haveli & Daman Diu | ₹ 12,475 | ₹ 10,208 | ₹ 13,610 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/surat.html) | 🟢 |
-| Rajasthan | ₹ 12,485 | ₹ 10,218 | ₹ 13,620 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | 🟢 |
+| Rajasthan | ₹ 12,484 | ₹ 10,217 | ₹ 13,619 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | 🟢 |
 | Madhya Pradesh | ₹ 12,475 | ₹ 10,208 | ₹ 13,610 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | 🟢 |
 | Chhattisgarh | ₹ 12,470 | ₹ 10,203 | ₹ 13,604 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | 🟢 |
 | Delhi | ₹ 12,485 | ₹ 10,218 | ₹ 13,620 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 12,470 | ₹ 10,203 | ₹ 13,604 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 12,470 | ₹ 10,203 | ₹ 13,604 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-18 00:31:23 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-18 05:01:07 IST</sub>
 
 </div>
 

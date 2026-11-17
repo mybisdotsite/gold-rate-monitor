@@ -4122,10 +4122,10 @@
     "source": "goodreturns"
    },
    "rajasthan": {
-    "at": "00:25",
-    "rate18k": 10218,
-    "rate22k": 12485,
-    "rate24k": 13620,
+    "at": "05:01",
+    "rate18k": 10217,
+    "rate22k": 12484,
+    "rate24k": 13619,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4171,5 +4171,5 @@
    }
   }
  },
- "updated": "2026-11-18 00:31:23 IST"
+ "updated": "2026-11-18 05:01:07 IST"
 }
