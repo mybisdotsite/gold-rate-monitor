@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 18 November 2026, 10:31 AM IST
+### 18 November 2026, 10:35 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -60,7 +60,7 @@
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
 | Kerala | ₹ 12,215 | ₹ 10,000 | — | 2026-11-18 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
 | Lakshadweep | ₹ 12,215 | ₹ 10,000 | — | 2026-11-18 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | 🟢 |
-| Tamil Nadu | ₹ 12,215 | ₹ 10,000 | ₹ 13,326 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
+| Tamil Nadu | ₹ 12,215 | ₹ 10,000 | — | 2026-11-18 | 🏛️ [Coimbatore Jewellers Assn](https://coimbatorejewellery.org/) | 🟢 |
 | Puducherry | ₹ 12,215 | ₹ 10,000 | ₹ 13,326 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Andaman & Nicobar | ₹ 12,215 | ₹ 10,000 | ₹ 13,326 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Karnataka | ₹ 12,215 | — | ₹ 13,170 | 2026-11-18 | 🏛️ [KSJF (Karnataka board)](https://ksjf.in/) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 12,215 | ₹ 9,994 | ₹ 13,326 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 12,215 | ₹ 9,994 | ₹ 13,326 | 2026-11-18 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-18 10:31:21 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-18 10:35:35 IST</sub>
 
 </div>
 

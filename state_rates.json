@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-18 10:31:21 IST",
+  "last_changed": "2026-11-18 10:35:35 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -35,16 +35,16 @@
       "name": "Tamil Nadu",
       "rate22k": 12215,
       "rate18k": 10000,
-      "rate24k": 13326,
+      "rate24k": null,
       "rate22k_8g": 97720,
-      "silver": null,
+      "silver": 185,
       "date": "2026-11-18",
-      "source": "goodreturns",
-      "source_label": "Goodreturns",
-      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
-      "official": false,
+      "source": "cja",
+      "source_label": "Coimbatore Jewellers Assn",
+      "source_url": "https://coimbatorejewellery.org/",
+      "official": true,
       "stale": false,
-      "last_changed": "2026-11-18 09:31:32 IST"
+      "last_changed": "2026-11-18 10:35:35 IST"
     },
     "puducherry": {
       "name": "Puducherry",

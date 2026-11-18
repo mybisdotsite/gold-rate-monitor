@@ -4130,12 +4130,12 @@
     "source": "goodreturns"
    },
    "tamil-nadu": {
-    "at": "09:31",
+    "at": "10:35",
     "rate18k": 10000,
     "rate22k": 12215,
-    "rate24k": 13326,
-    "silver": null,
-    "source": "goodreturns"
+    "rate24k": null,
+    "silver": 185,
+    "source": "cja"
    },
    "telangana": {
     "at": "09:31",
@@ -4171,5 +4171,5 @@
    }
   }
  },
- "updated": "2026-11-18 10:31:21 IST"
+ "updated": "2026-11-18 10:35:35 IST"
 }
