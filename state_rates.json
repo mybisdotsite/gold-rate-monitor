@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-19 00:01:15 IST",
+  "last_changed": "2026-11-19 00:05:45 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -218,13 +218,13 @@
       "rate24k": 13326,
       "rate22k_8g": 97720,
       "silver": null,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/raipur.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-19 00:01:15 IST"
+      "stale": false,
+      "last_changed": "2026-11-19 00:05:45 IST"
     },
     "delhi": {
       "name": "Delhi",
@@ -428,13 +428,13 @@
       "rate24k": 13326,
       "rate22k_8g": 97720,
       "silver": null,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/guwahati.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-19 00:01:15 IST"
+      "stale": false,
+      "last_changed": "2026-11-19 00:05:45 IST"
     },
     "north-east": {
       "name": "Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura",
@@ -443,13 +443,13 @@
       "rate24k": 13326,
       "rate22k_8g": 97720,
       "silver": null,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/guwahati.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-19 00:01:15 IST"
+      "stale": false,
+      "last_changed": "2026-11-19 00:05:45 IST"
     }
   }
 }
