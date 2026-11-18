@@ -4225,6 +4225,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "karnataka": {
+    "at": "00:20",
+    "rate18k": 9994,
+    "rate22k": 12215,
+    "rate24k": 13326,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "north-east": {
     "at": "00:05",
     "rate18k": 9994,
@@ -4243,5 +4251,5 @@
    }
   }
  },
- "updated": "2026-11-19 00:05:45 IST"
+ "updated": "2026-11-19 00:20:53 IST"
 }
