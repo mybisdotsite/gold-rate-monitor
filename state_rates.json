@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-19 00:31:25 IST",
+  "last_changed": "2026-11-19 05:01:10 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -198,10 +198,10 @@
     },
     "madhya-pradesh": {
       "name": "Madhya Pradesh",
-      "rate22k": 12220,
-      "rate18k": 9999,
-      "rate24k": 13331,
-      "rate22k_8g": 97760,
+      "rate22k": 12219,
+      "rate18k": 9998,
+      "rate24k": 13330,
+      "rate22k_8g": 97752,
       "silver": null,
       "date": "2026-11-19",
       "source": "goodreturns",
@@ -209,7 +209,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/indore.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-19 00:31:25 IST"
+      "last_changed": "2026-11-19 05:01:10 IST"
     },
     "chhattisgarh": {
       "name": "Chhattisgarh",
@@ -243,10 +243,10 @@
     },
     "uttar-pradesh": {
       "name": "Uttar Pradesh",
-      "rate22k": 12230,
-      "rate18k": 10010,
-      "rate24k": 13341,
-      "rate22k_8g": 97840,
+      "rate22k": 12229,
+      "rate18k": 10009,
+      "rate24k": 13340,
+      "rate22k_8g": 97832,
       "silver": null,
       "date": "2026-11-19",
       "source": "goodreturns",
@@ -254,14 +254,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/lucknow.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-19 00:31:25 IST"
+      "last_changed": "2026-11-19 05:01:10 IST"
     },
     "uttarakhand": {
       "name": "Uttarakhand",
-      "rate22k": 12230,
-      "rate18k": 10010,
-      "rate24k": 13341,
-      "rate22k_8g": 97840,
+      "rate22k": 12229,
+      "rate18k": 10009,
+      "rate24k": 13340,
+      "rate22k_8g": 97832,
       "silver": null,
       "date": "2026-11-19",
       "source": "goodreturns",
@@ -269,7 +269,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/lucknow.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-19 00:31:25 IST"
+      "last_changed": "2026-11-19 05:01:10 IST"
     },
     "punjab": {
       "name": "Punjab",
