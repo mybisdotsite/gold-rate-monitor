@@ -4377,6 +4377,14 @@
    }
   },
   "2026-11-20": {
+   "assam": {
+    "at": "00:21",
+    "rate18k": 9802,
+    "rate22k": 11980,
+    "rate24k": 13069,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "chandigarh": {
     "at": "00:01",
     "rate18k": 9817,
@@ -4409,6 +4417,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "karnataka": {
+    "at": "00:21",
+    "rate18k": 9802,
+    "rate22k": 11980,
+    "rate24k": 13069,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "kerala": {
     "at": "00:11",
     "rate18k": 9802,
@@ -4433,6 +4449,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "north-east": {
+    "at": "00:21",
+    "rate18k": 9802,
+    "rate22k": 11980,
+    "rate24k": 13069,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "punjab": {
     "at": "00:01",
     "rate18k": 9817,
@@ -4443,5 +4467,5 @@
    }
   }
  },
- "updated": "2026-11-20 00:11:06 IST"
+ "updated": "2026-11-20 00:21:08 IST"
 }
