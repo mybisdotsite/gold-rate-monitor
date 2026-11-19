@@ -4409,6 +4409,22 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "kerala": {
+    "at": "00:11",
+    "rate18k": 9802,
+    "rate22k": 11980,
+    "rate24k": 13069,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "00:11",
+    "rate18k": 9802,
+    "rate22k": 11980,
+    "rate24k": 13069,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "madhya-pradesh": {
     "at": "00:01",
     "rate18k": 9807,
@@ -4427,5 +4443,5 @@
    }
   }
  },
- "updated": "2026-11-20 00:05:41 IST"
+ "updated": "2026-11-20 00:11:06 IST"
 }
