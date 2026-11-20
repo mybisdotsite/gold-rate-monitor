@@ -4641,6 +4641,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "chhattisgarh": {
+    "at": "00:20",
+    "rate18k": 9418,
+    "rate22k": 11510,
+    "rate24k": 12557,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "delhi": {
     "at": "00:10",
     "rate18k": 9433,
@@ -4835,5 +4843,5 @@
    }
   }
  },
- "updated": "2026-11-21 00:15:49 IST"
+ "updated": "2026-11-21 00:20:48 IST"
 }
