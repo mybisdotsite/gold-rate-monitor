@@ -4610,10 +4610,10 @@
     "source": "goodreturns"
    },
    "andhra-pradesh": {
-    "at": "00:15",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4626,10 +4626,10 @@
     "source": "goodreturns"
    },
    "bihar": {
-    "at": "00:10",
-    "rate18k": 9423,
-    "rate22k": 11515,
-    "rate24k": 12562,
+    "at": "05:10",
+    "rate18k": 9422,
+    "rate22k": 11514,
+    "rate24k": 12561,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4658,18 +4658,18 @@
     "source": "goodreturns"
    },
    "dnh-dd": {
-    "at": "00:15",
-    "rate18k": 9423,
-    "rate22k": 11515,
-    "rate24k": 12562,
+    "at": "05:10",
+    "rate18k": 9422,
+    "rate22k": 11514,
+    "rate24k": 12561,
     "silver": null,
     "source": "goodreturns"
    },
    "goa": {
-    "at": "00:10",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4706,10 +4706,10 @@
     "source": "goodreturns"
    },
    "jharkhand": {
-    "at": "00:10",
-    "rate18k": 9423,
-    "rate22k": 11515,
-    "rate24k": 12562,
+    "at": "05:10",
+    "rate18k": 9422,
+    "rate22k": 11514,
+    "rate24k": 12561,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4722,10 +4722,10 @@
     "source": "goodreturns"
    },
    "kerala": {
-    "at": "00:15",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4738,26 +4738,26 @@
     "source": "goodreturns"
    },
    "lakshadweep": {
-    "at": "00:15",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
    "madhya-pradesh": {
-    "at": "00:10",
-    "rate18k": 9423,
-    "rate22k": 11515,
-    "rate24k": 12562,
+    "at": "05:10",
+    "rate18k": 9422,
+    "rate22k": 11514,
+    "rate24k": 12561,
     "silver": null,
     "source": "goodreturns"
    },
    "maharashtra": {
-    "at": "00:10",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4794,10 +4794,10 @@
     "source": "goodreturns"
    },
    "rajasthan": {
-    "at": "00:10",
-    "rate18k": 9433,
-    "rate22k": 11525,
-    "rate24k": 12572,
+    "at": "05:10",
+    "rate18k": 9432,
+    "rate22k": 11524,
+    "rate24k": 12571,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4810,38 +4810,38 @@
     "source": "goodreturns"
    },
    "telangana": {
-    "at": "00:05",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
    "uttar-pradesh": {
-    "at": "00:10",
-    "rate18k": 9433,
-    "rate22k": 11525,
-    "rate24k": 12572,
+    "at": "05:10",
+    "rate18k": 9432,
+    "rate22k": 11524,
+    "rate24k": 12571,
     "silver": null,
     "source": "goodreturns"
    },
    "uttarakhand": {
-    "at": "00:10",
-    "rate18k": 9433,
-    "rate22k": 11525,
-    "rate24k": 12572,
+    "at": "05:10",
+    "rate18k": 9432,
+    "rate22k": 11524,
+    "rate24k": 12571,
     "silver": null,
     "source": "goodreturns"
    },
    "west-bengal": {
-    "at": "00:10",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:10",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-21 05:05:38 IST"
+ "updated": "2026-11-21 05:10:50 IST"
 }
