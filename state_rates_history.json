@@ -4602,10 +4602,10 @@
   },
   "2026-11-21": {
    "andaman-nicobar": {
-    "at": "00:10",
-    "rate18k": 9420,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:01",
+    "rate18k": 9419,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4618,10 +4618,10 @@
     "source": "goodreturns"
    },
    "assam": {
-    "at": "00:15",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:01",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4642,10 +4642,10 @@
     "source": "goodreturns"
    },
    "chhattisgarh": {
-    "at": "00:20",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:01",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4762,10 +4762,10 @@
     "source": "goodreturns"
    },
    "north-east": {
-    "at": "00:15",
-    "rate18k": 9418,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:01",
+    "rate18k": 9417,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4778,10 +4778,10 @@
     "source": "goodreturns"
    },
    "puducherry": {
-    "at": "00:10",
-    "rate18k": 9420,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:01",
+    "rate18k": 9419,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4802,10 +4802,10 @@
     "source": "goodreturns"
    },
    "tamil-nadu": {
-    "at": "00:10",
-    "rate18k": 9420,
-    "rate22k": 11510,
-    "rate24k": 12557,
+    "at": "05:01",
+    "rate18k": 9419,
+    "rate22k": 11509,
+    "rate24k": 12556,
     "silver": null,
     "source": "goodreturns"
    },
@@ -4843,5 +4843,5 @@
    }
   }
  },
- "updated": "2026-11-21 00:20:48 IST"
+ "updated": "2026-11-21 05:01:13 IST"
 }
