@@ -4599,7 +4599,25 @@
     "silver": null,
     "source": "goodreturns"
    }
+  },
+  "2026-11-21": {
+   "karnataka": {
+    "at": "00:05",
+    "rate18k": 9418,
+    "rate22k": 11510,
+    "rate24k": 12557,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "telangana": {
+    "at": "00:05",
+    "rate18k": 9418,
+    "rate22k": 11510,
+    "rate24k": 12557,
+    "silver": null,
+    "source": "goodreturns"
+   }
   }
  },
- "updated": "2026-11-21 00:01:12 IST"
+ "updated": "2026-11-21 00:05:37 IST"
 }
