@@ -5047,7 +5047,49 @@
     "silver": null,
     "source": "goodreturns"
    }
+  },
+  "2026-11-23": {
+   "andaman-nicobar": {
+    "at": "00:15",
+    "rate18k": 9330,
+    "rate22k": 11465,
+    "rate24k": 12508,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "gujarat": {
+    "at": "00:15",
+    "rate18k": 9386,
+    "rate22k": 11470,
+    "rate24k": 12513,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "00:15",
+    "rate18k": 9381,
+    "rate22k": 11465,
+    "rate24k": 12508,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "puducherry": {
+    "at": "00:15",
+    "rate18k": 9330,
+    "rate22k": 11465,
+    "rate24k": 12508,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "tamil-nadu": {
+    "at": "00:15",
+    "rate18k": 9330,
+    "rate22k": 11465,
+    "rate24k": 12508,
+    "silver": null,
+    "source": "goodreturns"
+   }
   }
  },
- "updated": "2026-11-23 00:01:04 IST"
+ "updated": "2026-11-23 00:15:48 IST"
 }

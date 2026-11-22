@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-23 00:01:04 IST",
+  "last_changed": "2026-11-23 00:15:48 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -38,13 +38,13 @@
       "rate24k": 12508,
       "rate22k_8g": 91720,
       "silver": null,
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-23 00:01:04 IST"
+      "stale": false,
+      "last_changed": "2026-11-23 00:15:48 IST"
     },
     "puducherry": {
       "name": "Puducherry",
@@ -53,13 +53,13 @@
       "rate24k": 12508,
       "rate22k_8g": 91720,
       "silver": null,
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-23 00:01:04 IST"
+      "stale": false,
+      "last_changed": "2026-11-23 00:15:48 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
@@ -68,13 +68,13 @@
       "rate24k": 12508,
       "rate22k_8g": 91720,
       "silver": null,
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-23 00:01:04 IST"
+      "stale": false,
+      "last_changed": "2026-11-23 00:15:48 IST"
     },
     "karnataka": {
       "name": "Karnataka",
@@ -83,13 +83,13 @@
       "rate24k": 12508,
       "rate22k_8g": 91720,
       "silver": null,
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/bangalore.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-23 00:01:04 IST"
+      "stale": false,
+      "last_changed": "2026-11-23 00:15:48 IST"
     },
     "telangana": {
       "name": "Telangana",
@@ -158,13 +158,13 @@
       "rate24k": 12513,
       "rate22k_8g": 91760,
       "silver": null,
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/ahmedabad.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-23 00:01:04 IST"
+      "stale": false,
+      "last_changed": "2026-11-23 00:15:48 IST"
     },
     "dnh-dd": {
       "name": "Dadra Nagar Haveli & Daman Diu",
