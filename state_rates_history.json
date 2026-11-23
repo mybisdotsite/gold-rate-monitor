@@ -5274,10 +5274,10 @@
   },
   "2026-11-24": {
    "andaman-nicobar": {
-    "at": "00:15",
-    "rate18k": 9495,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9496,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5290,10 +5290,10 @@
     "source": "goodreturns"
    },
    "assam": {
-    "at": "00:20",
-    "rate18k": 9491,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9492,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5306,10 +5306,10 @@
     "source": "goodreturns"
    },
    "chandigarh": {
-    "at": "00:20",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5322,10 +5322,10 @@
     "source": "goodreturns"
    },
    "delhi": {
-    "at": "00:15",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5346,34 +5346,34 @@
     "source": "goodreturns"
    },
    "gujarat": {
-    "at": "00:15",
-    "rate18k": 9496,
-    "rate22k": 11605,
-    "rate24k": 12661,
+    "at": "05:01",
+    "rate18k": 9497,
+    "rate22k": 11606,
+    "rate24k": 12662,
     "silver": null,
     "source": "goodreturns"
    },
    "haryana": {
-    "at": "00:20",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
    "himachal-pradesh": {
-    "at": "00:20",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
    "jammu-kashmir": {
-    "at": "00:15",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5386,10 +5386,10 @@
     "source": "goodreturns"
    },
    "karnataka": {
-    "at": "00:15",
-    "rate18k": 9491,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9492,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5402,10 +5402,10 @@
     "source": "goodreturns"
    },
    "ladakh": {
-    "at": "00:15",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5418,10 +5418,10 @@
     "source": "goodreturns"
    },
    "madhya-pradesh": {
-    "at": "00:20",
-    "rate18k": 9496,
-    "rate22k": 11605,
-    "rate24k": 12661,
+    "at": "05:01",
+    "rate18k": 9497,
+    "rate22k": 11606,
+    "rate24k": 12662,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5434,58 +5434,58 @@
     "source": "goodreturns"
    },
    "north-east": {
-    "at": "00:20",
-    "rate18k": 9491,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9492,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
    "odisha": {
-    "at": "00:20",
-    "rate18k": 9491,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9492,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
    "puducherry": {
-    "at": "00:15",
-    "rate18k": 9495,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9496,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
    "punjab": {
-    "at": "00:20",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
    "rajasthan": {
-    "at": "00:20",
-    "rate18k": 9506,
-    "rate22k": 11615,
-    "rate24k": 12671,
+    "at": "05:01",
+    "rate18k": 9507,
+    "rate22k": 11616,
+    "rate24k": 12672,
     "silver": null,
     "source": "goodreturns"
    },
    "tamil-nadu": {
-    "at": "00:15",
-    "rate18k": 9495,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9496,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
    "telangana": {
-    "at": "00:15",
-    "rate18k": 9491,
-    "rate22k": 11600,
-    "rate24k": 12656,
+    "at": "05:01",
+    "rate18k": 9492,
+    "rate22k": 11601,
+    "rate24k": 12657,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5515,5 +5515,5 @@
    }
   }
  },
- "updated": "2026-11-24 00:25:57 IST"
+ "updated": "2026-11-24 05:01:07 IST"
 }
