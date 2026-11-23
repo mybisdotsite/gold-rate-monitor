@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 24 November 2026, 12:20 AM IST
+### 24 November 2026, 12:25 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 11,600 | ₹ 9,495 | — | 2026-11-23 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | ⏳ stale |
-| Lakshadweep | ₹ 11,600 | ₹ 9,495 | — | 2026-11-23 | 🏛️ [AKGSMA (Kerala board)](http://akgsma.com/index.php) | ⏳ stale |
+| Kerala | ₹ 11,600 | ₹ 9,491 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Lakshadweep | ₹ 11,600 | ₹ 9,491 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
 | Tamil Nadu | ₹ 11,600 | ₹ 9,495 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Puducherry | ₹ 11,600 | ₹ 9,495 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Andaman & Nicobar | ₹ 11,600 | ₹ 9,495 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
@@ -72,7 +72,7 @@
 | Dadra Nagar Haveli & Daman Diu | ₹ 11,605 | ₹ 9,496 | ₹ 12,661 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/surat.html) | 🟢 |
 | Rajasthan | ₹ 11,615 | ₹ 9,506 | ₹ 12,671 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | 🟢 |
 | Madhya Pradesh | ₹ 11,605 | ₹ 9,496 | ₹ 12,661 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | 🟢 |
-| Chhattisgarh | ₹ 11,600 | ₹ 9,491 | ₹ 12,656 | 2026-11-23 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | ⏳ stale |
+| Chhattisgarh | ₹ 11,600 | ₹ 9,491 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | 🟢 |
 | Delhi | ₹ 11,615 | ₹ 9,506 | ₹ 12,671 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
 | Uttar Pradesh | ₹ 11,615 | ₹ 9,506 | ₹ 12,671 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | 🟢 |
 | Uttarakhand | ₹ 11,615 | ₹ 9,506 | ₹ 12,671 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 11,600 | ₹ 9,491 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 11,600 | ₹ 9,491 | ₹ 12,656 | 2026-11-24 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-24 00:20:58 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-24 00:25:57 IST</sub>
 
 </div>
 

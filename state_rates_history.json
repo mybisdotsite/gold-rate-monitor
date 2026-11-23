@@ -5313,6 +5313,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "chhattisgarh": {
+    "at": "00:25",
+    "rate18k": 9491,
+    "rate22k": 11600,
+    "rate24k": 12656,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "delhi": {
     "at": "00:15",
     "rate18k": 9506,
@@ -5385,11 +5393,27 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "kerala": {
+    "at": "00:25",
+    "rate18k": 9491,
+    "rate22k": 11600,
+    "rate24k": 12656,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "ladakh": {
     "at": "00:15",
     "rate18k": 9506,
     "rate22k": 11615,
     "rate24k": 12671,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "00:25",
+    "rate18k": 9491,
+    "rate22k": 11600,
+    "rate24k": 12656,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5491,5 +5515,5 @@
    }
   }
  },
- "updated": "2026-11-24 00:20:58 IST"
+ "updated": "2026-11-24 00:25:57 IST"
 }
