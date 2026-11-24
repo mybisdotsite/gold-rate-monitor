@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 25 November 2026, 05:02 AM IST
+### 25 November 2026, 05:05 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -58,8 +58,8 @@
 
 | State / UT | 22 ct | 18 ct | 24 ct | Date | Source | Status |
 |:-----------|------:|------:|------:|:----:|:-------|:------:|
-| Kerala | ₹ 11,715 | ₹ 9,585 | ₹ 12,780 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
-| Lakshadweep | ₹ 11,715 | ₹ 9,585 | ₹ 12,780 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Kerala | ₹ 11,716 | ₹ 9,586 | ₹ 12,781 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
+| Lakshadweep | ₹ 11,716 | ₹ 9,586 | ₹ 12,781 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kochi.html) | 🟢 |
 | Tamil Nadu | ₹ 11,716 | ₹ 9,586 | ₹ 12,781 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Puducherry | ₹ 11,716 | ₹ 9,586 | ₹ 12,781 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
 | Andaman & Nicobar | ₹ 11,716 | ₹ 9,586 | ₹ 12,781 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chennai.html) | 🟢 |
@@ -89,7 +89,7 @@
 | Assam | ₹ 11,715 | ₹ 9,585 | ₹ 12,780 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 11,715 | ₹ 9,585 | ₹ 12,780 | 2026-11-25 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-25 05:02:09 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-25 05:05:35 IST</sub>
 
 </div>
 

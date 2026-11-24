@@ -1,12 +1,12 @@
 {
-  "last_changed": "2026-11-25 05:02:09 IST",
+  "last_changed": "2026-11-25 05:05:35 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
-      "rate22k": 11715,
-      "rate18k": 9585,
-      "rate24k": 12780,
-      "rate22k_8g": 93720,
+      "rate22k": 11716,
+      "rate18k": 9586,
+      "rate24k": 12781,
+      "rate22k_8g": 93728,
       "silver": null,
       "date": "2026-11-25",
       "source": "goodreturns",
@@ -14,14 +14,14 @@
       "source_url": "https://www.goodreturns.in/gold-rates/kochi.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-25 00:01:22 IST"
+      "last_changed": "2026-11-25 05:05:35 IST"
     },
     "lakshadweep": {
       "name": "Lakshadweep",
-      "rate22k": 11715,
-      "rate18k": 9585,
-      "rate24k": 12780,
-      "rate22k_8g": 93720,
+      "rate22k": 11716,
+      "rate18k": 9586,
+      "rate24k": 12781,
+      "rate22k_8g": 93728,
       "silver": null,
       "date": "2026-11-25",
       "source": "goodreturns",
@@ -29,7 +29,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/kochi.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-25 00:01:22 IST"
+      "last_changed": "2026-11-25 05:05:35 IST"
     },
     "tamil-nadu": {
       "name": "Tamil Nadu",
