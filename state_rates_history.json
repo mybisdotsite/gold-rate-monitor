@@ -5513,6 +5513,46 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "delhi": {
+    "at": "00:20",
+    "rate18k": 9600,
+    "rate22k": 11730,
+    "rate24k": 12790,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "goa": {
+    "at": "00:20",
+    "rate18k": 9585,
+    "rate22k": 11715,
+    "rate24k": 12780,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "gujarat": {
+    "at": "00:20",
+    "rate18k": 9590,
+    "rate22k": 11720,
+    "rate24k": 12780,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jammu-kashmir": {
+    "at": "00:20",
+    "rate18k": 9600,
+    "rate22k": 11730,
+    "rate24k": 12790,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "karnataka": {
+    "at": "00:20",
+    "rate18k": 9585,
+    "rate22k": 11715,
+    "rate24k": 12780,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "kerala": {
     "at": "00:01",
     "rate18k": 9585,
@@ -5521,8 +5561,24 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "ladakh": {
+    "at": "00:20",
+    "rate18k": 9600,
+    "rate22k": 11730,
+    "rate24k": 12790,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "lakshadweep": {
     "at": "00:01",
+    "rate18k": 9585,
+    "rate22k": 11715,
+    "rate24k": 12780,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "maharashtra": {
+    "at": "00:20",
     "rate18k": 9585,
     "rate22k": 11715,
     "rate24k": 12780,
@@ -5536,8 +5592,16 @@
     "rate24k": 12780,
     "silver": null,
     "source": "goodreturns"
+   },
+   "telangana": {
+    "at": "00:20",
+    "rate18k": 9585,
+    "rate22k": 11715,
+    "rate24k": 12780,
+    "silver": null,
+    "source": "goodreturns"
    }
   }
  },
- "updated": "2026-11-25 00:01:22 IST"
+ "updated": "2026-11-25 00:20:47 IST"
 }
