@@ -5618,12 +5618,12 @@
     "source": "goodreturns"
    },
    "kerala": {
-    "at": "05:05",
-    "rate18k": 9586,
-    "rate22k": 11716,
-    "rate24k": 12781,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:25",
+    "rate18k": 9345,
+    "rate22k": 11420,
+    "rate24k": null,
+    "silver": 165,
+    "source": "akgsma"
    },
    "ladakh": {
     "at": "05:02",
@@ -5634,12 +5634,12 @@
     "source": "goodreturns"
    },
    "lakshadweep": {
-    "at": "05:05",
-    "rate18k": 9586,
-    "rate22k": 11716,
-    "rate24k": 12781,
-    "silver": null,
-    "source": "goodreturns"
+    "at": "09:25",
+    "rate18k": 9345,
+    "rate22k": 11420,
+    "rate24k": null,
+    "silver": 165,
+    "source": "akgsma"
    },
    "madhya-pradesh": {
     "at": "05:02",
@@ -5739,5 +5739,5 @@
    }
   }
  },
- "updated": "2026-11-25 05:10:49 IST"
+ "updated": "2026-11-25 09:25:37 IST"
 }
