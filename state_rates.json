@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-26 00:25:36 IST",
+  "last_changed": "2026-11-26 00:31:28 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -113,13 +113,13 @@
       "rate24k": 12328,
       "rate22k_8g": 90400,
       "silver": null,
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/vijayawada.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-26 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-26 00:31:28 IST"
     },
     "maharashtra": {
       "name": "Maharashtra",
@@ -173,13 +173,13 @@
       "rate24k": 12333,
       "rate22k_8g": 90440,
       "silver": null,
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/surat.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-26 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-26 00:31:28 IST"
     },
     "rajasthan": {
       "name": "Rajasthan",
@@ -368,13 +368,13 @@
       "rate24k": 12333,
       "rate22k_8g": 90440,
       "silver": null,
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/patna.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-26 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-26 00:31:28 IST"
     },
     "jharkhand": {
       "name": "Jharkhand",
@@ -383,13 +383,13 @@
       "rate24k": 12333,
       "rate22k_8g": 90440,
       "silver": null,
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "source": "goodreturns",
       "source_label": "Goodreturns",
       "source_url": "https://www.goodreturns.in/gold-rates/patna.html",
       "official": false,
-      "stale": true,
-      "last_changed": "2026-11-26 00:01:09 IST"
+      "stale": false,
+      "last_changed": "2026-11-26 00:31:28 IST"
     },
     "west-bengal": {
       "name": "West Bengal",

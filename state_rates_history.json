@@ -5729,11 +5729,27 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "andhra-pradesh": {
+    "at": "00:31",
+    "rate18k": 9246,
+    "rate22k": 11300,
+    "rate24k": 12328,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "assam": {
     "at": "00:01",
     "rate18k": 9246,
     "rate22k": 11300,
     "rate24k": 12328,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "bihar": {
+    "at": "00:31",
+    "rate18k": 9251,
+    "rate22k": 11305,
+    "rate24k": 12333,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5758,6 +5774,14 @@
     "rate18k": 9261,
     "rate22k": 11315,
     "rate24k": 12343,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "dnh-dd": {
+    "at": "00:31",
+    "rate18k": 9251,
+    "rate22k": 11305,
+    "rate24k": 12333,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5798,6 +5822,14 @@
     "rate18k": 9261,
     "rate22k": 11315,
     "rate24k": 12343,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "jharkhand": {
+    "at": "00:31",
+    "rate18k": 9251,
+    "rate22k": 11305,
+    "rate24k": 12333,
     "silver": null,
     "source": "goodreturns"
    },
@@ -5931,5 +5963,5 @@
    }
   }
  },
- "updated": "2026-11-26 00:25:36 IST"
+ "updated": "2026-11-26 00:31:28 IST"
 }
