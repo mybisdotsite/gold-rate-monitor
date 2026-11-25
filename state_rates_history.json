@@ -5737,6 +5737,22 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "kerala": {
+    "at": "00:05",
+    "rate18k": 9246,
+    "rate22k": 11300,
+    "rate24k": 12328,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "00:05",
+    "rate18k": 9246,
+    "rate22k": 11300,
+    "rate24k": 12328,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "north-east": {
     "at": "00:01",
     "rate18k": 9246,
@@ -5747,5 +5763,5 @@
    }
   }
  },
- "updated": "2026-11-26 00:01:09 IST"
+ "updated": "2026-11-26 00:05:41 IST"
 }
