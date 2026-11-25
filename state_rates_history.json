@@ -5618,9 +5618,9 @@
     "source": "ksjf"
    },
    "kerala": {
-    "at": "09:25",
-    "rate18k": 9345,
-    "rate22k": 11420,
+    "at": "14:05",
+    "rate18k": 9245,
+    "rate22k": 11300,
     "rate24k": null,
     "silver": 165,
     "source": "akgsma"
@@ -5634,9 +5634,9 @@
     "source": "goodreturns"
    },
    "lakshadweep": {
-    "at": "09:25",
-    "rate18k": 9345,
-    "rate22k": 11420,
+    "at": "14:05",
+    "rate18k": 9245,
+    "rate22k": 11300,
     "rate24k": null,
     "silver": 165,
     "source": "akgsma"
@@ -5739,5 +5739,5 @@
    }
   }
  },
- "updated": "2026-11-25 11:01:04 IST"
+ "updated": "2026-11-25 14:05:41 IST"
 }
