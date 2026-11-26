@@ -7,7 +7,7 @@
 ---
 
 ## ⏰ **Last Updated**
-### 27 November 2026, 12:25 AM IST
+### 27 November 2026, 12:31 AM IST
 
 🤖 **Auto-refreshes every 5 minutes via cron-job.org**
 
@@ -70,26 +70,26 @@
 | Goa | ₹ 11,440 | ₹ 9,360 | ₹ 12,480 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/mumbai.html) | 🟢 |
 | Gujarat | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/ahmedabad.html) | 🟢 |
 | Dadra Nagar Haveli & Daman Diu | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/surat.html) | 🟢 |
-| Rajasthan | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-26 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | ⏳ stale |
-| Madhya Pradesh | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-26 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | ⏳ stale |
+| Rajasthan | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/jaipur.html) | 🟢 |
+| Madhya Pradesh | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/indore.html) | 🟢 |
 | Chhattisgarh | ₹ 11,440 | ₹ 9,360 | ₹ 12,480 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/raipur.html) | 🟢 |
 | Delhi | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
-| Uttar Pradesh | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-26 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | ⏳ stale |
-| Uttarakhand | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-26 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | ⏳ stale |
+| Uttar Pradesh | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | 🟢 |
+| Uttarakhand | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/lucknow.html) | 🟢 |
 | Punjab | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chandigarh.html) | 🟢 |
 | Haryana | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chandigarh.html) | 🟢 |
 | Chandigarh | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chandigarh.html) | 🟢 |
 | Himachal Pradesh | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/chandigarh.html) | 🟢 |
 | Jammu & Kashmir | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
 | Ladakh | ₹ 11,455 | ₹ 9,375 | ₹ 12,495 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/delhi.html) | 🟢 |
-| Bihar | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-26 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | ⏳ stale |
-| Jharkhand | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-26 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | ⏳ stale |
+| Bihar | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | 🟢 |
+| Jharkhand | ₹ 11,445 | ₹ 9,365 | ₹ 12,485 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/patna.html) | 🟢 |
 | West Bengal | ₹ 11,440 | ₹ 9,360 | ₹ 12,480 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/kolkata.html) | 🟢 |
 | Odisha | ₹ 11,440 | ₹ 9,360 | ₹ 12,480 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/bhubaneswar.html) | 🟢 |
 | Assam | ₹ 11,440 | ₹ 9,360 | ₹ 12,480 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 | Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura | ₹ 11,440 | ₹ 9,360 | ₹ 12,480 | 2026-11-27 | 🌐 [Goodreturns](https://www.goodreturns.in/gold-rates/guwahati.html) | 🟢 |
 
-<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-27 00:25:33 IST</sub>
+<sub>Machine-readable: [state_rates.json](state_rates.json) · last change 2026-11-27 00:31:17 IST</sub>
 
 </div>
 
