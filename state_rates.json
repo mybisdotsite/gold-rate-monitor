@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-27 05:00:59 IST",
+  "last_changed": "2026-11-27 05:05:34 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -198,10 +198,10 @@
     },
     "madhya-pradesh": {
       "name": "Madhya Pradesh",
-      "rate22k": 11445,
-      "rate18k": 9365,
-      "rate24k": 12485,
-      "rate22k_8g": 91560,
+      "rate22k": 11446,
+      "rate18k": 9366,
+      "rate24k": 12486,
+      "rate22k_8g": 91568,
       "silver": null,
       "date": "2026-11-27",
       "source": "goodreturns",
@@ -209,7 +209,7 @@
       "source_url": "https://www.goodreturns.in/gold-rates/indore.html",
       "official": false,
       "stale": false,
-      "last_changed": "2026-11-27 00:31:17 IST"
+      "last_changed": "2026-11-27 05:05:34 IST"
     },
     "chhattisgarh": {
       "name": "Chhattisgarh",
