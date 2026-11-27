@@ -1,23 +1,5 @@
 {
  "days": {
-  "2026-10-08": {
-   "kerala": {
-    "at": "09:25",
-    "rate18k": 11265,
-    "rate22k": 13710,
-    "rate24k": null,
-    "silver": 235,
-    "source": "akgsma"
-   },
-   "lakshadweep": {
-    "at": "09:25",
-    "rate18k": 11265,
-    "rate22k": 13710,
-    "rate24k": null,
-    "silver": 235,
-    "source": "akgsma"
-   }
-  },
   "2026-10-09": {
    "kerala": {
     "at": "09:31",
@@ -6185,7 +6167,41 @@
     "silver": null,
     "source": "goodreturns"
    }
+  },
+  "2026-11-28": {
+   "assam": {
+    "at": "00:01",
+    "rate18k": 9630,
+    "rate22k": 11770,
+    "rate24k": 12840,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "kerala": {
+    "at": "00:01",
+    "rate18k": 9630,
+    "rate22k": 11770,
+    "rate24k": 12840,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "lakshadweep": {
+    "at": "00:01",
+    "rate18k": 9630,
+    "rate22k": 11770,
+    "rate24k": 12840,
+    "silver": null,
+    "source": "goodreturns"
+   },
+   "north-east": {
+    "at": "00:01",
+    "rate18k": 9630,
+    "rate22k": 11770,
+    "rate24k": 12840,
+    "silver": null,
+    "source": "goodreturns"
+   }
   }
  },
- "updated": "2026-11-27 16:05:39 IST"
+ "updated": "2026-11-28 00:01:09 IST"
 }
