@@ -6177,6 +6177,14 @@
     "silver": null,
     "source": "goodreturns"
    },
+   "chhattisgarh": {
+    "at": "00:05",
+    "rate18k": 9630,
+    "rate22k": 11770,
+    "rate24k": 12840,
+    "silver": null,
+    "source": "goodreturns"
+   },
    "kerala": {
     "at": "00:01",
     "rate18k": 9630,
@@ -6203,5 +6211,5 @@
    }
   }
  },
- "updated": "2026-11-28 00:01:09 IST"
+ "updated": "2026-11-28 00:05:44 IST"
 }
