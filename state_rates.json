@@ -1,5 +1,5 @@
 {
-  "last_changed": "2026-11-28 14:31:19 IST",
+  "last_changed": "2026-11-28 14:35:40 IST",
   "states": {
     "kerala": {
       "name": "Kerala",
@@ -39,42 +39,42 @@
       "rate22k_8g": 93760,
       "silver": 170,
       "date": "2026-11-28",
-      "source": "cja",
-      "source_label": "Coimbatore Jewellers Assn",
-      "source_url": "https://coimbatorejewellery.org/",
+      "source": "cwja",
+      "source_label": "CWJA (Chennai board)",
+      "source_url": "https://cwja.org.in/",
       "official": true,
       "stale": false,
-      "last_changed": "2026-11-28 14:31:19 IST"
+      "last_changed": "2026-11-28 14:35:40 IST"
     },
     "puducherry": {
       "name": "Puducherry",
       "rate22k": 11720,
       "rate18k": 9590,
-      "rate24k": 12786,
+      "rate24k": null,
       "rate22k_8g": 93760,
-      "silver": null,
+      "silver": 170,
       "date": "2026-11-28",
-      "source": "goodreturns",
-      "source_label": "Goodreturns",
-      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
-      "official": false,
+      "source": "cwja",
+      "source_label": "CWJA (Chennai board)",
+      "source_url": "https://cwja.org.in/",
+      "official": true,
       "stale": false,
-      "last_changed": "2026-11-28 14:31:19 IST"
+      "last_changed": "2026-11-28 14:35:40 IST"
     },
     "andaman-nicobar": {
       "name": "Andaman & Nicobar",
       "rate22k": 11720,
       "rate18k": 9590,
-      "rate24k": 12786,
+      "rate24k": null,
       "rate22k_8g": 93760,
-      "silver": null,
+      "silver": 170,
       "date": "2026-11-28",
-      "source": "goodreturns",
-      "source_label": "Goodreturns",
-      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
-      "official": false,
+      "source": "cwja",
+      "source_label": "CWJA (Chennai board)",
+      "source_url": "https://cwja.org.in/",
+      "official": true,
       "stale": false,
-      "last_changed": "2026-11-28 14:31:19 IST"
+      "last_changed": "2026-11-28 14:35:40 IST"
     },
     "karnataka": {
       "name": "Karnataka",
